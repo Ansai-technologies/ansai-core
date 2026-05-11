@@ -63,3 +63,79 @@ Read these in sequence before writing a single line of code.
 ---
 
 ## Repository structure
+
+ansai-core/
+├── AGENTS.md              ← Tier 1 agent constitution
+├── CONTEXT.md             ← Ubiquitous language
+├── ARCHITECTURE.md        ← System map
+├── STATUS.md              ← Weekly pulse
+├── AMENDMENTS.md          ← Constitutional change record
+├── README.md              ← This file
+│
+└── docs/
+├── culture/           ← Founding documents
+│   ├── GWP-001.md     ← Worldview principles
+│   ├── GID-001.md     ← Group identity
+│   ├── GCC-001.md     ← Culture constitution
+│   ├── GEP-001.md     ← Engineering principles
+│   └── GFP-001.md     ← Financial philosophy
+│
+├── decisions/         ← Architectural Decision Records
+│   └── ADR-001.md     ← First ADR (multi-tenant schema)
+│
+├── context/           ← Tier 2 domain documents
+│   └── (fetched by agents on domain trigger)
+│
+└── monitoring/
+├── HEALTH.md      ← System health record
+└── DECISIONS.md   ← Daily decisions log
+
+---
+
+## The inheritance model
+
+Ansai Core is the roots and trunk.
+Product repositories are the branches.
+
+Every product repository:
+- Reads global AGENTS.md before local AGENTS.md
+- Imports @ansai/ packages without modification
+- Extends CONTEXT.md with product-specific domain terms
+- Never contradicts any document in this repository
+
+Changes to Ansai Core propagate to every product simultaneously.
+This is the compounding advantage.
+It is also the responsibility.
+
+---
+
+## Package namespace
+
+All shared packages are scoped under @ansai/:
+@ansai/auth       Authentication and session management
+@ansai/tenancy    Multi-tenant isolation engine
+@ansai/roles      Role-based access control
+@ansai/pipeline   Data tributary to Ansai Ziwa
+@ansai/events     Event emission and subscription
+@ansai/audit      Audit logging across all products
+
+Any engineer seeing @ansai/ knows:
+shared infrastructure, treat with care,
+changes affect every product line.
+
+---
+
+## Amendment governance
+
+Changes to AGENTS.md or CONTEXT.md follow the
+three-category amendment process defined in AGENTS.md.
+All changes are logged in AMENDMENTS.md.
+
+No constitutional rule changes without human ratification.
+No ratification without the cooling-off period.
+No amendment without a permanent record.
+
+---
+
+*Ansai Technologies · Nairobi, Kenya*
+*ansaitechnologies.co.ke*
