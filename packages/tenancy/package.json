@@ -1,0 +1,30 @@
+{
+  "name": "@ansai/tenancy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Tenant isolation middleware and request context for Ansai product lines",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist"
+  },
+  "peerDependencies": {
+    "@fastify/jwt": ">=8.0.0",
+    "@prisma/client": ">=5.0.0",
+    "fastify": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@fastify/jwt": "^8.0.0",
+    "@prisma/client": "^5.20.0",
+    "@types/node": "^22.19.19",
+    "fastify": "^4.28.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.3.0"
+  }
+}

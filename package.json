@@ -1,0 +1,6 @@
+{
+  "name": "ansai-core",
+  "private": true,
+  "description": "Shared infrastructure primitives for Ansai Technologies product lines",
+  "version": "0.1.0"
+}
