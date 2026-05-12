@@ -1,0 +1,19 @@
+{
+  "name": "@ansai/roles",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "fastify": ">=4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "fastify": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
