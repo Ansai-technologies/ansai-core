@@ -1,0 +1,22 @@
+{
+  "name": "@ansai/audit",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@ansai/tenancy": "file:../tenancy"
+  },
+  "peerDependencies": {
+    "@prisma/client": ">=5.0.0"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.22.0",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.0.0"
+  }
+}
