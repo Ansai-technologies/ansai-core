@@ -298,4 +298,4 @@ this file wins. Flag the conflict as uncovered territory.
 *AMENDMENTS.md. No unilateral modifications.*
 *Version history is in git. Every change is permanent.*
 
-Security is enforced in three layers simultaneously.
+Security is enforced in three layers simultaneously
