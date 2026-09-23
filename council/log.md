@@ -123,3 +123,38 @@ Makao Makuu picks each cycle up on its 07:21 refresh. Convene-button huddle requ
 First draft of the ecosystem governance doc is at `workspace/goals/ecosystem-company-structuring/files/governance-DRAFT.md` (119 lines). Written strictly from what today's build verified: the inspect loop as practiced (branch → packet → approval → merge), the Baraza council + daily cycle, emergency bypass and rewrite rules, blackboard write-enforcement, brand/legal boundaries.
 
 Honest core: a 7-item "still unverified" section, headlined by three — (1) merge discipline is convention-only (branch protection needs GitHub Pro/Team), (2) department councils exist only on paper, (3) the emergency bypass has never been invoked. Final version lands after the Gazette ingestion build completes.
+
+## 2026-09-23 — EduManage round-2: differentiation brief
+
+Track: EduManage (Labs rework) | PR: https://github.com/Ansai-technologies/edumanage/pull/2 | Branch: `labs/edumanage-differentiation-brief`
+
+Round 2 executes round 1's approved decision: the competitor research is now a differentiation brief (`docs/differentiation-brief.md`). Headline differentiators: (1) offline-capable ops — the one structural gap no competitor covers; (2) Kenya-native domain model (School DNA + TRANSITION defaults); (3) compliance-by-design (KNEC CBA/SBA, no-ranking in CBC mode). Explicitly do NOT lead with AI/agentic (Citycloud already contests it) or price (Elimikasasa anchors at KES 2,500/mo + free migration — the battleground is switching, not features; brief specifies a migration story incl. M-Pesa history import).
+
+HONESTY FLAG: offline is claimed in the README but zero offline code exists (apps/ are empty stubs) — all claims tagged `[committed]`/`[roadmap]`; no customer copy may claim offline until the Labs build demonstrates sync. Decision requested: (a) approve brief as positioning source, (b) approve with edits, (c) redirect.
+
+PR open for founder review — NO MERGE.
+
+## 2026-09-23 — Voltaic round-2: frontend wiring to live backend
+
+- Track: Voltaic (`Ansai-technologies/Voltaic`) · Branch: `labs/voltaic-frontend-wiring`
+- PR: https://github.com/Ansai-technologies/Voltaic/pull/2 — `[inspect-loop] Voltaic: frontend wiring to live backend` (OPEN, awaiting founder review — no merge)
+- What: first concrete integration step. New typed backend client `ies-frontend/src/lib/voltaic-api.ts` (URL from `NEXT_PUBLIC_VOLTAIC_API_URL`, bearer from existing `localStorage.authToken`, types mirroring backend shapes, `useSolarSummary()` hook with demo-data fallback); new `ies-frontend/.env.example`; Solar page stats (alerts, battery SOC, health, status banner) now read `GET /api/solar/summary` live, with a "Live · Voltaic API" / "Demo data · backend not connected" footer indicator.
+- Diff: 4 files (3 code + review packet at `reviews/2026-09-23-voltaic-frontend-wiring.md`); solar page +10/−6; nothing else restructured.
+- Deferred to round 3: rewiring the mock login route to the real backend login (needs token-storage decision); backend summary endpoints still return static stub values — real telemetry is a backend Labs task.
+- Decisions requested from founder: approve graceful-fallback pattern; green-light round-3 login rewire + token storage choice; confirm ies-frontend/ as canonical frontend vs root Vite src/ app.
+
+## 2026-09-23 — Looply round-2: Layer 0 trust slice
+
+**PR:** https://github.com/Ansai-technologies/looply/pull/28 — `[inspect-loop] Looply: Layer 0 trust slice — verification tiers, reputation badges, new-seller limit` (branch `labs/looply-trust-slice`, open, awaiting founder review — NOT merged)
+
+**Built:** the recommended next task from the round-1 design packet — Layer 0 trust fields + policy. Schema: `verification_tier` enum (T1 phone / T2 ID / T3 duka-verified), `total_trades`, `disputes_lost`, `last_trade_at` on users. New pure policy module `src/lib/trust.ts`: reputation badge rule ("New seller" 0–4 trades → "N trades · X% smooth" at 5+, disputes lost visible), verification chips, and the new-seller limit (max 3 active listings until 2 completed trades), enforced in `createItem()`. Seller trust badges rendered on the product view. 13 unit tests, all passing (vitest); `tsc --strict` clean.
+
+**Open for founder:** (1) approve slice for merge; (2) migration preference — `drizzle-kit push` at deploy vs a SQL migration file (no migration tooling exists in the repo; columns must land before deploy or `createItem()` breaks); (3) next slice: wire trade completion/dispute outcomes into the counters, roll badges to SellerShopView/ProductList, or Layer 0 listing-integrity pieces.
+
+## 2026-09-23 — ArdhiX round-2: hygiene pass (unblocked work only)
+
+- Track: ArdhiX (`Ansai-technologies/Project-Ardhi-x`) · Branch: `labs/ardhix-hygiene`
+- PR: https://github.com/Ansai-technologies/Project-Ardhi-x/pull/13 — `[inspect-loop] ArdhiX: hygiene pass — drop dead code and deps, fix README` (OPEN, awaiting founder review — no merge)
+- What: round 1's verification cut the dead blockchain/auth files and fixed the leaked `.env.local`; this finishes the cleanup — deleted `lib/database-config.ts` (legacy SQLite, zero imports), `lib/database.ts` (0 bytes), `test-duplicates.js` (broken root script, run by nothing); `package.json` renamed `my-v0-project` → `ardhix`, dropped dead `prisma` deps; README no longer advertises removed blockchain features. No behavior changes, no Supabase touch, nothing owner-side — the parked owner steps stay parked.
+- Packet: `reviews/2026-09-23-ardhix-hygiene.md` (committed + PR body).
+- Decision requested: approve as cleanup-only merge when the founder returns.
