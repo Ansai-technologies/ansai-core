@@ -26,3 +26,17 @@ every agent reads it before acting. Commits are the audit trail.
   `reviews/2026-09-23-the-bell-notice-search.md` — AWAITING Melchizedek's
   approval. NOT merged: the loop requires his green flag.
 - Deploy step pending: no Vercel/Supabase accounts connected yet.
+
+## 2026-09-23 — The-Bell serverless adaptation (PR #2, awaiting approval)
+- Branch `labs/the-bell-vercel`: Express backend ported to Vercel serverless
+  functions (`api/health.ts`, `api/notices.ts`, `api/notices/[id].ts`,
+  `api/_db.ts`); `vercel.json` added (vite build -> dist, SPA rewrites);
+  `.env.example` documents DATABASE_URL; `reviews/the-bell-schema.sql` ready
+  for Supabase SQL editor. API behavior identical incl. PR #1 numeric search.
+- Review packet: `reviews/2026-09-23-the-bell-vercel.md` on the branch; PR body
+  carries the full packet. NOT merged — his approval required (inspect loop).
+- server.ts kept for local dev (`npm run dev` unchanged).
+- Not verified at runtime here: no Postgres / Vercel account in this
+  environment. Real proof = `vercel dev` against Supabase (steps in packet).
+- Still needs human: Supabase project + run schema SQL; Vercel import + env
+  vars (DATABASE_URL, GEMINI_API_KEY); approve + merge PR #2.
