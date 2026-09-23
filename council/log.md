@@ -199,3 +199,9 @@ reads the same table unchanged.
 - custom.zoho OAuth connected (scopes: accounts/folders/messages READ + messages CREATE); skill at ~/workspace/skills/zoho/ with bin/zmail.py.
 - Verified read on hello@ansaitechnologies.co.ke (list, search, full content all green). Send endpoint wired but UNTESTED and gated: no sends without founder greenlight per send (his rule, recorded in memory).
 - Mail API host note: mail.zoho.com/api is the working base for this account (www.zohoapis.com 404s); accepts Bearer; content endpoint needs folderId in path.
+
+## 2026-09-23 ~17:30 EAT — Founder confirmation loop live (Ansai)
+- Built per founder's instruction: a system that keeps questioning pending items instead of assuming state.
+- Ledger: workspace/goals/ecosystem-company-structuring/hidden_files/awaiting-founder.md (8 items seeded: 5 PR reviews, The-Bell Supabase step, WhatsApp, TikTok, Instagram, ArdhiX cleanup, PAT rotation [parked], PSC outcome [watching]).
+- Cron: founder-confirmation-check, daily ~08:21 EAT, owner goal:ecosystem-company-structuring. Verifies what it can via API, re-asks pending items stale >2d (parked >14d), caps at 5 questions, stays silent when nothing qualifies. Worker asks; main agent folds replies into the ledger.
+- PSC DLP Cohort 5: founder confirms he already applied — moved to watching/outcome.
