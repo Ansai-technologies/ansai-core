@@ -211,3 +211,12 @@ reads the same table unchanged.
 - Nothing sent, no one contacted, nothing spent. Send-gate baked into the campaign doc (founder approves each batch).
 - Founder decisions needed: approve ICP + sequence, seed/approve 20-lead list, sender identity (dedicated Studios line recommended), portfolio proof from Msanii, per-batch send greenlight.
 - Caveat flagged: rate card still says "Ubunifu Studios" vs 21 Sep rename to Ansai Studios — needs rebranding before it goes out.
+
+## 2026-09-23 ~17:00 EAT — Inspect-loop PR pre-review complete (Ansai)
+- Read-only pre-review of all 4 open inspect-loop PRs, synthesized into ~/workspace/reviews/REVIEW-NOTES.md. Verdicts: 3 CHANGES, 1 MERGE.
+- EduManage #2 CHANGES: brief violates its own offline-gating rule (sales paragraph claims shipped capability); section 3 untagged despite honesty note; "constitution" offline quote is actually from README; README offline claim untouched.
+- Voltaic #2 MERGE (with eyes open): small, clean, reversible, honest packet. "Live" indicator serves stub data; follow-ups: log caught errors, fix 401-label, decide token storage + canonical frontend.
+- Looply #28 CHANGES — functionally broken as shipped: nothing increments total_trades so the 3-listing cap is unresolvable and existing sellers get retroactively capped; no migration tooling; error path returns generic 500; disputes hidden under 5 trades; T1 default tier unverified.
+- ArdhiX #13 CHANGES: README half-cleaned (Features list still claims blockchain), 2 stale lockfiles, and Supabase key rotation still pending — keys sit in PUBLIC git history (commit 0db21836), rotation is the founder's highest-priority item on this repo.
+- Pattern: every packet disclosed its own risks honestly, but branches shipped anyway. Proposed rule for founder: packet-flagged risk -> resolved or explicitly deferred with an owner becomes a hard merge rule.
+- Voltaic #2 named as the template for future inspect-loop rounds.
