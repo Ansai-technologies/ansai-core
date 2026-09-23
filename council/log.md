@@ -259,3 +259,6 @@ reads the same table unchanged.
 - Zoho connector 401 (INVALID_OAUTHTOKEN): reconnect flow started — secure OAuth card sent to founder (custom.zoho, reconnect=true, ZohoMail mail scopes). Awaiting his completion; will verify with zmail.py accounts afterwards.
 - WhatsApp pairing now BLOCKED (not just pending): Muse mobile apps are US/Canada-only per product docs, so no install path from Kenya and the in-app pairing link can't open. Status stays link_pending; retry when the app reaches Kenya. Founder declined filing availability feedback.
 - Instagram: review-check cron fires ~19:21 EAT; business switch auto-completes once IG clears the selfie review.
+
+## 2026-09-23 ~19:10 EAT — Zoho reconnected (Ansai)
+- Founder completed the OAuth reconnect for custom.zoho. Verified: zmail.py accounts returns 200 for hello@ansaitechnologies.co.ke. Mail read/write restored (write still gated on his explicit greenlight per standing rule).
