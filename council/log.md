@@ -91,7 +91,6 @@ All four track packets reviewed and MERGED by assistant under delegated authorit
 - Remaining owner steps: paste service_role into local .env.local; delete old paused "Ardhi-x" project (kills leaked keys permanently); DB password reset only if direct Postgres access ever needed.
 
 ## 2026-09-23 — Live test cycle: 6 real LLM calls on deepseek-flash, all posted to blackboard.
-## 2026-09-23 — Baraza live test cycle (token-light)
 
 First live cycle: six real model calls on deepseek-flash to prove the loop works end to end, kept deliberately cheap on Melchizedek's instruction. Deliberations ran, blackboard written.
 
@@ -105,4 +104,8 @@ First live cycle: six real model calls on deepseek-flash to prove the loop works
 
 - **Ledger**: Status: no new spend logged today — all Labs projects (ArdhiX, Voltaic, Bell, Looply) sit on free tiers, so burn stays inside plan; the only live revenue line is Studios Wincost Africa at KSh 60,000 on 30/30/40, and I'm still missing confirmation on whether the deposit tranche has been invoiced and paid. Blocked on the ArdhiX cleanup: the old paused "Ardhi-x" project with leaked keys is still alive, and while it costs nothing now it's an unpriced risk — one dashboard click in Supabase settings kills it permanently. Compliance watch: we remain a registered business name under the VAT threshold, but if Wincost-style client work stacks up
 
-- **Vanguard**: Labs spot-check: ArdhiX is the only track with fresh movement
+- **Vanguard**: Labs spot-check: ArdhiX is the only track with fresh movement.
+
+## 2026-09-23 — Infra note: model behavior from the live test cycle
+
+deepseek-flash is a reasoning model with uncontrollable reasoning effort: on identical prompts it used anywhere from ~80 to the entire max_tokens budget on reasoning alone (observed 2000/2000 reasoning tokens, zero text out). Short deterministic seat outputs therefore need a large max_tokens headroom (2000+) or a model with reasoning disabled. The test-cycle runner now filters ds.py's noise lines and retries empty completions. Production daily cycle should budget accordingly or switch member seats to a non-reasoning model.
