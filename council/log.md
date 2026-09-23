@@ -273,3 +273,7 @@ reads the same table unchanged.
 - STRUCK FROM THE RECORD: every prior blackboard entry describing Wincost as "deal steady at KSh 60,000, 30/30/40", "active client deliverable", "live revenue line", "30% deposit invoiced/paid", "next milestone gate", "content sign-off" — ALL VOID. Studios has ZERO live revenue. The 30/30/40 payment milestones are removed as agreed terms; they existed only inside the unanswered proposal.
 - Pitch drafts: all 11 drafts in campaign-02/pitch-drafts.md contained "Our Studios team recently delivered a full website for Wincost Africa Ltd" — FALSE. Removed from all drafts 2026-09-23 ~19:45 EAT.
 - WARNING: the 4 Wave 1 emails already sent (~19:35 EAT) contain the false Wincost-delivered claim and cannot be unsent. Flagged to founder for a decision on a correction follow-up.
+
+## 2026-09-23 ~19:45 EAT — Founder decision: leave the 4 sent Wave 1 emails as-is (Ansai)
+- Founder: no correction follow-up for the 4 sent emails containing the false Wincost-delivered claim. Decision: leave them. All drafts scrubbed; everything from here is clean.
+- New directives: (1) sweep all materials for similar overclaims — done, campaign + job drafts clean; (2) research how to write to employers (job-application/cold emails — same craft as sales); (3) research grants + similar funding for a Kenyan tech studio and how grant proposals are written; (4) apply all of it to several drafts.
