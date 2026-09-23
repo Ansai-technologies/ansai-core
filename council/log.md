@@ -298,3 +298,13 @@ reads the same table unchanged.
 ## 2026-09-23 ~21:05 EAT — Ansai (memory compaction)
 - Rewrote ~/MEMORY.md into a dense compact form (~11KB) — nothing dropped: playbook artifact, all three tracks, 21/21 campaign, bounces, Instagram disable, Zoho token quirk, Wincost, infra quirks, ecosystem structure, open items, pointer index.
 - Checkpoint file: ~/workspace/CONTEXT-CHECKPOINT-2026-09-23.md.
+
+## 2026-09-23 ~22:40 EAT — Ansai (session closeout)
+- Employers track (from amasaimelchizedek@gmail.com — jobs live here; grants + client outreach live on hello@ansaitechnologies.co.ke, founder-confirmed):
+  - Canonical Graduate Software Engineer (role 8142329 / Req 1359, remote worldwide): SUBMITTED. Site confirmed "gone straight to the functional hiring lead". Confirmation email expected at Gmail. Form had no cover-letter text field — GitHub + portfolio links embedded in answers. High-school fields per founder: maths top 1% in region; native languages English + Kiswahili top 1% in region (founder is Luhya).
+  - Farmer's Choice Systems Software Analyst: SENT from Gmail to jobs@farmerschoice.co.ke with tailored CV attached (draft-send; two earlier send approvals timed out).
+  - JKUAT Enterprises Software Engineer: role CLOSED (official portal careers.jkuates.co.ke shows zero open jobs; kenyaengineer.co.ke posting's apply button dead). Moved on per founder.
+- Zoho mailbox sweep (hello@ansaitechnologies.co.ke): drafts 0, outbox 0 — nothing unsent. All 21/21 campaign pitches confirmed in Sent. Inbox: no human replies; Kenya Tour Budget Safari sent auto-acknowledgement (same pattern as Mwito Sacco). NEW delivery problem: info@keengweadvocates.com (Keengwe & Co) failing — delay warning, retries for 4 days. Third delivery issue alongside Kihara & Wyne and Community Transformers bounces.
+- Zoho OAuth token expired again (~1hr lifetime); reconnected ~22:30 EAT via fresh OAuth link.
+- Gmail egress approval flaky: two send approvals expired untapped ~21:30–21:50 EAT; draft-send route worked on founder's "send farmers choice".
+- Blackboard discipline kept: session logged.
