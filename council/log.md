@@ -158,3 +158,22 @@ PR open for founder review — NO MERGE.
 - What: round 1's verification cut the dead blockchain/auth files and fixed the leaked `.env.local`; this finishes the cleanup — deleted `lib/database-config.ts` (legacy SQLite, zero imports), `lib/database.ts` (0 bytes), `test-duplicates.js` (broken root script, run by nothing); `package.json` renamed `my-v0-project` → `ardhix`, dropped dead `prisma` deps; README no longer advertises removed blockchain features. No behavior changes, no Supabase touch, nothing owner-side — the parked owner steps stay parked.
 - Packet: `reviews/2026-09-23-ardhix-hygiene.md` (committed + PR body).
 - Decision requested: approve as cleanup-only merge when the founder returns.
+
+## 2026-09-23 — The-Bell real Gazette ingestion built (PR open, unmerged)
+
+Labs track: the ingest pipeline that replaces The-Bell's hardcoded data is built and
+under review as a draft PR (Ansai-technologies/The-Bell, branch
+`labs/the-bell-real-ingestion`, awaiting the founder's return — NOT merged).
+
+What it does: `scripts/ingest_gazette.py` politely scrapes KenyaLaw's public gazette
+PDFs (robots.txt verified allowed at runtime; 2s between requests; clear UA), splits
+issues on standalone `GAZETTE NOTICE NO. NNNN` headings, and upserts into Supabase
+`notices` on the existing UNIQUE(notice_number, notice_year). Parser verified against
+3 real issues: no.166 (132 pp -> 266 notices, sequential), no.165 (97 pp -> 343 rows,
+one Government Printer numbering collision merged, not dropped), no.164 special
+(2 pp -> 2 notices). Daily GitHub Actions run at 07:00 EAT + manual backfill dispatch.
+
+The one human step: create the Supabase project, run reviews/the-bell-schema.sql,
+add SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY repo secrets — then the workflow runs
+the 2026 backfill on next schedule. No schema migration was needed; /api/notices?q=
+reads the same table unchanged.
