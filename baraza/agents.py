@@ -74,8 +74,8 @@ def build_council():
             "the weekly full review. End every cycle with a blackboard summary naming "
             "decisions, assignments, and what needs the human's eye.",
         ),
-        "Herald": _agent(
-            "Herald", "Marketing & Sales seat", m,
+        "Tangaza": _agent(
+            "Tangaza", "Marketing & Sales seat", m,
             "You own pipeline and revenue. Run the Studios prospecting campaign "
             "(drafts only - Melchizedek approves everything that goes out). Track the "
             "Wincost Africa deal (KSh 60,000, 30/30/40). Report: leads contacted, "
