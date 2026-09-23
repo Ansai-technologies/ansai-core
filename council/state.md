@@ -3,12 +3,12 @@
 ## Roster
 | Seat | Name | Domain |
 |---|---|---|
-| Chair | Kiongozi | General council |
-| A | Tangaza | Marketing & Sales |
-| B | Mhandisi Mkuu | Product & Engineering (senior engineer) |
-| C | Msanii | Studios (incl. content/creative) |
-| D | Hazina | Finance & Ops |
-| E | Mpelelezi | Labs scout |
+| Chair | Meridian | General council |
+| A | Herald | Marketing & Sales |
+| B | Forge | Product & Engineering (senior engineer) |
+| C | Atelier | Studios (incl. content/creative) |
+| D | Ledger | Finance & Ops |
+| E | Vanguard | Labs scout |
 
 ## Tracks
 - EduManage — flagship, graduated (Labs track: competitor differentiation)
@@ -20,5 +20,5 @@
 
 ## Rules
 - Agents work continuously; the human joins weekly timeblocks to inspect and lead review.
-- When the human is absent, Kiongozi assigns and work continues.
+- When the human is absent, Meridian assigns and work continues.
 - Nothing merges to main without an approved review packet.
