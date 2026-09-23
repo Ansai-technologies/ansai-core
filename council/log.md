@@ -49,3 +49,5 @@ every agent reads it before acting. Commits are the audit trail.
 - Ledger (Finance & Ops) — the book of record; money and operations.
 - Vanguard (Labs scout) — the advance party; finds and tests new bets.
 - User scope decision: no deploys required today. Deliverable = company structure standing + pipelines working. The-Bell real-data work deferred.
+
+- 2026-09-23 ~14:30 EAT — EduManage Labs track seeded: competitor research packet ready for human review (Ansai-technologies/edumanage PR #1, branch labs/edumanage-competitor-research; reviews/2026-09-23-edumanage-competitors.md + reviews/TEMPLATE.md).
