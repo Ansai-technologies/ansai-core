@@ -234,3 +234,7 @@ reads the same table unchanged.
 - Marketing seat name DECIDED by founder: Tangaza (was "Herald" in repo briefs). Outreach opens "Hi I am Tangaza from Ansai Technologies sales and marketing team". baraza/agents.py + council/state.md roster updated. Other seat names still open.
 - Campaign doc updated: Tangaza identity in touch 1, sender identity marked decided, pricing section + revised math (~KSh 82.5k/month illustrative at 2 Presence + 1 Business).
 - Wincost email thread checked (Zoho): brief Sep 16 01:25, proposal Sep 16 08:56 (sent as "Ubunifu Studios, a division of Ansai Technologies"), Ian's adjustments Sep 16 17:12 (became finalized terms). NOTHING since Sep 16 — his "yet to respond" is right; the ball is with Wincost's internal approval. He called Mon Sep 21 (Ian pushing internally), follow-up call Thu Sep 24. Also learned: Wincost = Quantity Surveying + Project Management + Design & Build firm — wincost-scope.md question 1 answered.
+
+## 2026-09-23 ~17:20 EAT — Hard merge gate live in all 5 track repos (Ansai)
+- reviews/TEMPLATE.md in the-bell, edumanage, voltaic, looply, Project-Ardhi-x now carries the hard rule: a PR merges only when every packet-flagged risk is RESOLVED on the branch or explicitly DEFERRED with a named owner and next step. Disclosing != handling.
+- Founder greenlit the full pre-review slate: EduManage/Looply/ArdhiX CHANGES being implemented on branches (4 parallel subagents), Voltaic follow-ups then merge.
