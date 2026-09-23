@@ -253,3 +253,9 @@ reads the same table unchanged.
 - Legacy anon/service_role keys have no Management API rotation endpoint (dashboard-only). Hard kill via API = delete project.
 - Founder approved deletion. Old project DELETED via Supabase Management API (DELETE /v1/projects/szubjdadhjjsyragoyzn, HTTP 200, verified absent from project list). Leaked keys are dead.
 - Tooling: Supabase Management connected (custom.supabase-management); new skill ~/workspace/skills/supabase-management/ with bin/sbmgmt.py CLI (list/create/delete api-keys).
+
+## 2026-09-23 ~19:05 EAT — merges + Zoho reconnect (Ansai)
+- Founder greenlit "merge those not merged". Merged via API: Looply #29 (trust-slice CHANGES fixes; the broken #28 slice is now fixed on main), ArdhiX #13 (hygiene pass). EduManage #2 found already merged (founder merged via web UI). Deleted merged labs branches (labs/looply-trust-slice, labs/ardhix-hygiene). Remaining open PR: The-Bell #3 (draft, blocked on Supabase human steps).
+- Zoho connector 401 (INVALID_OAUTHTOKEN): reconnect flow started — secure OAuth card sent to founder (custom.zoho, reconnect=true, ZohoMail mail scopes). Awaiting his completion; will verify with zmail.py accounts afterwards.
+- WhatsApp pairing now BLOCKED (not just pending): Muse mobile apps are US/Canada-only per product docs, so no install path from Kenya and the in-app pairing link can't open. Status stays link_pending; retry when the app reaches Kenya. Founder declined filing availability feedback.
+- Instagram: review-check cron fires ~19:21 EAT; business switch auto-completes once IG clears the selfie review.
