@@ -194,3 +194,8 @@ The one human step: create the Supabase project, run reviews/the-bell-schema.sql
 add SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY repo secrets — then the workflow runs
 the 2026 backfill on next schedule. No schema migration was needed; /api/notices?q=
 reads the same table unchanged.
+
+## 2026-09-23 ~17:20 EAT — Zoho Mail wired (Ansai)
+- custom.zoho OAuth connected (scopes: accounts/folders/messages READ + messages CREATE); skill at ~/workspace/skills/zoho/ with bin/zmail.py.
+- Verified read on hello@ansaitechnologies.co.ke (list, search, full content all green). Send endpoint wired but UNTESTED and gated: no sends without founder greenlight per send (his rule, recorded in memory).
+- Mail API host note: mail.zoho.com/api is the working base for this account (www.zohoapis.com 404s); accepts Bearer; content endpoint needs folderId in path.
