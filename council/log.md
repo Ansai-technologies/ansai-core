@@ -238,3 +238,11 @@ reads the same table unchanged.
 ## 2026-09-23 ~17:20 EAT — Hard merge gate live in all 5 track repos (Ansai)
 - reviews/TEMPLATE.md in the-bell, edumanage, voltaic, looply, Project-Ardhi-x now carries the hard rule: a PR merges only when every packet-flagged risk is RESOLVED on the branch or explicitly DEFERRED with a named owner and next step. Disclosing != handling.
 - Founder greenlit the full pre-review slate: EduManage/Looply/ArdhiX CHANGES being implemented on branches (4 parallel subagents), Voltaic follow-ups then merge.
+
+## 2026-09-23 ~17:15 EAT — Inspect loop: fixes implemented, one process lesson (Ansai)
+- Founder greenlit the full pre-review slate. EduManage PR #2 fixes done on branch (sales copy gated, honesty tags, README attribution, RBAC caveat) — awaiting his re-review. ArdhiX PR #13 fixes done on branch (README truthful, pnpm canonical, lockfiles cleaned, setup guides rewritten) — awaiting his re-review + one fresh `pnpm install` verify + URGENT Supabase key rotation (owner-side).
+- Voltaic PR #2: follow-ups implemented (error logging, honest fallback labels, 3 decisions recorded), MERGED to main.
+- Looply: founder merged PR #28 at 16:55 EAT via web UI before the CHANGES verdict reached him — broken trust slice (unresolvable 3-listing cap) is on main. Fixes complete on branch in PR #29 (cap flag-gated off — no completion path exists to wire; 403+reason; disputes visible; T0 default; real drizzle migration) — awaiting his re-review + merge.
+- Process lesson: hard merge rule landed minutes AFTER the merge it would have blocked. The rule now exists because this exact failure happened. Lesson: review packets must reach the founder before he merges, not after.
+- Key rotation: founder asked if Ansai can rotate ArdhiX Supabase keys — no, our connector is data-plane only; rotation is dashboard or a Management API token he provides. He chose neither yet.
+- Avatar: founder asked to change to default, then default-in-company-colours; colours confirmed as dark indigo + gold (Studios brochure palette). Generated options shown; he declined — staying on default.
