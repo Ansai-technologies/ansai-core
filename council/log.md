@@ -308,3 +308,16 @@ reads the same table unchanged.
 - Zoho OAuth token expired again (~1hr lifetime); reconnected ~22:30 EAT via fresh OAuth link.
 - Gmail egress approval flaky: two send approvals expired untapped ~21:30–21:50 EAT; draft-send route worked on founder's "send farmers choice".
 - Blackboard discipline kept: session logged.
+
+## 2026-09-23 ~23:05 EAT — Ansai (session closeout: tracker sync + grants)
+
+- Founder directive executed: every session must update ALL THREE surfaces — blackboard, careers file, tracker. Rule now codified in ~/AGENTS.md ("Session closeout").
+- TRACKER-SYNC block added to ~/workspace/careers/employer-outreach-v2.md (employer, tracker_id, status, note) — the careers file is now the source of truth.
+- New cron `careers-tracker-sync` (daily ~07:21 EAT, flexible): reconciles Makao Makuu trackedJobs from the careers file. Status mapping: careers-file "closed" -> tracker "draft" (note carries closure). Never creates/deletes tracked jobs. Validation run in flight at closeout.
+- GRANTS — end-of-day check (playbook list re-verified tonight):
+  - KCIC Cleantech Innovation Competition 2026: CLOSED (official site: call ran 10 Jul–10 Aug 2026). Aggregator "Nov 10" deadline was wrong.
+  - Jim Leech Mastercard Foundation Fellowship 2027: OPEN, deadline 1 Dec 2026 12:59 PM ET. Founder eligible. Full paste-ready application drafted: ~/workspace/studios-funding/grants/jim-leech-fellowship-2027-application.md — HE submits on the Qualtrics portal himself.
+  - NYOTA: *254# USSD on his own phone (can't submit for him). Caveats: "Form Four or below (depending on intervention)" may exclude a university student from the business-grant component; ACTIVE SCAM WARNINGS — official *254# only, never any website/fee link.
+  - Hult Prize: next cycle not open; needs a student team anyway. TEF 2027: not open. KeNIA: no open window (needs the phone call). iHUB EdTech Fellowship: 2026 cohort selected Jul 2026; next window unknown.
+  - shortlist.md verification log updated with all of the above.
+- Pending founder decisions carried over: Keengwe & Co alternative contact (awaiting answer); Instagram retry vs leave; The-Bell PR #1 merge; Wincost call Thu 2026-09-24; follow-up touches for the 21 pitches.
