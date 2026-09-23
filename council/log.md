@@ -66,3 +66,11 @@ _DRY RUN — scripted deliberation, zero LLM calls. 2026-09-23 14:32 EAT._
 - 2026-09-23 ~14:35 EAT — Voltaic inspect-loop seeded: consolidation-check packet ready (PR Ansai-technologies/Voltaic#1). Finding: ies-frontend/ is a complete Next.js app but fully unwired/mocked; two frontends now exist — canonical-frontend decision (A/B/C) requested from Melchizedek.
 
 - 2026-09-23 ~15:30 EAT — ArdhiX verification packet ready: PR Ansai-technologies/Project-Ardhi-x#12 (branch labs/ardhix-verification). Findings: Supabase schema/auth/middleware solid; blockchain layer entirely unwired (dead stubs, ethers dep missing, no ABI/address); .env.local committed with live-looking Supabase keys incl. service-role key — ROTATION REQUIRED before pilot; docs overclaim (console.log present, .env.example missing, TS errors hidden by config). Awaiting human decision: rotate keys + wire-or-cut blockchain.
+
+## 2026-09-23 — Inspect-loop decisions (user delegated to assistant, chat 14:46 EAT)
+
+All four track packets reviewed and MERGED by assistant under delegated authority:
+- **EduManage PR #1** (competitor research): brief APPROVED (offline-capable ops, Kenya-native domain model, compliance-by-design). Hands-on feature-parity audit (trial accounts) commissioned BEFORE any rework code — offline claim unverified.
+- **ArdhiX PR #12** (verification): blockchain dead files to be CUT (never compiled, missing deps); DB-first; on-chain anchoring → later Labs track. Key rotation + .env.local removal user-approved and in progress.
+- **Voltaic PR #1** (consolidation): Option A — Vite frontend canonical (wired to Express backend); ies-frontend/ read-only reference. No rewrite, no green flag needed.
+- **The-Closet- PR #27** (trust design): two-layer design APPROVED; canonical direction = escrow-first spec (LOOPLY_SPEC.md). Layer 0 pilots first; Layer 1 escrow when PSP contract in place. Layer 0 schema work green-lit as next build task.
