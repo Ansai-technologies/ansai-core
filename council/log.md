@@ -287,3 +287,10 @@ reads the same table unchanged.
 ## 2026-09-23 ~20:10 EAT — Prospecting rounds 1–2 banked, round 3 scouting (Ansai)
 - Round 1: 15 new prospects + 4 on hold (no public email) in campaign-02/prospects-next-wave.md — law firms w/ dead/filler sites, SACCOs on PDFs, guest houses w/ splash pages. Round 2: 17 new prospects (#16–32) — private schools, real estate, tour & travel (live-fetch verified), pharmacies, caterers, car dealers. 28 ruled-out (working sites), 34 dropped for no public email — all listed so they're never re-prospected.
 - DRAFT research only. No sends, no contact. Every send awaits the founder's personal greenlight. Round 3 scouting (salons/spas, hardware, tailors, photo studios, gyms, driving schools, event planners, cleaning, agro-vet, water vendors) in progress per his "keep looking until I return."
+
+## 2026-09-23 ~20:55 EAT — Ansai (session closeout)
+- Studios campaign: 21/21 pitches sent from hello@ansaitechnologies.co.ke (all SMTP 200). Round 4 (10 sends) done with founder greenlight "send these ones".
+- Tracker (Makao Makuu): Client outreach table now holds all 21 rows (10 added via artifact.edit; verified client/email/subject triples via listdashboard). Bounces flagged on Kihara & Wyne (infor@kenyanjurist.com — dead) and Community Transformers (mailbox disabled). MWITO SACCO row notes automated acknowledgement.
+- Instagram @ansaitechnologies: permanently disabled (final, no appeal). Goal awaiting founder decision: retry new handle vs leave Instagram.
+- Zoho OAuth: tokens expire ~1hr, no auto-refresh; reconnected ~20:38 EAT — expect re-auth for next session's sends.
+- Blackboard discipline kept: session logged.
