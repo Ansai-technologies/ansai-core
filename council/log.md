@@ -79,3 +79,8 @@ All four track packets reviewed and MERGED by assistant under delegated authorit
 - Removed committed .env.local (held Supabase URL, anon key, service-role key, JWT secret); added .env.example with placeholders.
 - Cut dead files: lib/blockchain.ts (missing ethers dep + ABI), components/property/BlockchainActions.tsx (missing hook), lib/auth.ts (dead, hardcoded demo creds).
 - KEY ROTATION BLOCKED: Supabase project szubjdadhjjsyragoyzn ("Ardhi-x") is PAUSED and cannot be resumed from the dashboard — legacy key list never loads, JWT settings unreachable. Keys unusable while paused; risk returns on resume. Awaiting owner decision: restore via Supabase support, or fresh project + migrate via supabase-setup.sql.
+
+## 2026-09-23 — ArdhiX fresh Supabase project live (gqyzhtbrlvmnizdeqwme)
+- New project "ArdhiX" created under Amasai's Org, Free plan, eu-central-1 (Frankfurt). supabase-setup.sql applied cleanly: 5 tables (profiles, properties, property_documents, property_transfers, property_history) + indexes, triggers, RLS policies, GRANTs.
+- Owner to copy service_role key from dashboard (masked from agent) into local .env.local; anon key + URL handed over in chat. DB password auto-generated, unrecoverable — reset in Database settings if direct Postgres access ever needed.
+- Old paused "Ardhi-x" project untouched; recommend deleting it in dashboard settings to kill the leaked keys permanently.
