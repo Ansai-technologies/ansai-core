@@ -84,3 +84,8 @@ All four track packets reviewed and MERGED by assistant under delegated authorit
 - New project "ArdhiX" created under Amasai's Org, Free plan, eu-central-1 (Frankfurt). supabase-setup.sql applied cleanly: 5 tables (profiles, properties, property_documents, property_transfers, property_history) + indexes, triggers, RLS policies, GRANTs.
 - Owner to copy service_role key from dashboard (masked from agent) into local .env.local; anon key + URL handed over in chat. DB password auto-generated, unrecoverable — reset in Database settings if direct Postgres access ever needed.
 - Old paused "Ardhi-x" project untouched; recommend deleting it in dashboard settings to kill the leaked keys permanently.
+
+## 2026-09-23 — ArdhiX Supabase credential live (service_role in vault)
+- Secure Vault connector `custom.supabase-ardhix` now holds the new project's legacy service_role key; verified HTTP 200 on all 5 tables (profiles, properties, property_documents, property_transfers, property_history).
+- Debugging note: first two stored values returned 401 "Invalid API key". Root cause was placement, not the key: connector was registered bearer_header but Supabase's gateway only reads the `apikey` header. Re-registered with placement custom_header:apikey; skill `~/workspace/skills/supabase-ardhix/` (bin/sb.py) updated to match.
+- Remaining owner steps: paste service_role into local .env.local; delete old paused "Ardhi-x" project (kills leaked keys permanently); DB password reset only if direct Postgres access ever needed.
