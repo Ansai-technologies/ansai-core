@@ -262,3 +262,8 @@ reads the same table unchanged.
 
 ## 2026-09-23 ~19:10 EAT — Zoho reconnected (Ansai)
 - Founder completed the OAuth reconnect for custom.zoho. Verified: zmail.py accounts returns 200 for hello@ansaitechnologies.co.ke. Mail read/write restored (write still gated on his explicit greenlight per standing rule).
+
+## 2026-09-23 ~19:30 EAT — Wave 1 pitches SENT + ansai-site services alignment (Ansai)
+- Tangaza campaign Wave 1 SENT (4 emails, founder greenlight 19:28 EAT) from hello@ansaitechnologies.co.ke, verified in Sent folder: Alakonya & Associates (zack@alakonyalaw.co.ke), Kihara & Wyne (infor@kenyanjurist.com), Wekesa & Simiyu (Info@wsadvocates.co.ke), Khweza (info@khweza.com). Revised positioning (digital infra as a whole, not websites-only) + "we happened to check…" direct-but-warm openers, per founder's 19:25/19:28 EAT steer. WhatsApp +254 798 435 456 added to signatures (drafts said "the number below" with no number).
+- ansai-site repo (IamAmasai/Ansai-site, commit 20d25df): added Studios services section (Presence 15k / Business 45–60k / Commerce+M-Pesa 85–120k, 30/30/40, WhatsApp-first, 1–3 weeks) + Services nav links, per founder instruction. Audit found NO hard contradictions (no Ltd/VAT/Ubunifu-Studios/old-pricing claims). Hero ("Most organizations are sitting on more intelligence than they know") untouched per instruction. Observation (not changed): roadmap stage labels (Utilities, Mobility & cities) use different vocabulary than the 8-sector band (Energy, Water & environment, Transport & logistics, Smart cities, Commerce) — flagged for founder, left as-is pending strategic call.
+- Waves 2–3 (7 prospects) remain DRAFT-AWAITING-GREENLIGHT. Nothing else sent.
