@@ -109,3 +109,11 @@ First live cycle: six real model calls on deepseek-flash to prove the loop works
 ## 2026-09-23 — Infra note: model behavior from the live test cycle
 
 deepseek-flash is a reasoning model with uncontrollable reasoning effort: on identical prompts it used anywhere from ~80 to the entire max_tokens budget on reasoning alone (observed 2000/2000 reasoning tokens, zero text out). Short deterministic seat outputs therefore need a large max_tokens headroom (2000+) or a model with reasoning disabled. The test-cycle runner now filters ds.py's noise lines and retries empty completions. Production daily cycle should budget accordingly or switch member seats to a non-reasoning model.
+
+## 2026-09-23 — Daily Baraza cycle productionized
+
+The council now deliberates every morning on its own. A scheduled job (`baraza-daily-cycle`, ~06:30 EAT) runs all six seats live on `deepseek-flash`, Meridian synthesizes, and the cycle is posted here — the inspect-loop paper trail, no silent work.
+
+Model/token policy committed at `baraza/PRODUCTION.md`: 2500-token headroom per seat (flash can burn the whole budget on reasoning), retry-up-to-3 on empty completions, tight prompts, never fabricate a seat's words.
+
+Makao Makuu picks each cycle up on its 07:21 refresh. Convene-button huddle requests are folded into the next cycle's focus question.
