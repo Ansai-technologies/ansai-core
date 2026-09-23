@@ -51,3 +51,4 @@ every agent reads it before acting. Commits are the audit trail.
 - User scope decision: no deploys required today. Deliverable = company structure standing + pipelines working. The-Bell real-data work deferred.
 
 - 2026-09-23 ~14:30 EAT — EduManage Labs track seeded: competitor research packet ready for human review (Ansai-technologies/edumanage PR #1, branch labs/edumanage-competitor-research; reviews/2026-09-23-edumanage-competitors.md + reviews/TEMPLATE.md).
+- The-Closet- (Looply) trust-mechanism design packet ready for review: PR #27 (branch `labs/closet-trust-design`, reviews/2026-09-23-closet-trust-design.md). Design-only, not merged. Key items: two-layer trust model (verification tiers T1–T3 + reputation rate now; licensed-PSP escrow + dispute adjudication when payments go live), doc-direction fork flagged (status.md Prototype 1 vs LOOPLY_SPEC escrow-first), decision requested.
