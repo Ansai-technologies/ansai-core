@@ -246,3 +246,10 @@ reads the same table unchanged.
 - Process lesson: hard merge rule landed minutes AFTER the merge it would have blocked. The rule now exists because this exact failure happened. Lesson: review packets must reach the founder before he merges, not after.
 - Key rotation: founder asked if Ansai can rotate ArdhiX Supabase keys — no, our connector is data-plane only; rotation is dashboard or a Management API token he provides. He chose neither yet.
 - Avatar: founder asked to change to default, then default-in-company-colours; colours confirmed as dark indigo + gold (Studios brochure palette). Generated options shown; he declined — staying on default.
+
+## 2026-09-23 ~17:40 EAT — ArdhiX key rotation COMPLETE
+- Leaked keys traced to old project "Ardhi-x" (szubjdadhjjsyragoyzn, created 2025-08-03, INACTIVE/paused). Live API timed out — keys unusable while paused.
+- Live project is "ArdhiX" (gqyzhtbrlvmnizdeqwme, created today, ACTIVE_HEALTHY) with fresh keys created today, never leaked. Repo code (lib/supabase.ts) is env-driven — no hardcoded project.
+- Legacy anon/service_role keys have no Management API rotation endpoint (dashboard-only). Hard kill via API = delete project.
+- Founder approved deletion. Old project DELETED via Supabase Management API (DELETE /v1/projects/szubjdadhjjsyragoyzn, HTTP 200, verified absent from project list). Leaked keys are dead.
+- Tooling: Supabase Management connected (custom.supabase-management); new skill ~/workspace/skills/supabase-management/ with bin/sbmgmt.py CLI (list/create/delete api-keys).
