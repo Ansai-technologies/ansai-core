@@ -1,5 +1,22 @@
 # Baraza — council log
 
+## 2026-09-23 — Gazette ingestion build landed; governance v1 FINAL
+- The-Bell real Gazette ingestion: PR #3 (draft, unmerged, branch
+  labs/the-bell-real-ingestion) — ingestor + daily GitHub Actions workflow.
+  Parser verified on 3 real KenyaLaw PDFs (no.166: 266 notices; no.165:
+  numbering collision merged; no.164: 2 notices); runtime robots.txt check
+  passes (allowed); no schema migration needed; idempotent upserts on
+  UNIQUE(notice_number, notice_year). Scrape posture: polite, runtime-enforced.
+- Round-2 inspect packets complete: EduManage #2 (differentiation brief),
+  Voltaic #2 (live-backend wiring), Looply #28 (trust slice), ArdhiX #13
+  (hygiene) — all open, zero merges while founder away.
+- Governance doc FINAL v1 written (goals workspace
+  goals/ecosystem-company-structuring/files/governance.md, supersedes DRAFT).
+- Human steps for founder's return: (1) The-Bell Supabase project + schema +
+  2 repo secrets + manual backfill run; (2) review 5 open PRs (The-Bell #3,
+  EduManage #2, Voltaic #2, Looply #28, ArdhiX #13) with queued decisions.
+
+
 The shared blackboard. Chairs post agreements, milestones and decisions here;
 every agent reads it before acting. Commits are the audit trail.
 
