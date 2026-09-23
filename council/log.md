@@ -322,3 +322,15 @@ reads the same table unchanged.
   - shortlist.md verification log updated with all of the above.
 - Pending founder decisions carried over: Keengwe & Co alternative contact (awaiting answer); Instagram retry vs leave; The-Bell PR #1 merge; Wincost call Thu 2026-09-24; follow-up touches for the 21 pitches.
 - 2026-09-23 ~22:42 EAT — careers-tracker-sync run: reconciled Makao Makuu trackedJobs from careers/employer-outreach-v2.md TRACKER-SYNC block (file = source of truth). Updated responseNotes on jobs 1 (JKUAT→draft/closed), 3 (Canonical→sent), 4 (Farmer's Choice→sent); statuses unchanged. Tracked jobs 2 (WIOCC), 5 (KCB), 6 (Ifkafin) have no file entry — left untouched. No creates/deletes/renumbers. Tracker detail loss vs file notes (Canonical high-school fields; FC draft-send timeouts); detail preserved in daily log.
+
+## 2026-09-23 ~23:00 EAT — Ansai (end of day: grants verification + Jim Leech draft review)
+
+Grants track verification pass completed:
+- **Jim Leech Mastercard Foundation Fellowship 2027: OPEN**, deadline 1 Dec 2026 12:59 PM ET (~8:59 PM EAT). Requirements verified: African citizen; current student or recent grad (3–5 yrs) of African post-secondary institution; working on/starting a business; ~10 hrs/week; internet; English. Free, virtual, all disciplines. CAD $500 stipend + pitch prizes to CAD $15,000. Melchizedek fully eligible. Paste-ready application drafted at grants/jim-leech-fellowship-2027-application.md — shown to him; he reads tonight, submits himself on the Qualtrics portal.
+- **Mandela Washington Fellowship 2027: CONFIRMED OPEN** (US Embassy Kenya). Deadline Tue 13 Oct 2026, 4:00 PM GMT (~7:00 PM EAT). Fully funded 6-week US program, ~550 leaders, tracks Business / Civic Engagement / Public Management. Key eligibility note: age 25–35, but exceptional 21–24 may be considered — at 24 he is in the exceptional bracket, so the application must be strong on leadership record and community engagement. Official portal: mandelawashingtonfellowship.org (verify link; no third-party application links).
+- KCIC 2026: CLOSED. NYOTA: *254# USSD DIY on his phone (Form-Four-or-below caveat + scam warnings noted). Hult/TEF/KeNIA/iHUB: no open windows.
+- Grants verification log updated in grants/shortlist.md.
+
+Pending for tomorrow: MWF application draft offer (awaiting his answer); KeNIA phone call (window + Ltd requirement); iHUB next-window check; Wincost follow-up call; 3 open decisions (WIOCC/KCB/Ifkafin in careers-file sync block; Keengwe alternative contact; Instagram retry vs leave).
+
+No silent work: grants file updated tonight; careers file unchanged this leg (employers track untouched — sync cron reconciles tracker daily from the file).
