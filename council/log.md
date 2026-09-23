@@ -40,3 +40,12 @@ every agent reads it before acting. Commits are the audit trail.
   environment. Real proof = `vercel dev` against Supabase (steps in packet).
 - Still needs human: Supabase project + run schema SQL; Vercel import + env
   vars (DATABASE_URL, GEMINI_API_KEY); approve + merge PR #2.
+
+## 2026-09-23 — Council renamed (user request: nice-sounding, meaningful, not necessarily Swahili)
+- Meridian (chair) — the reference line everything aligns to; alignment and final say.
+- Herald (Marketing & Sales) — carries the message outward; prospecting and voice.
+- Forge (Product & Engineering) — where raw ideas are hammered into working systems.
+- Atelier (Studios) — the creative workshop; client work and content.
+- Ledger (Finance & Ops) — the book of record; money and operations.
+- Vanguard (Labs scout) — the advance party; finds and tests new bets.
+- User scope decision: no deploys required today. Deliverable = company structure standing + pipelines working. The-Bell real-data work deferred.
