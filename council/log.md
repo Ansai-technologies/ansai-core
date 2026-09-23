@@ -220,3 +220,11 @@ reads the same table unchanged.
 - ArdhiX #13 CHANGES: README half-cleaned (Features list still claims blockchain), 2 stale lockfiles, and Supabase key rotation still pending — keys sit in PUBLIC git history (commit 0db21836), rotation is the founder's highest-priority item on this repo.
 - Pattern: every packet disclosed its own risks honestly, but branches shipped anyway. Proposed rule for founder: packet-flagged risk -> resolved or explicitly deferred with an owner becomes a hard merge rule.
 - Voltaic #2 named as the template for future inspect-loop rounds.
+
+## 2026-09-23 ~17:05 EAT — Baraza Agno scaffold complete (Ansai)
+- Runnable prototype at ~/workspace/baraza-prototype/ (agno 3.0.11, venv): six Agno agents with the real constitution + seat briefs (synced 2026-09-23), Team mode=broadcast nesting the five seats under Kiongozi, mirroring the production daily cycle (seats answer -> chair synthesizes).
+- Blackboard READ tools real and tested live (read_blackboard_state, read_blackboard_log, list_review_packets across the five track repos); WRITE tools stubbed with raising TODOs. Zero GitHub writes made.
+- DeepSeek workhorse verified (members deepseek-chat, chair deepseek-reasoner, budgets per PRODUCTION.md); hsurr surrogate reusable across requests without the key touching code. Sandbox proxy IPv6 quirk fixed in models.py.
+- Verified end-to-end: run_cycle.py live cycle — seat cited real PR numbers and the ArdhiX key-rotation flag from the blackboard, unprompted; Kiongozi synthesized decisions.
+- FINDING: naming drift is real — Swahili seat names (Kiongozi/Tangaza/...) vs council/state.md roster + repo briefs (Meridian/Vanguard...). Smoke test: Mpelelezi self-identified as "Vanguard"; Kiongozi flagged the mismatch honestly. Needs founder's canonical naming decision (open question #1 in REPORT.md).
+- Other open questions: enable blackboard writes? chair model reasoner vs chat? relation to existing baraza-daily-cycle cron + ds.py path? long-term home? Gemini fallback?
