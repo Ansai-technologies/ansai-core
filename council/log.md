@@ -294,3 +294,7 @@ reads the same table unchanged.
 - Instagram @ansaitechnologies: permanently disabled (final, no appeal). Goal awaiting founder decision: retry new handle vs leave Instagram.
 - Zoho OAuth: tokens expire ~1hr, no auto-refresh; reconnected ~20:38 EAT — expect re-auth for next session's sends.
 - Blackboard discipline kept: session logged.
+
+## 2026-09-23 ~21:05 EAT — Ansai (memory compaction)
+- Rewrote ~/MEMORY.md into a dense compact form (~11KB) — nothing dropped: playbook artifact, all three tracks, 21/21 campaign, bounces, Instagram disable, Zoho token quirk, Wincost, infra quirks, ecosystem structure, open items, pointer index.
+- Checkpoint file: ~/workspace/CONTEXT-CHECKPOINT-2026-09-23.md.
