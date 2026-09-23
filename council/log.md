@@ -74,3 +74,8 @@ All four track packets reviewed and MERGED by assistant under delegated authorit
 - **ArdhiX PR #12** (verification): blockchain dead files to be CUT (never compiled, missing deps); DB-first; on-chain anchoring → later Labs track. Key rotation + .env.local removal user-approved and in progress.
 - **Voltaic PR #1** (consolidation): Option A — Vite frontend canonical (wired to Express backend); ies-frontend/ read-only reference. No rewrite, no green flag needed.
 - **The-Closet- PR #27** (trust design): two-layer design APPROVED; canonical direction = escrow-first spec (LOOPLY_SPEC.md). Layer 0 pilots first; Layer 1 escrow when PSP contract in place. Layer 0 schema work green-lit as next build task.
+
+## 2026-09-23 — ArdhiX secret cleanup merged (branch labs/ardhix-secret-cleanup)
+- Removed committed .env.local (held Supabase URL, anon key, service-role key, JWT secret); added .env.example with placeholders.
+- Cut dead files: lib/blockchain.ts (missing ethers dep + ABI), components/property/BlockchainActions.tsx (missing hook), lib/auth.ts (dead, hardcoded demo creds).
+- KEY ROTATION BLOCKED: Supabase project szubjdadhjjsyragoyzn ("Ardhi-x") is PAUSED and cannot be resumed from the dashboard — legacy key list never loads, JWT settings unreachable. Keys unusable while paused; risk returns on resume. Awaiting owner decision: restore via Supabase support, or fresh project + migrate via supabase-setup.sql.
