@@ -205,3 +205,9 @@ reads the same table unchanged.
 - Ledger: workspace/goals/ecosystem-company-structuring/hidden_files/awaiting-founder.md (8 items seeded: 5 PR reviews, The-Bell Supabase step, WhatsApp, TikTok, Instagram, ArdhiX cleanup, PAT rotation [parked], PSC outcome [watching]).
 - Cron: founder-confirmation-check, daily ~08:21 EAT, owner goal:ecosystem-company-structuring. Verifies what it can via API, re-asks pending items stale >2d (parked >14d), caps at 5 questions, stays silent when nothing qualifies. Worker asks; main agent folds replies into the ledger.
 - PSC DLP Cohort 5: founder confirms he already applied — moved to watching/outcome.
+
+## 2026-09-23 ~16:55 EAT — Studios funding engine drafted (Ansai)
+- Subagent completed: prospecting-campaign.md (Tangaza's draft: ICP = Nairobi-metro owner-operated SMEs, 20-lead wave 1, 3-touch WhatsApp-first sequence with full draft messages) + wincost-scope.md (7 pages, Vercel+Next.js+Supabase, 2-3 weeks, hosting ~KSh 2-3.3k/yr inside the 10k cap, 10 open questions for Ian Limo incl. what Wincost actually does — not guessed).
+- Nothing sent, no one contacted, nothing spent. Send-gate baked into the campaign doc (founder approves each batch).
+- Founder decisions needed: approve ICP + sequence, seed/approve 20-lead list, sender identity (dedicated Studios line recommended), portfolio proof from Msanii, per-batch send greenlight.
+- Caveat flagged: rate card still says "Ubunifu Studios" vs 21 Sep rename to Ansai Studios — needs rebranding before it goes out.
