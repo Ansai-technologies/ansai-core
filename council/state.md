@@ -4,7 +4,7 @@
 | Seat | Name | Domain |
 |---|---|---|
 | Chair | Meridian | General council |
-| A | Herald | Marketing & Sales |
+| A | Tangaza | Marketing & Sales |
 | B | Forge | Product & Engineering (senior engineer) |
 | C | Atelier | Studios (incl. content/creative) |
 | D | Ledger | Finance & Ops |
