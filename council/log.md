@@ -117,3 +117,9 @@ The council now deliberates every morning on its own. A scheduled job (`baraza-d
 Model/token policy committed at `baraza/PRODUCTION.md`: 2500-token headroom per seat (flash can burn the whole budget on reasoning), retry-up-to-3 on empty completions, tight prompts, never fabricate a seat's words.
 
 Makao Makuu picks each cycle up on its 07:21 refresh. Convene-button huddle requests are folded into the next cycle's focus question.
+
+## 2026-09-23 — Governance draft written (verification-by-building edition)
+
+First draft of the ecosystem governance doc is at `workspace/goals/ecosystem-company-structuring/files/governance-DRAFT.md` (119 lines). Written strictly from what today's build verified: the inspect loop as practiced (branch → packet → approval → merge), the Baraza council + daily cycle, emergency bypass and rewrite rules, blackboard write-enforcement, brand/legal boundaries.
+
+Honest core: a 7-item "still unverified" section, headlined by three — (1) merge discipline is convention-only (branch protection needs GitHub Pro/Team), (2) department councils exist only on paper, (3) the emergency bypass has never been invoked. Final version lands after the Gazette ingestion build completes.
