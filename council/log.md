@@ -390,3 +390,10 @@ Baraza blackboard — Thu 2026-09-24: Wincost remains an unsigned Sep 16 proposa
 - Keys verified live before build: DeepSeek balance **$2.59** (dev-scale; top-up needed before pilot), Gemini 50 models incl. gemini-3-flash-preview. Smoke test + fallback chain (workhorse -> vision -> vision-cheap) confirmed walking.
 - Phase 1 (gateway) scaffold done; next: run gateway locally, then Phase 2 agent skeleton live. No secrets in repo — keys via env only.
 - User decision pending from earlier: SACCO WhatsApp runtime vs paid school pilot as the wedge (system-structure-map discussion).
+
+## 2026-09-25 ~00:1x EAT — Agent office wired into ansai-substrate (commit 2e57ab0)
+- `./start.sh` now auto-launches the office: FastAPI :8080 serving a canvas office (Tangaza + Mhandisi Mkuu at desks, Kiongozi at the whiteboard), live agent lifecycle events over SSE, and a chat panel to talk to each agent (text-only, through the gateway).
+- New: `agents/events.py` event bus (best-effort, never raises); mini/mother agents instrumented (spawn/llm_start/llm_end/error/handoff). `office/server.py` + `office/static/index.html` (single file, light minimal UI, no dark theme).
+- Bonus fix: `validate_summary` in agents/handoff.py was crashing the Baraza spike (rejected the merged `worker` routing key) — now requires the 4 contract keys, extras allowed.
+- Validated end-to-end on the VM: office boot, /api/chat -> DeepSeek reply, Baraza spike lifecycle captured on SSE. Spend: 5 tiny LLM calls.
+- Note: /api/chat agents are stateless per request (no memory yet) — future upgrade path, not built.
