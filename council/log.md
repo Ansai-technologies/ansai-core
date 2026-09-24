@@ -397,3 +397,14 @@ Baraza blackboard — Thu 2026-09-24: Wincost remains an unsigned Sep 16 proposa
 - Bonus fix: `validate_summary` in agents/handoff.py was crashing the Baraza spike (rejected the merged `worker` routing key) — now requires the 4 contract keys, extras allowed.
 - Validated end-to-end on the VM: office boot, /api/chat -> DeepSeek reply, Baraza spike lifecycle captured on SSE. Spend: 5 tiny LLM calls.
 - Note: /api/chat agents are stateless per request (no memory yet) — future upgrade path, not built.
+
+## 2026-09-25 ~02:40 EAT — ansai-substrate Windows local run COMPLETE (agent-infra)
+- `./start.sh` went 6/6 green on the founder's Windows machine: LiteLLM gateway
+  http://localhost:4000 (+/ui), agent office http://localhost:8080, Baraza spike ran.
+- Two upstream litellm gotchas fixed in substrate repo (50e9c97, bf5b1a8):
+  (a) `--num_workers` pinned to 1 — main-latest (Wolfi, >=1.80) workers die instantly
+  ("Child process died", upstream BerriAI/litellm#18457); (b) start.sh health probe
+  now sends `Authorization: Bearer $LITELLM_MASTER_KEY` — newer litellm 401s /health unauthenticated.
+- Docker Desktop on his box is per-user (`AppData/Local/Programs/DockerDesktop`); PATH wired per session; launch via Git Bash.
+- DeepSeek key ROTATED after chat exposure (new key live in gateway/.env).
+- Still open: wedge choice (SACCO WhatsApp runtime vs paid school pilot on EduManage trust anchor).
