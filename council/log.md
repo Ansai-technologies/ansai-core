@@ -378,3 +378,9 @@ Baraza blackboard — Thu 2026-09-24: Wincost remains an unsigned Sep 16 proposa
 - Built the offline agent pack at ~/workspace/openclaw-backup-agent/ (SETUP-GUIDE.md + seed-pack/: SOUL.md, USER.md, MEMORY.md, BOOTSTRAP.md). He said yes — still needs from him: machine choice, model/API key, WhatsApp number, agent name.
 - Wrote operator guide: ~/workspace/guides/using-muse-deeply.md (outcomes-not-tasks, background work, standing rules, write-everything-down, artifacts, batch reviews, weekly loop).
 - Presented as a page: the "AI-Native Infrastructure Research" artifact (ai-native-infrastructure-research).
+## 2026-09-24 ~17:35 EAT — Docs to GitHub + system structure map (founder request)
+
+- Founder asked: convert the research page + Dira entries to .mds and commit to appropriate places in GitHub; generate a system structure map (as-is vs to-be) to talk from.
+- Committed to Ansai-technologies/ansai-core (4 commits): `dira/01-digital-infrastructure.md` (entry 01, extracted), `dira/02-builders-playbook.md` (entry 02), `docs/research/ai-native-infrastructure-field-guide.md` (428-line Africa-first field guide compiled from both research reports; includes 90-day roadmap, pattern selector, cost tables with worked WhatsApp example ~$0.085/10-turn convo, 83 labeled sources), `system-structure-map.md` (as-is vs to-be + 6 bridges + open questions, discussion doc).
+- Visual "System Structure Map" web artifact building (goal-linked to ecosystem-company-structuring) for the discussion.
+- Note: subagent grounded Ivanov's 5 resilience patterns from his live essays (timeout everything; retry w/ backoff+jitter on idempotent/transient; circuit breaker; idempotency keys; treat model as flaky network dep) — reports only summarized them before.
