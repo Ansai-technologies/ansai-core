@@ -582,3 +582,14 @@ Awaiting his word on the Looply diagnosis.
 (`python agents/run_worker.py --agent tangaza --task "list my GitHub repos and
 summarize each"`); wedge sign-off (school pilot); WIOCC/KCB/Ifkafin tracker rows.
 
+
+## 2026-09-25 ~14:35 EAT — Jabari chat fix (ansai-substrate)
+- Bug the founder caught in the office chat: asking Jabari anything returned raw
+  supervisor-merge JSON ({"merged_state": ...}) instead of a spoken reply.
+- Root cause: office/server.py _build_chat_agent() routed jabari to
+  build_mother_agent() (SUPERVISOR_INSTRUCTIONS); chat now uses the conversational
+  CHAT_INSTRUCTIONS persona like the other five. Merge agent stays exclusive to
+  the weekly supervision cycle.
+- Pushed as 1e98ed29 on Ansai-technologies/ansai-substrate main (parent 2bfd86f8).
+- Founder still to do on Windows: git pull, re-run start.sh (office reloads
+  server.py), then the first live worker run.
