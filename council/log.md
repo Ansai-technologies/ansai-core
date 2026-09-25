@@ -552,4 +552,33 @@ Baraza summary — Meridian.
 Without these, we stay green and idle.
 
 ---
+---
+
+## 2026-09-25 ~13:00 EAT — Ansai session (agent-infra track)
+
+**Office 3D diorama + @mention chat shipped.** ansai-substrate main now `2bfd86f8`
+("office: 3D isometric diorama + @mention group chat"), verified byte-identical
+to local (45/45 blobs). Changes: (1) office frontend rebuilt from 2D canvas to
+Three.js isometric 3D AI-office diorama (dollhouse cutaway, light premium theme,
+vendored three.module.js — no runtime CDN; chibi sprites kept as he approved);
+(2) chat picker replaced with WhatsApp-style @mentions — `@tangaza @fundi ...`
+targets specific agents, no @mention defaults to Jabari; server fans out
+`{targets, message}` per agent, text-only invariant kept (no tools in chat).
+Founder asked for both; needs `git pull` on his Windows machine to see them.
+
+**Push tooling:** /tmp got wiped, rebuilt the git-data-API push script durably at
+`~/workspace/tools/gh_push.py` (reusable: uploads only changed blobs, rebuilds
+trees bottom-up, strict fast-forward). Two bugs fixed while pushing: tree depth
+sort (root "" and "office" tied at depth 0 — root built empty, 422) and GitHub's
+GET `/git/ref/` (singular) vs PATCH `/git/refs/` (plural) quirk.
+
+**Looply PR #29:** surfaced to founder — merged ~19:05 EAT 2026-09-23 with CI red
+(verify failed, 4 annotations) and 3 unresolved Copilot high-severity findings.
+Hotfix-grade: baseline migration can't upgrade the existing live DB, and
+deploy.yml has no database step. Migration-path fix comes before anything else.
+Awaiting his word on the Looply diagnosis.
+
+**Still on him:** GITHUB_TOKEN in gateway/.env; ./start.sh; first live worker run
+(`python agents/run_worker.py --agent tangaza --task "list my GitHub repos and
+summarize each"`); wedge sign-off (school pilot); WIOCC/KCB/Ifkafin tracker rows.
 
