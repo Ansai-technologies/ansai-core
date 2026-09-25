@@ -408,3 +408,25 @@ Baraza blackboard — Thu 2026-09-24: Wincost remains an unsigned Sep 16 proposa
 - Docker Desktop on his box is per-user (`AppData/Local/Programs/DockerDesktop`); PATH wired per session; launch via Git Bash.
 - DeepSeek key ROTATED after chat exposure (new key live in gateway/.env).
 - Still open: wedge choice (SACCO WhatsApp runtime vs paid school pilot on EduManage trust anchor).
+
+## 2026-09-25 — agent-infra: tool servers shipped, council restyled (Ansai)
+
+- **Tool access for agents (ansai-substrate, pushed to origin/main `0296331`):**
+  `mcp/github/` (real GitHub REST: issues/PRs/code search, reads; create_issue/comment
+  gated by HITL), `mcp/web/` (DuckDuckGo search + page fetch, read-only),
+  `mcp/local/` (sandboxed file access at AGENT_LOCAL_ROOT, credential files refused,
+  delete/shell always ask approval, audit-logged). `agents/tools_registry.py`
+  (scout read-only vs worker +gated writes), `agents/run_worker.py` (all six council
+  members runnable). `evals/test_tools.py`: 20/20 green in 0.88s after fixing two
+  real bugs — (1) relative paths resolved against process CWD instead of the
+  sandbox root, so in-sandbox writes wrongly demanded approval and hung the suite;
+  (2) `validate_summary` had drifted from the exact-keys contract, tightened back.
+- **Council restyle:** all six now in the office as low-poly 3D chibi desk-toy
+  figurines (diorama look per founder's reference), dark skin tones, floating name
+  labels in signature colors. Canonical names: Jabari (chair), Tangaza (M&S),
+  Fundi (P&E), Sanaa (Studios), Akiba (F&O), Dadisi (Labs scout).
+- **Needs founder:** fine-grained PAT as `GITHUB_TOKEN` in gateway/.env (repo
+  README has the steps); first live worker run
+  (`python agents/run_worker.py --agent tangaza --task "..."`); `git pull` on his
+  Windows machine to see the new office.
+- No employer/customer/grant track changes this session.
