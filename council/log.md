@@ -593,3 +593,20 @@ summarize each"`); wedge sign-off (school pilot); WIOCC/KCB/Ifkafin tracker rows
 - Pushed as 1e98ed29 on Ansai-technologies/ansai-substrate main (parent 2bfd86f8).
 - Founder still to do on Windows: git pull, re-run start.sh (office reloads
   server.py), then the first live worker run.
+
+## 2026-09-25 ~14:50 EAT — Office chat becomes executable (ansai-substrate)
+- Founder's brief: @everyone fan-out; agents must EXECUTE from chat (top priority);
+  shared context (each agent reads the others' chats); voxel walking characters
+  instead of floating portrait sprites (studied the reference diorama: box
+  humanoids, walk swing, turn-to-face-travel, contact shadows).
+- Pushed as 319dff3e on Ansai-technologies/ansai-substrate main (parent 1e98ed29).
+  Server: /api/chat now async-accepts and fans out one thread per target; chat
+  agents use the worker tool profile; shared append-only chat log
+  (office/chat-log.jsonl, last 30 msgs injected per turn); approval card
+  endpoints for gated writes (10-min chat timeout); WORKER_CHAT_INSTRUCTIONS.
+  Frontend: async reply polling, approval cards, @everyone, voxel characters
+  that walk to task spots when working and home when idle.
+- Smoke-tested (stub imports + real approval round-trip); JS passes node --check.
+- Founder still to do on Windows: git pull + re-run start.sh (server reload).
+  Suggested first tests: '@everyone check the repo status and report back';
+  '@fundi create a file called hello.txt in the repo root saying hi' (approval card).
