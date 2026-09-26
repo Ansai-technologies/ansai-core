@@ -610,3 +610,81 @@ summarize each"`); wedge sign-off (school pilot); WIOCC/KCB/Ifkafin tracker rows
 - Founder still to do on Windows: git pull + re-run start.sh (server reload).
   Suggested first tests: '@everyone check the repo status and report back';
   '@fundi create a file called hello.txt in the repo root saying hi' (approval card).
+
+## 2026-09-26 ~06:21 EAT — Baraza daily cycle (scheduled run)
+
+Model note: deepseek-flash healthy today — all six seats + chair synthesis answered on flash (--max-tokens 2500). Attempts: Meridian 1, Herald 1, Forge 1, Atelier 1, Ledger 2 (attempt 1 returned 0 chars, the uncontrollable-reasoning failure mode from PRODUCTION.md; succeeded on retry), Vanguard 1, synthesis 1. No deepseek-v4-pro fallback needed. Tight briefs (~100 words) + one focused question held; seat outputs 799–978 chars each.
+
+Makao Makuu check: no pending huddle requests — the huddle queue is empty. (askoverseer could not answer this morning; the queue is the authoritative record and it shows zero pending.) Focus folded in: wedge = EduManage paid school pilot (founder sign-off still pending); cold outreach parked (21/21 pitches sent, zero human replies); SACCO WhatsApp parked as narrative spike; ansai-substrate 6/6 green on founder's Windows machine, awaiting him (git pull + start.sh restart for commit 319dff3e's executable chat + voxel office, GITHUB_TOKEN in gateway/.env, fine-grained PAT for ansai-substrate, first live worker run, wedge decision call); Looply live deploy still red (PR #29 merged red; baseline migration cannot upgrade the live DB); MWF 2027 deadline Tue Oct 13 ~7:00 PM EAT; Jim Leech Dec 1.
+
+### Meridian (chair)
+**Move: fix Looply's live DB in the dark.** Red main is the one live wound in the portfolio, and diagnosing it needs no green flag. Today I task the Infra seat to stand up a shadow Postgres restored from a prod snapshot, and the Looply deploy seat to write a forward-only, idempotent migration that *upgrades* the real baseline instead of replaying it — tested on shadow, never merged. Output: an approved review packet on the blackboard, ready the moment he sits down.
+
+**To unblock:** from the Founder — one read-only prod credential, or ten minutes to run `pg_dump` himself; the green flag gates the merge, not the packet. From another seat — a second reviewer (not the author) to sign the packet, and someone to verify the snapshot's schema hash matches live.
+
+The edu wedge decision stays parked on his desk; I'll re-flag it in the cycle note but won't push. Looply cannot go live while its migration is fiction.
+
+### Herald (Marketing & Sales)
+**Highest-leverage move today:** build the EduManage pilot's buying kit — a one-page outcome-and-price sheet plus a pilot agreement skeleton — and a named shortlist of 8 Nairobi private schools (200–800 pupils, fee-paying, already digitising). Drafts only; nothing sends without the founder.
+
+**Why now:** the wedge is chosen but unsold. Outreach being parked is fine — this isn't cold; it's arming the moment the wedge call lands. I'll also queue a short Wincost value-recap follow-up (proposal still live after Sep 24; silence is decaying), staged for his send.
+
+**What I need:**
+1. **Founder** — the wedge call and the pilot price/terms (I can't price blind), plus his voice on the Wincost follow-up.
+2. **One live ansai-substrate worker run** (blocked on his GITHUB_TOKEN + PAT) to draft the school shortlist and personalisation at scale instead of by hand.
+
+Kit and shortlist are ready by Monday either way — flagging now so the wedge call doesn't cost us a week.
+
+### Forge (Product & Engineering)
+**Highest-leverage move: un-red Looply.** PR #29 merged a baseline migration that cannot climb the live DB — so every deploy after it fails, and that debt compounds quietly while the wedge gets the airtime. Repairing a broken production path isn't a rewrite; no green flag needed.
+
+Today I will: diff the live schema against the committed baseline; write an idempotent reconciliation migration; prove it on a Supabase shadow branch (never live-first); open a PR with rollback SQL and preview evidence; and leave a packet where applying it is a single click.
+
+**What I need:**
+- Founder: Supabase production access (or a seat who holds it), and a 5-minute yes to run the apply once preview is green.
+- Whoever owns the database: confirmation whether the live schema was hand-patched after baseline. That answer decides reconcile-versus-squash, and I'm guessing right now.
+
+ansai-substrate stays parked — six items await him, none mine to force. Looply is mine to fix.
+
+### Atelier (Studios)
+Atelier here. Highest-leverage today: ship the EduManage pilot conversion kit — one-page offer, three KES-per-term price tiers, 4-week rollout, teacher/parent onboarding emails, ROI calculator, and a 90-second Loom demo script. That's Studios work, needs no green flag, and turns the pending wedge decision into same-day outreach the moment it lands. I'll also clear Wincost's revision queue if client assets are in.
+
+To unblock: founder — 15 minutes on the wedge call and a yes/no on pilot price + scope; without that, the kit sits. Wincost client — final logo/testimonial assets and written sign-off on homepage copy. Substrate seat — confirm the restart + first live worker run green so my demo Loom shows a real chat, not a slide. Looply's live DB red isn't mine to fix; flagging to engineering.
+
+### Ledger (Finance & Ops)
+Wedge decision is stuck on missing numbers, not missing conviction. Today I build the EduManage pilot unit-economics sheet: price per school, cost-to-serve per school (Supabase, Vercel, model tokens, support hours), gross margin, break-even school count, and the exact rolling-12-month revenue line that trips KRA VAT registration (KES 5M) and forces Ansai Ltd. That converts "should we commit?" into a number he can sign in five minutes — no green flag needed.
+
+Needed from the founder: target price tier and pilot scope (user count, term length). Needed from the tech seat: 90 days' actual infra and model-API spend, so cost-to-serve isn't guesswork.
+
+Separately, Looply's red live DB is an invoice-integrity and refund risk. I'm capping further Looply spend until PR #29's baseline migration is fixed or rolled back — a broken live tenant bills nothing and costs us credibility.
+
+Cash position stays unremarked because it's stable; the VAT clock is the tripwire I'm watching.
+
+### Vanguard (Labs scout)
+Wedge is set; the sign-off isn't. So today I build the thing the pilot can't launch without: an EduManage differentiation dossier — side-by-side against the two Kenyan school-management incumbents on fees, timetabling, CBC reporting, SMS costs, offline behaviour — plus a one-page objection map of what a head teacher actually asks. No founder flag required, and it turns his pending call into a decision instead of a research project.
+
+Asks: founder — your 3–5 target schools (names, or county + type) and a pricing floor. Ten minutes, typed, no meeting. Gazette Watch seat — any public procurement or tender notices from those incumbents; that's intel you already harvest. Substrate seat — nothing today.
+
+Parallel spike if the day allows: reproduce Looply's baseline migration against a scratch DB. PR #29 is red, it burns trust, and it needs nobody's permission. I'll come back with a fix-or-kill verdict.
+
+### Meridian's summary
+Blackboard — Sat 26 Sep 2026
+
+**Decisions**
+1. **Fix Looply live DB now.** Forge writes idempotent reconciliation migration, tests on shadow branch, opens PR with rollback/preview. Infra restores shadow snapshot and verifies schema hash. No merge without green flag; packet ready now. Ledger caps Looply spend until red is cleared.
+2. **EduManage pilot:** build all assets now, no sends. Herald makes buying kit + 8-school shortlist; Atelier makes conversion kit/Loom/ROI; Ledger builds unit economics and VAT-tripwire model; Vanguard builds differentiation/objection dossier.
+3. **Wincost:** Herald stages follow-up; Atelier clears revisions only if client assets/sign-off arrive.
+4. **ansai-substrate** stays parked.
+
+**Open questions**
+- **Founder:** prod read-only credential or 10 min for `pg_dump`; wedge call; pilot price/scope; 3–5 target schools/pricing floor; Wincost voice.
+- **DB owner:** was live schema hand-patched after baseline? Decides reconcile vs squash.
+- **Tech seat:** 90 days actual infra/model spend.
+- **Substrate:** GITHUB_TOKEN + PAT for first live worker.
+
+**Owners**
+Founder (all asks above); Forge (migration); Infra (shadow/hash); second reviewer (packet sign-off); Herald/Atelier/Ledger/Vanguard (pilot assets); DB owner (hand-patch answer); Substrate seat (token/run).
+
+Meridian will re-flag wedge.
+
+---
