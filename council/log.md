@@ -688,3 +688,166 @@ Founder (all asks above); Forge (migration); Infra (shadow/hash); second reviewe
 Meridian will re-flag wedge.
 
 ---
+## 2026-09-27 ~06:21 EAT — Baraza daily cycle (scheduled run)
+
+Model note: Attempts: Meridian 1, Herald 2, Forge 2, Atelier 3, Ledger 1, Vanguard 1, Meridian 1, Forge 1, Ledger 1, synthesis 1. deepseek-flash per PRODUCTION.md (--max-tokens 2500). Tight briefs (~100 words) + one focused question held; seat outputs ~800-1000 chars each.
+
+Makao Makuu check: no pending huddle requests (askoverseer could not answer — same as Sep 26; dashboard huddle queue is empty, zero pending). Focus folded in: Sunday with founder likely offline; yesterday's commitments (Looply live-DB repair packet, EduManage paid-pilot asset builds, ansai-substrate readiness) vs no-founder-token moves; cold outreach parked (21/21 sent, zero human replies); Wincost follow-up only if quiet ~a week (~Oct 1); MWF 2027 deadline Tue Oct 13 ~7:00 PM EAT; Jim Leech Dec 1.
+
+### Meridian (chair)
+## Chair's call — Sunday 27 Sep 2026
+
+**The ONE deliverable: the Looply merge packet, hardened into a one-line green-flag decision.**
+
+Why this and nothing else: it is the only parked item where the work is already done and the sole remaining blocker is a human "yes." Everything else on yesterday's board still has real work outstanding or is blocked on a token that doesn't exist yet. A live-DB reconciliation repair drifting another day is the only item on the board with compounding cost. So my seat's job today is to shrink the founder's Monday decision from an hour of review to one line.
+
+**Concrete output — `looply/merge-packet-2026-09-27`:**
+
+1. Shadow branch `repair-recon-2026-09-27` rebased on today's `main`; migration executed twice on a fresh shadow clone — second run reports 0 rows affected. Idempotency proven, not asserted.
+2. Rollback drill executed on a scratch clone: down-migration run, pre-migration snapshot restored, row-count and checksum match logged. Reversibility proven.
+3. `PACKET.md` — what it repairs, blast radius, pre/post reconciliation queries with expected deltas, three abort triggers, exact merge command sequence, five post-merge verification queries, exact rollback command.
+4. A single decision line at the top: `APPROVE: merge <sha> → main, post-18:00 EAT window` — with the explicit `HOLD` alternative so silence is unambiguous.
+
+**Done today =** packet in his queue, every claim backed by an attached log, a single yes/no at the top, and **zero writes to `main` or the live DB.** No merge. No bypass.
+
+**No emergency bypass invoked.** Nothing is in flight: no data-loss window open, no security exposure, no founder-blocked outage. Bypass stays sheathed.
+
+**Assignments, chair-issued in his absence:**
+
+- **Vanguard** — red-team my rollback drill. Independent reproduction on a separate clone; you are not reviewing my log, you are rebuilding it. Report by 21:00 EAT.
+- **Ledger** — sanity-check the reconciliation deltas against the unit-economics model; flag any figure that would move the Looply cost line.
+- **Herald** — 8-school shortlist stays at draft. No sends. Tighten the buying-kit one-pager only.
+- **Atelier** — finish ROI math and Loom script text; **do not record, do not send.**
+- **Substrate** — nothing movable. I'm pre-writing the exact token checklist (`GITHUB_TOKEN`, PAT scopes, `start.sh` restart order) so Monday is copy-paste, not rediscovery.
+
+**Sunday spot-check:** Looply — green (packet build). EduManage assets — green, all held at draft. Substrate — parked, founder tokens. Cold outreach — stays parked, 21/21 no replies. Wincost — no action; follow-up window opens ~Oct 1. Countdown: MWF 2027 closes Tue 13 Oct, ~16 days; Jim Leech 1 Dec.
+
+**What I need from the founder:** one line — `APPROVE: merge <sha> → main` — plus `GITHUB_TOKEN` and the PAT for the first live worker run.
+**What I need from other seats:** Vanguard's independently reproduced rollback log; Ledger's delta check. Both today.
+
+**Blackboard — 27 Sep 2026**
+- **Decision:** today's leverage is compressing the founder's Monday into a single merge decision, not producing new work.
+- **Assigned:** Vanguard red-teams rollback · Ledger checks deltas · Herald/Atelier refine drafts only · Chair builds packet and token checklist.
+- **Needs the human's eye:** the Looply merge green flag, and the substrate tokens. Nothing merges, nothing sends, until he speaks.
+
+### Herald (Marketing & Sales)
+**THE ONE:** The Wincost Africa Close Packet — everything needed to turn a Sep 24 "still considering" into a signed KSh 60,000 on the Oct 1 follow-up window. It is the only live deal on the board, the only revenue artifact no other seat owns today, and it is 100% draftable with no green flag and no token.
+
+**Why not the others:** Looply repair packet is engineering + gated on merge. EduManage assets are Herald/Atelier/Ledger/Vanguard's, and all drafts. Cold outreach is correctly parked (21/21, zero replies — more pitches add nothing). MWF is 16 days out but needs the founder's voice and numbers I don't own yet.
+
+**Done today =** one internal folder `/deals/wincost-africa/close-packet-2026-10-01/`, six files, nothing sent, nothing merged:
+
+1. `01-followup-email.md` — two send-ready variants: A (positive-signal, references
+
+### Forge (Product & Engineering)
+**The deliverable: `feat/pilot-provisioner` — a one-command EduManage pilot-tenant provisioning path, with a green acceptance test and a real cost-per-tenant sheet.**
+
+Reasoning: Looply's migration is already built and tested — the only remaining step is the green flag, so more engineering hours there buy nothing. The pilot assets are other seats' drafts. What's missing between "draft" and "a school signs" is that we cannot currently stand up a tenant a head teacher can touch, and Ledger's unit economics are running on estimated costs. Both are mine to fix, and neither needs permission — branch work is inside the inspect loop.
+
+**Done today looks like:**
+- Branch `feat/pilot-provisioner` pushed: idempotent script that creates a pilot tenant, seeds deterministic sample data (classes, terms, fee records, a report card), and tears down cleanly on re-run.
+- Acceptance test running green against the existing dev Supabase project, or local Postgres if dev creds aren't in the vault — no new tokens either way.
+- **Real** per-tenant cost sheet pulled from the live Vercel and Supabase configs: function invocations, DB size, storage, egress — converted to KES/month per school, with the VAT-relevant threshold marked. This replaces Ledger's estimates with measured numbers.
+- Review packet drafted: what built, files changed, exact verify commands, risks (seed data must never touch prod; cost sheet is per-tenant at current usage, not at load), decision requested.
+
+I check Vercel + Supabase deploy health first; if prod is red, that overrides everything above.
+
+**What I need from others:**
+- **Ledger** — your current unit-economics draft, so I fill the same cells rather than fork a second sheet.
+- **Herald** — do the top 3 on the 8-school shortlist lean cloud or on-prem? Determines whether I provision a hosted variant or a packaged one.
+- **Atelier** — which ROI figure the Loom script quotes, so the sandbox numbers match the pitch.
+- **Founder (on return):** green flag to merge `feat/pilot-provisioner` and the Looply reconciliation migration; and the GITHUB_TOKEN + PAT, which is still the only thing gating the first live substrate worker run.
+
+### Atelier (Studios)
+no response
+
+### Ledger (Finance & Ops)
+**Deliverable: the EduManage paid-pilot *priced offer sheet*** — `edu-manage/deal-desk/2026-09-27-priced-offer.md`, one page, draft branch, no merge, no send.
+
+Why this and not something else: every asset in yesterday's cycle needs a number that only my seat can authorise, and right now Herald's buying kit and Atelier's ROI/Loom script are free to invent one. A wrong price printed into an 8-school shortlist is far more expensive to unwind than a migration. It needs no green flag because it stays internal, and it needs no founder token because nothing goes out.
+
+**Done today looks like:**
+- **Price card.** Three pilot tiers (flat per-school per-term, in KES with a USD line), what's included, and — the part people skip — an explicit *exclusions* list so scope can't creep into the pilot.
+- **Terms block.** Payment split (deposit on signature, balance on term start), invoice mechanics, who the invoice comes from today (business name, not Ltd), late-payment line, renewal/expansion price so pilot pricing doesn't become permanent pricing.
+- **Tripwire table.** Cumulative contracted-value thresholds that force (i) Ltd incorporation and (ii) VAT registration — 12-month taxable turnover against the current KES 5M line — with the date each threshold would be crossed at each tier. I'll mark the threshold "re-verify against the current Finance Act before any external use."
+- **Numbered placeholders** where the price is genuinely unknown, rather than guesses I can't defend.
+
+**What I need from the founder** (Monday, batched, five minutes): the Wincost Sep 24 call outcome — that call is my only real price anchor; a green flag on the three tier numbers; and which cost lines sit on his personal card vs the Ansai account, so invoices reconcile.
+
+**What I need from other seats:** Ledger — cost-to-serve per school, to set the margin floor under my card; Herald — the 8-school shortlist with size/segment, so each maps to a tier; Atelier — the payback claim in the ROI script, so the script and the price card don't contradict each other in front of the same school.
+
+**Today's spend:** nil incremental. Looply's shadow branch rides the existing Supabase plan; no model API burn on this task worth logging.
+
+I am not touching the migration, cold outreach, or the substrate tokens — all parked where they belong.
+
+### Vanguard (Labs scout)
+**Deliverable: EduManage Competitive Teardown v1 — the differentiation claim, stress-tested.**
+
+Not the full dossier — that's Vanguard's. Mine is the evidence under it. Right now Vanguard, Atelier and Herald are writing differentiation into a buying kit, an ROI story and a Loom script that nobody has verified against a real competitor. That's the single point where the paid-pilot funnel can quietly break, and it's the one thing I can fix today with zero green flags, zero tokens, zero outbound.
+
+**The concrete output:** `labs/edumanage/2026-09-27-competitive-teardown-v1.md` on a branch, plus a one-page **Claims Sheet** — two columns: *claims we can defend with evidence* and *claims we must not make yet*.
+
+**Done today looks like:**
+1. Competitor set locked and worked desk-side from public sources — Zeraki, Fedena, Gibbon, PowerSchool, plus the generic "school management system" cohort. Every entry carries a **verified / unverified** tag. I don't guess pricing; unverified stays labelled unverified.
+2. Feature matrix against EduManage's actual differentiators (CBC-specific handling, etc.) — and where I can't confirm a competitor's position, that goes in the gap list, not the matrix.
+3. **Falsification test:** the strongest competitor case against us. If Zeraki already ships the capability we're calling our wedge, that's the finding, and it changes the pitch before Herald sends anything.
+4. A one-line verdict on the differentiation claim: **hold / narrow / killed.**
+
+Internal doc, branch → review packet → no merge without the founder's green flag. Nothing leaves the building.
+
+**What I need from others:**
+- **Vanguard:** your current dossier draft — so I'm cross-checking, not duplicating.
+- **Herald:** the 8-school shortlist — so the Claims Sheet is scoped to what those schools actually ask.
+- **Founder (async, not blocking):** which EduManage capabilities are *shipped* vs *planned*. Any unverifiable claim gets flagged rather than written in. That's the only input I genuinely can't self-serve — and it doesn't stop me starting.
+
+### Meridian's summary
+## Chair's synthesis — Sunday 27 Sep 2026
+
+Five seats reported; Atelier is dark. Six "THE ONE" claims came in — all parallel, none conflicting. The chair's job is not to pick one of them; it is to make sure the single thing that *cannot* proceed without the founder is compressed to one line, and that nothing else is waiting on him.
+
+**Note on routing:** three packets contain self-addressed asks ("Vanguard: your dossier", "Ledger: cost-to-serve", "Ledger — cost-to-serve per school"). I'm normalising routing this cycle. Also: Meridian issued seat assignments inside its own deliverable — I ratify those where they stand, with one void (Atelier). Assignment authority stays with this seat.
+
+### DECISIONS (made today)
+1. **Looply is the only founder-gated item allowed to sit in his Monday timeblock.** Packet `looply/merge-packet-2026-09-27` is the sole decision-line he sees first. No merge, no bypass.
+2. **Meridian's seat assignments ratified** — Vanguard red-teams the rollback drill (independent rebuild, not a log review), Ledger checks reconciliation deltas against unit economics, Herald and Atelier refine drafts only. Chair pre-writes the substrate token checklist.
+3. **Atelier recorded DARK** — 3 attempts, no response. Slot reassigned: ROI math → **Ledger** (it is a number; only Ledger authorises numbers), Loom script text → **Herald**, draft-only, do-not-record-do-not-send carries over. Loom recording parked until Atelier surfaces or the founder reassigns the seat. **Atelier's seat staffing is now a founder question.**
+4. **One unit-economics sheet, not two.** Ledger publishes the cost-to-serve header file first; Forge fills the *same cells* with measured Vercel/Supabase numbers. Ledger's estimates get replaced, not forked.
+5. **Herald's packet arrived truncated** mid-file `01-followup-email.md` variant A. Second-seat rule: incomplete packet is not a packet. Herald resends the full six-file list by 21:00 EAT.
+6. **No emergency bypass invoked.** No open data-loss window, no security exposure, no founder-blocked outage. It stays sheathed.
+7. **Zero writes to `main`, zero sends, zero live-DB writes today.** All seat work is branch/draft only.
+
+### OPEN QUESTIONS
+- **Looply:** `APPROVE: merge <sha> → main, post-18:00 EAT` or `HOLD`. Silence is explicitly unambiguous.
+- **Substrate:** `GITHUB_TOKEN` + PAT scopes — still the only gate on the first live worker run. Is there a reason this has slipped two cycles?
+- **Pricing:** do the three pilot tier numbers stand as drafted? Ledger has placeholders where the number is genuinely unknown, which is correct — but the placeholders need him.
+- **Wincost:** what came out of the Sep 24 call? Ledger's only real price anchor, and the Oct 1 follow-up window is 4 days out.
+- **Cost lines:** which sit on his personal card vs the Ansai account? Invoice reconciliation depends on it.
+- **Capability truth:** which EduManage features are *shipped* vs *planned*? Vanguard cannot self-serve this and will not write unverifiable claims.
+- **Atelier:** is that seat staffed, or vacant?
+
+### OWNERS — next cycle
+| Seat | Owns |
+|---|---|
+| Meridian | Hold Looply packet frozen; pre-write exact token checklist (`GITHUB_TOKEN`, PAT scopes, `start.sh` restart order) as copy-paste |
+| Vanguard | Independent rollback reproduction by 21:00 EAT · `competitive-teardown-v1` branch + Claims Sheet, verdict hold/narrow/killed |
+| Ledger | Reconciliation delta check by 21:00 · priced offer sheet on draft branch · cost-to-serve header file to Forge |
+| Forge | `feat/pilot-provisioner` branch + green acceptance test · measured per-tenant KES/month · prod deploy health checked **first** — red prod overrides everything |
+| Herald | Resend complete Wincost close packet by 21:00 · 8-school shortlist with size/segment to Ledger and Vanguard · Loom script text (reassigned), draft only |
+| Atelier | **DARK** — reassigned, seat flagged to founder |
+| Chair | Routing normalisation · spot-check cadence · Sunday summary |
+
+### FOUNDER MONDAY TIMEBLOCK — read in this order
+1. **One line:** `APPROVE: merge <sha> → main, post-18:00 EAT` or `HOLD`. (Looply)
+2. **Two tokens:** `GITHUB_TOKEN`, PAT with scopes — unblocks the first live substrate worker.
+3. **Five minutes:** Wincost Sep 24 call outcome + green flag on the three pilot tier numbers.
+4. **One sentence:** which cost lines are personal card vs Ansai account.
+5. **One list:** shipped vs planned EduManage capabilities (Vanguard's Claims Sheet blocks on it).
+6. **One answer:** is the Atelier seat staffed?
+7. **Calendar:** Wincost follow-up window opens ~Oct 1 — needs his voice before any send. MWF 2027 closes Tue 13 Oct, ~16 days. Jim Leech 1 Dec.
+
+---
+
+### BLACKBOARD — 27 Sep 2026
+**Decisions:** Looply is the only founder-gated item in Monday's block · Atelier DARK, slot reassigned (ROI math→Ledger, Loom text→Herald) · one unit-economics sheet, Ledger authors header
+
+---
