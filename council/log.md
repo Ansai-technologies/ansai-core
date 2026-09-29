@@ -1001,3 +1001,42 @@ The seat prompts carried only the seat brief + the focus question, with no black
 **Decisions:** seat outputs quarantined as unverified (prompt-grounding defect found and fixed at source) · Looply packet still the only founder-gated item (APPROVE/HOLD) · Atelier staffing still a founder question · Wincost follow-up ~Oct 1 needs his voice · zero writes to main, zero sends
 
 ---
+## 2026-09-29 ~06:21 EAT — Baraza daily cycle (scheduled run)
+
+Model note: Attempts: Herald 1, Forge 1, Atelier 1, Ledger 1, Vanguard 1; synthesis failed as noted. deepseek-flash per PRODUCTION.md (--max-tokens 2500). Grounding fix applied from the Sep 28 decision: every seat prompt embedded the verified blackboard facts (21/21 pitches sent Sep 23 zero replies, Wincost Sep 16 unagreed proposal + Sep 24 call, Looply red deploy, The-Bell PR #1, employer outcomes, grant deadlines, substrate status, Instagram disabled) with an explicit 'invent nothing' rule. Result: all six seat outputs trace to blackboard truth — no unverifiable specifics. The grounding defect from Sep 28 appears FIXED.
+
+Makao Makuu check: zero pending huddle requests (huddle queue empty); askoverseer could not answer (same as Sep 26/27). Focus folded in: founder-gated queue still unanswered (Looply packet APPROVE/HOLD, Wincost follow-up voice before ~Oct 1, his git pull + restart for the first live substrate worker run, Atelier staffing, Instagram decision, agent wedge choice); MWF 2027 deadline Oct 13 ~7:00 PM EAT, 14 days out.
+
+### Meridian (chair)
+**Baraza seat — one voice.**
+Token-free move today: stage the Looply hotfix locally on the PR #29 branch. Reproduce the five firebase-hosting.yml failures, prepare and dry-run the fix — no merge, no deploy, nothing touching founder-gated ground. That converts a red live deploy from a repair project into a one-word unblock.
+I will not act on the quarantined Sep 28 seat outputs, and everything else on the queue is genuinely his: the Wincost follow-up needs his voice before ~Oct 1, the first live substrate worker run needs his git pull + restart, and Instagram and the agent wedge are his calls alone.
+**Decision needed from Melchizedek, precisely one:** Looply merge packet — APPROVE or HOLD? On APPROVE I unblock the live deploy today.
+Flag for his eye: Mandela Washington deadline Oct 13, 14 days out; he submits it himself, and it is the only irreversible item on the board.
+
+### Herald (Marketing & Sales)
+Herald. Without your token, my highest-leverage move today is to draft and stage the Wincost Africa follow-up to Ian Limo — our only live revenue thread — so it is ready for your voice before the ~Oct 1 window. Status: 21 Studios pitches sent, zero human replies, three delivery failures; Wincost is a KSh 60,000 proposal only (30/30/40), still under internal consideration after the Sep 24 call; zero closed. I can also re-verify the three bounce addresses and prep corrected Studios resends, but I will not send without approval. One decision needed: approve the Wincost follow-up text and send date now, or give me the exact line you want sent — otherwise the follow-up slips past the window you flagged.
+
+### Forge (Product & Engineering)
+Today, without your token: Looply. PR #29 is merged but the deploy is still red — firebase-hosting.yml failed 5x, last Sep 23 19:02 EAT — so our one shipped-but-not-live asset is the highest-leverage thing I can move. I can't merge or deploy without you, but I can build the hotfix on a branch, verify it green locally, and turn the standing repair offer into a one-action packet: diff, verification steps, rollback. On the clock I'll also draft the Wincost follow-up as ready text so your voice only approves wording — due ~Oct 1, our only warm revenue thread. Yesterday's quarantined outputs stay untouched; today's packet is grounded on verified facts only.
+One decision: Looply hotfix — APPROVE or HOLD? APPROVE lets the red deploy go green today.
+
+### Atelier (Studios)
+Atelier, Sep 29. Every revenue-live move in Studios is gated on you: Looply's hotfix offer waits on APPROVE/HOLD, Wincost's follow-up on your voice, the substrate worker on your git pull. So my one un-gated, highest-leverage move today is prep that collapses your effort to a single word: I draft the ~Oct 1 Wincost follow-up — short, referencing only the Sep 24 Ian Limo call, no new terms, no invented numbers — staged and ready to send the moment you sign off. Rationale: Wincost is Studios' only warm lead and that window shuts ~Oct 1; Studios has zero live revenue today. I'm not sending, billing, or staging anything, and nothing from Sep 28's quarantined cycle touches this.
+The ONE decision I need from you: approve or edit that follow-up's exact wording today — his voice is the only thing standing between a draft and a sent email.
+
+### Ledger (Finance & Ops)
+Ledger, 29 Sep. Without your token, today's highest-leverage move is pre-staging the only near-term revenue item on my desk: the Wincost follow-up, ready to send the instant you speak — with its cash math attached (KSh 60,000 at 30/30/40 = 18/18/24) and my compliance trigger memo drafted (business-name VAT threshold; the line where growth forces Ltd). That memo matters because Studios is 21/21 sent, zero replies, zero live revenue — we are one signed deal away from needing registration, and nothing else in my column moves without you: Looply repair, the first live substrate worker run, all founder-gated.
+One decision I need from you: the Wincost follow-up voice. Approve the exact wording so I can send it before ~Oct 1, or tell me HOLD. It's the closest dollar on the board.
+
+### Vanguard (Labs scout)
+Today, without his token, I clear the no-permission queue: verify the KCB window and the GCP cert placement, and stage ansai-substrate so his git pull + ./start.sh is the only remaining step to the first live worker run. That turns three unknowns into a go/no-go and makes the substrate restart a one-command act the moment he surfaces.
+One decision I need from him: the wedge — SACCO WhatsApp runtime or paid school pilot. Worker scope, the next build cycle, and the first revenue test all fork on it, and it's his call, not mine.
+Runner-up if he has breath: Looply APPROVE or HOLD. That deploy has been red since Sep 23 and the repair offer is waiting on his word.
+No token, no invented packets.
+
+### Meridian's summary
+[no response — the chair synthesis call failed: 3 attempts on deepseek-flash, 3 on deepseek-v4-pro, and 1 minimal-prompt retry, every time burning the full 2502-token reasoning budget with zero text returned (the documented reasoning-budget failure mode). Recorded per PRODUCTION.md: never fabricate a seat's words. Consensus visible across the six transcripts (not a chair summary): every seat converged on staging token-free prep today — Looply hotfix branch (Forge/Meridian), Wincost follow-up draft for the founder's voice (Herald/Atelier/Ledger), substrate restart staging (Vanguard) — and every seat named the same founder tokens: Looply APPROVE/HOLD, Wincost wording, wedge choice. Meridian's own chair voice above stands as the closest available chair position.]
+
+---
+
