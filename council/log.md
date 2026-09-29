@@ -1051,3 +1051,16 @@ Still awaiting his word: ArdhiX cleanup (.env.local + paused Supabase project), 
 
 ---
 
+## 2026-09-30 ~02:30 EAT — Founder session: connectors + four-track execution (late night)
+
+- **Standing approval grant (his words, ~01:35 EAT):** "I'll let you run things... approve everything required when Im not here, approve what and all you can and continue." Scope: ONLY explicitly authorized work (the four tracks + previously approved items). Hard limits no approval overrides: his accounts, money, cards, secrets, consoles; outbound sends (mail rule: explicit greenlight per send); pushes to main (branch + PR, he merges); production deploys. On return: brief summary of what moved + what needs him.
+- **Four tracks completed:** (1) EduManage hosting runbook — Fly.io JNB + Supabase, ~KSh 280/mo, workspace/edumanage-hosting/runbook-fly.md. (2) Hazina scaffold — Fastify+Prisma M-Pesa-native bookkeeping, 8 models, SMS ingest, P&L endpoint (needs live PG + real SMS validation). (3) Jibu — WhatsApp commerce layer, 24 files, needs prisma generate on his machine + KSh 4K/mo pricing confirm. (4) Looply v1 — PR #30 open, verified mergeable, he merges; deploy needs his Fly account + Supabase.
+- **Connectors discussion (Isenberg Ep 2, verified):** Meta opened Muse connector submissions Sep 18 at muse.ai/platform — describe → review → directory listing; 1,500+ applications in under a week; payments via Stripe Link; Meta expects a small transaction fee later. Custom connectors (any API/MCP, unreviewed) also documented. Thesis: connectors = App Store moment; Kenyan correction: the assistant is WhatsApp, the bridge is US-diaspora ↔ Kenya.
+- **Ansai platform plan drafted:** workspace/ansai-platform/plan.md — 4 phases (connector lab → catalog → hosted → store), 7-connector shortlist (M-Pesa, WhatsApp, eTIMS, diaspora care package, SMS/USSD, fundi dispatch, agent storefronts). Flagship use case: **Tuma** — diaspora "send package/money to mum" flow; the product is the confirmation loop, not the payment. Honest hard parts named: USD→KES conversion (v1 = diaspora who keep Safaricom lines), vendor onboarding via curated WhatsApp list.
+- **M-Pesa connector WIRED to Daraja sandbox:** mcp/mpesa/server.py now performs real sandbox STK pushes when DARAJA_* keys are set (stub payloads otherwise — evals pin this). Every push goes through policy.request_approval(); denied = no HTTP. No production switch (deliberate). 29/29 evals pass. PR Ansai-technologies/ansai-substrate#1 OPEN (he merges). He created the Daraja app, mapped Lipa Na M-Pesa + M-Pesa Sandbox (+ B2C Hakikisha recommended for name verification).
+- His keys go in gateway/.env on his machine (./start.sh auto-exports); .env.example documents the 5 vars. Test path: merge PR → pull → keys → ./start.sh → stk_push KSh 10 to 254708374149 → approve via policy/approve.py.
+
+Still awaiting his word: merge substrate PR #1 + Daraja keys + test push; merge Looply PR #30 (+ Fly/Supabase for deploy); EduManage pre-flight (Fly account+card, Supabase, JWT secret, frontend URL); Jibu pricing + prisma generate + first pilot; Hazina live PG; Wincost follow-up voice (~Oct 1); office git pull + ./start.sh restart; app pick (Looply vs Hazina); connector pricing confirm; ArdhiX cleanup; MWF (Oct 13) + Jim Leech (Dec 1) submissions.
+
+---
+
