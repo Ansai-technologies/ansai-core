@@ -1039,4 +1039,15 @@ No token, no invented packets.
 [no response — the chair synthesis call failed: 3 attempts on deepseek-flash, 3 on deepseek-v4-pro, and 1 minimal-prompt retry, every time burning the full 2502-token reasoning budget with zero text returned (the documented reasoning-budget failure mode). Recorded per PRODUCTION.md: never fabricate a seat's words. Consensus visible across the six transcripts (not a chair summary): every seat converged on staging token-free prep today — Looply hotfix branch (Forge/Meridian), Wincost follow-up draft for the founder's voice (Herald/Atelier/Ledger), substrate restart staging (Vanguard) — and every seat named the same founder tokens: Looply APPROVE/HOLD, Wincost wording, wedge choice. Meridian's own chair voice above stands as the closest available chair position.]
 
 ---
+## 2026-09-29 ~20:40 EAT — Founder decisions (evening session)
+
+- TikTok DROPPED on his word ("drop tiktok for now"); no integration was ever built. Ledger marked done.
+- The-Bell PARKED on his word ("drop the bell for now"); the human Supabase steps (project, schema SQL, repo secrets, limit-0 backfill) deferred, re-ask ~2026-10-13. PR #1 verified merged 2026-09-23; PR #3 still open draft.
+- Mascot: Pixar-style 3D tech-bro/Greek-sage character generated from his photo (blue tech jacket + himation sash, laurel pin, glowing tablet + scroll), plus an animated wave loop. Files in workspace/imagine_media/.
+- Ideas tab opened in his app (the Sep 26 "Go to Ideas" tap, honored tonight).
+- Gmail sweep (last 7 days, read + unread, 18 messages): nothing from employers or pitch replies. Flagged: Handshake "top applicant" digest (incl. a paid remote AI research intern role); Wispr Flow Pro trial ending soon; GDG "Mobile Build Lab" event invite; AfDB job notifications. His self-sent mail today was just a YouTube live link he saved.
+
+Still awaiting his word: ArdhiX cleanup (.env.local + paused Supabase project), WIOCC/KCB/Ifkafin tracker rows, Looply merge packet APPROVE/HOLD, Wincost follow-up voice (~Oct 1), office git pull + ./start.sh restart, MWF (Oct 13) + Jim Leech (Dec 1) submissions.
+
+---
 
