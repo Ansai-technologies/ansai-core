@@ -1227,3 +1227,9 @@ Ask from your hands, one tap before you close the laptop: send the Wincost follo
 
 ---
 
+## 2026-10-01 ~15:43 EAT — Wincost follow-up resolved
+
+- Melchizedek sent the WhatsApp nudge to Ian Limo himself (draft from Sep 30). Ian replied: the KSh 60k website proposal is **still under internal consideration** — no decision, no new terms. Same position as the Sep 24 call.
+- Follow-up goal `goal_197b95413f6a` closed as completed. Ball remains with Wincost; no further nudge unless it goes quiet again (founder's call). The Sep 29 hello@ follow-up email draft is superseded — not sent, not needed.
+
+---
