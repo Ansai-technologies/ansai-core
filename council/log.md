@@ -1319,3 +1319,44 @@ Open questions:
 Owners: Meridian — ledger; Herald — post-mortem; Forge/Vanguard — Looply PR #30; Atelier — follow-up copy; Ledger — Wincost close-kit.
 
 ---
+---
+## 2026-10-04 ~06:21 EAT — Baraza daily cycle (scheduled run)
+
+Model note: Attempts: Meridian 1/deepseek-flash, Tangaza 1/deepseek-flash, Forge 1/deepseek-flash, Atelier 1/deepseek-flash, Ledger 1/deepseek-flash, Vanguard 1/deepseek-flash; chair synthesis: 1 attempt on deepseek-flash succeeded (first time since the Oct 2 failure mode — no v4-pro fallback needed). Grounding fix held (Sep 28 decision): every seat prompt embedded the verified blackboard facts (21/21 pitches sent Sep 23, zero human replies; Wincost off the board — ball with Ian; ansai-substrate zero open PRs, PRs #1+#2 merged Sep 30 — verified live today; Looply PR #30 open awaiting his merge — verified live today; Daraja activated Sep 30, keys not yet in gateway/.env; KSh 10 STK test to 254708374149 unconfirmed; Pitchathon submitted TIDP-0394, shortlist Oct 8; NetHope early review Oct 9, letter + CV bullets delivered Oct 2 — referees and his read now his, he submits the form himself; MWF Oct 13 ~7:00 PM EAT he submits; GreenCom CV + cover note drafted NOT SENT, needs his explicit greenlight; SBM Oct 26; The-Bell parked; build-first mood) with an explicit 'invent nothing' rule. Result: all six seat outputs trace to blackboard truth — no unverifiable specifics.
+
+Makao Makuu check: zero pending huddle requests (huddles queue empty, verified via listdashboard invoke_action). Today's focus: Pitchathon shortlist by Oct 8 (4 days, submitted TIDP-0394 — if shortlisted, 10 teams pitch live in Nairobi Oct 16); NetHope early review Oct 9 (5 days, ball in his hands — 2-3 referee names/emails + his read, he submits the NetHope form himself); GreenCom AI intern deadline Oct 11 (7 days, tailored CV + cover note drafted, NOT SENT, needs his explicit greenlight); MWF Oct 13 ~7:00 PM EAT (he submits himself); Looply deploy red since Sep 23 with PR #30 open awaiting his merge — the authorized 'Looply finish' track; ansai-substrate clean, zero open PRs; Daraja keys still owed in gateway/.env (KSh 10 STK test to 254708374149 unconfirmed); Wincost off the board; deadlines stay visible, unpushed, per his build-only lean.
+
+### Meridian (chair)
+**Seat move today:** close the PR #30 merge-readiness dossier. Looply has been red eleven days — the deepest drag on the Infra pillar, and no clock on the board is bleeding harder. I will audit the diff, write the rollback path, and stage the post-merge smoke test plus the KSh 10 STK confirmation to 254708374149 — so his merge becomes a ninety-second decision, not an afternoon. No push, no deploy, nothing from his consoles.
+**From his hands, precisely one thing:** the merge on PR #30. Everything downstream — Daraja key confirmation, green Looply — waits behind that single click. NetHope referee names, the GreenCom greenlight, and the Mandela form stay visible on the board; I touch none of them without him.
+— Meridian
+
+### Tangaza (Marketing & Sales)
+**Today's move — no tokens from him:** I kill the 21/0 problem. Twenty-one sends, zero human replies isn't a copy problem, it's a shape problem. The Oct 3 sequence was staged too long and carried more ask than a cold reader will ever honour. So I'm rewriting Studios' second touch as a two-line, single-ask note, with three opener variants pre-staged so the next 21 test rather than guess. Send-ready, uncommitted. Cost to him: zero. Cost to us: an afternoon.
+**The one thing I need from his hands:** one word on that rewrite — because sends are his alone, and I will not let a third silent week pass. Yes, and it goes Tuesday. No, and I retire Studios cleanly and put 21 fresh names behind the variants instead. Either answer beats the current quiet.
+
+### Forge (Product & Engineering)
+**Highest-leverage zero-token move today:** write the merge-readiness review packet for **Looply PR #30**. That's the only authorized build track, and its deploy has been red since Sep 23 — nine days of noise sitting behind one unread diff. I'll walk the full diff, state plainly what changed, list files touched, write the exact verification steps, name residual risks (flagging the Daraja/STK path only if the branch touches it), and close with a single decision line: merge or hold. No push, no deploy, no send, no token from him — just converting his merge from a re-read into a 60-second call.
+**The one thing I need from his hands:** his merge — or hold — on PR #30. That click is his alone; I don't touch main. It's the only gate standing between a nine-day red deploy and a green one, and everything else I can carry without him.
+
+### Atelier (Studios)
+**Atelier — Studios seat, Sun Oct 4.**
+**My move (zero of his tokens):** build the Meta pitchathon war-room. TIDP-0394 shortlists by Oct 8; if it lands, ten teams pitch live in Nairobi Oct 16 — eight days to rehearse. Today I draft the 10-minute deck skeleton, the live-demo script, and a judge Q&A bank keyed to our submission. No sends, no pushes, no deploys — pure content production, my seat. Best case it's a head start on a real pitch; worst case it's a reusable Studios asset and the fire drill never happens. Cheapest insurance on the board.
+**What I need from his hands:** NetHope. The recommendation letter and CV bullets went to him Oct 2; early review is Oct 9, five days out, and the form is his to submit. Give me the 2–3 referee names and emails plus his read on the letter. I'll pre-fill every field I'm allowed to touch so his end is paste-and-send.
+
+### Ledger (Finance & Ops)
+**Ledger here.**
+Today's move, zero tokens from you: I open the October decision ledger — one page, one line per live deadline, three columns each: cash out if it fires, who owns the decision, last safe date to decide. That's the work only my seat does quietly, and it makes Oct 8 the real gate — because a shortlist unlocks Oct 16's Nairobi pitch trip, and travel booked inside eight days lands spend this month against no booked inflow. GreenCom (Oct 11) and NetHope (Oct 9) cost you time, not money, but their greenlight and referee asks still sit with you. Nothing sent, pushed, or deployed.
+**The one thing from your hands:** the masked Daraja keys pasted into `gateway/.env`, plus one line confirming the KSh 10 STK test to 254708374149 landed. That rail is the only line on the ledger capable of moving us off KSh 0 this month.
+
+### Vanguard (Labs scout)
+**Highest-leverage move today:** I take PR #30 down to the bench and turn it into a click. Locally reproduce the Sep 23 red deploy, review the diff, run the post-merge verification path, and stage the merge note with exact steps and a rollback line. No push to main, no deploy, no sends — just making his one approval sufficient. Reason: nothing else moves while Looply is red. Spikes stay frozen, and every rival track inherits the delay, including the Meta shortlist window and NetHope. A locally-verified fix means the moment he merges, Looply goes green and the bench reopens.
+**What I need from his hands:** merge PR #30 — approve and merge, nothing more. One click flips the only authorized build track green and buys back every downstream cycle.
+
+### Meridian's summary
+Baraza, six seats converged. Decisions: Meridian closes the PR #30 merge-readiness dossier; Forge and Vanguard bench the same diff into a merge packet with rollback, smoke test, and KSh 10 STK staging to 254708374149. Tangaza kills the 21/0 problem by rewriting Studios’ second touch as a two-line, single-ask note with three opener variants. Atelier builds the Meta pitchathon war-room; Ledger opens the October decision ledger. Owners: Meridian/Forge/Vanguard on PR #30; Tangaza on rewrite; Atelier on deck/demo/Q&A; Ledger on deadline ledger.
+Open questions, all requiring Melchizedek’s hands: merge or hold PR #30; yes/no on the Studios rewrite; NetHope referee names/emails plus his read on the letter, with the form his to submit; masked Daraja keys into `gateway/.env` and confirmation the STK test landed. Oct 8 TIDP shortlist is the cash gate; Oct 9 NetHope early review; Oct 11 GreenCom. Looply red since Sep 23 remains the deepest drag. No pushes, deploys, or sends.
+— Meridian
+
+---
+
