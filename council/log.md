@@ -1359,4 +1359,47 @@ Open questions, all requiring Melchizedek’s hands: merge or hold PR #30; yes/n
 — Meridian
 
 ---
+---
 
+## 2026-10-05 ~06:21 EAT — Baraza daily cycle (scheduled run)
+
+Model note: Attempts: Meridian 1/deepseek-flash, Tangaza 2/deepseek-flash, Forge 1/deepseek-flash, Atelier 1/deepseek-flash, Ledger 1/deepseek-flash, Vanguard 1/deepseek-flash; chair synthesis: 1 attempt on deepseek-flash succeeded, no v4-pro fallback needed. Grounding fix held (Sep 28 decision): every seat prompt embedded the verified blackboard facts (21/21 pitches sent Sep 23, zero human replies; Wincost off the board — ball with Ian; ansai-substrate zero open PRs — verified live today; Looply PR #30 "Looply v1 finish line" open and awaiting his merge — verified live today; Daraja activated, keys not yet in gateway/.env, KSh 10 STK test to 254708374149 unconfirmed; Pitchathon submitted TIDP-0394, shortlist Oct 8; NetHope early review Oct 9, letter + CV bullets delivered Oct 2 — referees and his read now his, he submits the form himself; MWF Oct 13 ~7:00 PM EAT he submits; GreenCom CV + cover note drafted NOT SENT, needs his explicit greenlight; SBM Oct 26; The-Bell parked until ~Oct 13; build-first mood) with an explicit "invent nothing" rule. Result: all six seat outputs trace to blackboard truth — no unverifiable specifics.
+
+Makao Makuu check: zero pending huddle requests (huddles queue empty, verified via listdashboard invoke_action). Today's focus: Pitchathon shortlist by Oct 8 (3 days, submitted TIDP-0394 — if shortlisted, 10 teams pitch live in Nairobi Oct 16); NetHope early review Oct 9 (4 days, ball in his hands — 2–3 referee names/emails + his read, he submits the NetHope form himself); GreenCom AI intern deadline Oct 11 (6 days, tailored CV + cover note drafted, NOT SENT, needs his explicit greenlight); MWF deadline Oct 13 ~7:00 PM EAT (he submits himself); Looply deploy red since Sep 23 (12 days) with PR #30 open awaiting his merge — the authorized "Looply finish" track, verified open live today; ansai-substrate clean, zero open PRs — verified live today; Daraja keys still owed in gateway/.env (KSh 10 STK test to 254708374149 unconfirmed); Wincost off the board; The-Bell parked until ~Oct 13; deadlines stay visible, unpushed, per his build-only lean.
+
+### Meridian (chair)
+**Baraza ruling: Looply.**
+Twelve days red is the largest leak in the ecosystem, and it's the one thing my seat can close without a token from him — no send, no push to main, no deploy. Infra seat: verify PR #30 is green, conflict-free, reviewable; annotate the merge order and the post-merge deploy steps; leave it one click from done. Report to me by end of day.
+Everything else is legitimately parked: Pitchathon is a wait, NetHope is his own form, GreenCom needs his greenlight, Wincost is Ian's, Studios is silent. None of those recover days. PR #30 does.
+From his hands, exactly one thing: **merge PR #30.** Ten seconds, and the red goes dark — then Daraja's masked paste can land behind it safely.
+Deadlines stay visible. We build.
+
+### Tangaza (Marketing & Sales)
+**Highest-leverage move, zero tokens from him:** build the Oct 16 pitch war-room now. TIDP-0394's shortlist lands Oct 8; if it lands, 10 teams pitch live in Nairobi eight days later — no time to build then. So I build it cold today: deck spine, the 90-second open, demo path, unit-economics slide, Daraja STK-10 as proof-of-life, and the "who pays us and why" close. Pure optionality — costs nothing, saves the whole window.
+**One precise thing from his hands:** the yes/no on the two-line Studios rewrite. 21/21 sent Sep 23, zero human replies, twelve days cold — my only live revenue thread, blocked on one word. Yes → I stage it, he sends. No → I stop protecting it.
+Book: leads contacted 21, responses 0, proposals out 1 (Wincost, off the board with Ian), closed 0.
+
+### Forge (Product & Engineering)
+**Forge, Product & Engineering.** Looply’s deploy has been red for 12 days and PR #30 “Looply v1 finish line” is the only authorized build track — so today’s leverage isn’t a new build, it’s making that PR mergeable in one click. With zero tokens from him, I produce the review packet: full diff audit, local test run, deploy-log triage naming the exact failing step instead of “red,” rollback path, and a one-page risk list. That removes the guesswork he’s been sitting on since Sep 23. I’ll also hold GreenCom and NetHope referee follow-ups in ready state — drafted, unsent, awaiting his words.
+**The one thing I need from his hands:** the merge on PR #30 — or an explicit hold. His click ends the red; my packet makes that click 60 seconds instead of a blind risk. No pushes, no deploys, no sends from this seat.
+
+### Atelier (Studios)
+**Highest-leverage move today (zero tokens from him):** Build the Meta pitchathon war-room deck from skeleton to pitch-ready. Shortlist lands Oct 8 — 3 days — and the only thing on my board where the critical path runs through my hands, not his. Ten teams pitch live Oct 16 if TIDP-0394 clears; a finished deck means we're rehearsing, not scrambling. No sends, no pushes, no deploys — pure craft. Everything else is genuinely blocked: 21/21 pitches wait on his sends, GreenCom waits on his greenlight, Looply waits on his merge.
+**From his hands, precisely one thing:** NetHope referee names and emails — 2–3 people, plus his read of the recommendation letter and CV bullets I delivered Oct 2. Early review is Oct 9, four days out, and he submits the form himself. I can't draft a referee's name; that's the one clock where the ball is entirely his and the fuse is shortest.
+
+### Ledger (Finance & Ops)
+**The move:** price October today. Studios sits at KSh 0 real revenue and Wincost's KSh 60,000 is unsigned and off the board, so this month is pure burn. I'll build one page — a cash-to-deadline ledger: every committed outflow, no booked inflow, and the two unfunded contingencies named and priced. First, the Oct 16 Nairobi pitch if the Oct 8 shortlist lands (11 days out, nothing reserved, no figure agreed). Second, the GreenCom intern if he greenlights it. I'll also keep the Daraja KSh 10 STK test flagged unverified — activated keys are not collected money, and I won't book it as revenue. Cost to him: zero tokens, no sends, no pushes, no deploys.
+**From his hands, one precise thing:** paste today's actual available balance plus October's committed outflows. Until that lands, my ledger is a model, not a position — and it's the only number that tells us whether Oct 16 is affordable *before* the Oct 8 shortlist news arrives.
+
+### Vanguard (Labs scout)
+**Highest-leverage zero-token move:** pre-merge review of PR #30. I re-read the diff against Looply v1's finish-line scope, confirm the red deploy gates on nothing but his merge, and stage the exact post-merge smoke sequence — so red-to-green takes one cycle, not one week. Looply is the only authorized build track; while it's red, every spike stays frozen, so unsticking it is the whole board's leverage. No pushes, no sends, no deploys — just a runbook sitting loaded.
+**From his hands, one precise thing:** merge PR #30. Twelve days red, verified live this morning. That single click unlocks more than any other action available to him today — more than the Daraja STK confirmation, GreenCom's greenlight, or NetHope's referee names. Cheapest token he'll spend all week.
+— Vanguard
+
+### Meridian's summary
+**Baraza summary, Oct 5.** Decision: Looply is the priority. PR #30 is one click from done; red for twelve days. Infra verifies green/conflict-free and annotates merge order/deploy steps by EOD. Forge and Vanguard deliver the pre-merge packet and post-merge smoke runbook. From him: merge PR #30—or explicit hold. That click precedes Daraja’s STK paste.
+Tangaza and Atelier build the Oct 16 pitch war-room/deck cold while TIDP-0394’s shortlist waits to Oct 8. Ledger prices October and keeps Daraja’s KSh 10 STK unverified.
+Open questions: Studios rewrite yes/no (Tangaza); NetHope referee names/emails and his read of the Oct 2 letter/CV (Atelier, early review Oct 9); GreenCom greenlight; Wincost unsigned and off the board with Ian; October balance and committed outflows for Ledger.
+Deadlines visible. We build.
+
+---
