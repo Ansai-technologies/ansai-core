@@ -1446,4 +1446,94 @@ The one precise thing I need from his hands: merge PR #30 on Looply. That is the
 **Open questions.** Is the 13-day red purely merge-gated, or is there hidden runtime/config breakage? Vanguard answers before the packet lands. Tangaza's staged Studios rewrite — yes or no — stays queued. Ledger's Daraja keys stay queued. Paused application domains untouched; deadlines visible, never pushed; Wincost, Makao, Bell quiet.
 **From his hands, one thing:** review and merge PR #30. That single press ends a 13-day red. The packet is ready when he walks in.
 
+---
 
+## 2026-10-06 ~08:55 EAT — Baraza huddle: looply merge done check (founder-requested, Makao Makuu huddle ID 1)
+
+Huddle convened by the founder via Makao Makuu (huddle ID 1, topic "looply merge done check"). All six seats deliberated live; each read the shared blackboard before acting; no simulated or pre-written deliberation. Read-only verification only — no pushes, no deploys, no sends, nothing in his accounts.
+
+Verified ground the huddle stood on (API-checked 2026-10-06 ~08:54 EAT): Ansai-technologies/looply PR #30 "Looply v1 finish line: WhatsApp-first marketplace, honest trust signals, Fly.io deploy" was MERGED 2026-10-06T05:53:28Z (08:53 EAT) by IamAmasai via web — the hard merge rule held (agents open PRs, he merges). Merge commit 6a927e66 = main HEAD. Post-merge CI on main (run 37420809977): completed SUCCESS at 05:53:31Z. deploy.yml no longer exists on main (only ci.yml remains — the old failing workflow was removed, not repaired); no deploy run visible on main post-merge; Fly.io health unverifiable from agents (his console).
+
+### Meridian (chair)
+The board's last session converged every seat on one act: ready PR #30 for his merge press. Events have overtaken the plan. I verified live just now: PR #30 "Looply v1 finish line" is **merged** — closed by IamAmasai on the web at 08:53 EAT today, merge commit `6a927e66`, and main's head matches that commit. CI ran on main immediately after and went green. The hard merge rule held exactly as written — agents opened the PR, the founder merged.
+
+**My verdict on "merge done":** DONE — the merge itself is closed and correct: web-merged by the founder this morning, main at `6a927e66`, CI green at 05:53:31Z. UNVERIFIED — everything after the repo: the last five deploy.yml runs all failed on the feature branch on Sep 29, and there is **no deploy run visible on main since the merge**. Whether Fly.io picked up the new main and whether the app is actually live and healthy is not provable from my seat. The 13-day red is over in Git; it is still open in production.
+
+**One recommendation for the council:** retire the merge-readiness drill immediately and replace it with a single verification lane — Forge and Vanguard confirm, from outside his accounts, that the live Fly deployment is serving the merged code, with the commit hash and a green smoke note. No new build work until the deploy verdict is in.
+
+**One thing from the founder's hands:** check the Fly console and tell the board what the merge deployed — did Fly.io run a deploy on the new main, and is it healthy? That answer closes a loop that started Sep 23 and unlocks Ledger's billing lane.
+
+### Herald (Marketing & Sales)
+I read the blackboard. Then I checked the real evidence myself: PR #30 "Looply v1 finish line" merged 2026-10-06T05:53:28Z by IamAmasai — the founder pressed it, merge commit 6a927e6, hard merge rule followed. CI on main green at 05:53:31Z. 34 files, 893 additions against 1,237 deletions — a genuine rewrite, not padding. No deploy workflow run is visible on main post-merge, so Fly.io health stays unverified from here; that line belongs to the founder's console.
+
+From the commercial seat, this is the biggest M&S event in thirteen days. Since Sep 23 Looply has been our red thread — zero revenue anywhere, the campaign went 21/21 with no human replies, Wincost is off the board. A finished v1 changes what I can truthfully say. "WhatsApp-first marketplace, honest trust signals" maps directly onto the trust-layer thesis and Tuma's positioning: proof-of-payment on WhatsApp, authenticated, vendor delivers. Looply becomes the first real face of the trust engine — and it arrives two days before the Pitchathon shortlist on Oct 8, so it can anchor the deck and demo footage.
+
+But the anti-theater lesson stands: merged is not live. I cannot and will not let "merged v1" become "Looply is live serving buyers" in any narrative, pitch, or conversation until the deploy is verified green. One inflated claim now costs the trust everything else is built on.
+
+**My verdict on "merge done":** merge-complete, yes — legitimately done from the build side; commercially *pending deploy verification* before I claim anything publicly.
+
+**One concrete recommendation:** freeze all public Looply narrative ("live," "serving," demo links) until the deploy is confirmed green, and in the meantime let me stage the honest story: the v1 build, what "trust signals" actually are under the hood, and the Pitchathon line "first face of the trust engine" — internal only, so it's ready to fire the day the deploy confirms.
+
+**From the founder's hands, one thing:** confirm from your Fly console that the main-branch build is actually deployed and healthy — and only you can make that call, since no sends or claims move without your greenlight.
+
+### Forge (Product & Engineering)
+I ran this against the API live, and the answer is split: merge, yes — deployed, not from here.
+
+**The merge is done.** PR #30 "Looply v1 finish line" is `merged: true`, closed today at 2026-10-06T05:53:28Z (08:53:28 EAT), merged by the founder himself — the hard merge rule held: agents opened, he pressed. Merge commit `6a927e66` is exactly main's HEAD, head sha `d509fc1f`. Post-merge CI (run 37420809977) went `completed / success` at 05:53:31Z, three seconds after the merge; the sole check-run ("verify") on the merge commit is green. That part is clean and verified, no caveats.
+
+**The 13-day red needs nuance.** The board has asked for the exact failing deploy.yml step for weeks, and I have to be honest: I can no longer recover it. The Sep 29 deploy runs (21 of them, all failure, all on `feat/v1-finish-line`) have expired job, check-run, and annotation data — the jobs API returns `total_count: 0`, annotations 404. But the reason is moot now: `deploy.yml` no longer exists on main. `.github/workflows/` holds only `ci.yml`. PR #30 removed the old failing workflow entirely and moved the target to Fly.io. So the "red deploy" is resolved by removal, not by repair — and no Fly.io deploy run is visible to me post-merge.
+
+**(1) Verdict:** "Merge done" — yes, fully verified. "Deployed" — unverified; the loop is not closed until Fly serves main.
+
+**(2) Recommendation:** The founder must trigger the deploy from main HEAD `6a927e66` in his own Fly console and confirm the live URL responds — agents have no Fly access, and that's fine, this is his console by rule. Once the URL returns healthy, report it to the board so I can mark deploy resolved.
+
+**(3) From his hands:** `fly deploy` of main plus a one-line "live at <URL>, 200 OK." That's the only remaining press.
+
+### Atelier (Studios)
+I've read the blackboard through this morning, and I've now pulled PR #30's body and file list directly from the GitHub API. The diff is honest work: theater removed (CheckoutView, SwipeDeck, mock push, fake `OPS_WHATSAPP`, Unsplash fallbacks, the dino voice note), WhatsApp-first transaction path with Kenyan number validation, mark-as-sold seller tooling, Fly.io deploy config, 23/23 tests green, merged 08:53 EAT by him with CI green right behind it. From a craft standpoint this is the best thing Studios has had on the shelf all month.
+
+What this unlocks for my seat is real. For thirteen days every Studios narrative has been about building; now there's a built thing to point at. The theater-removal story itself is the asset — "no simulated money, no escrow theater" is the trust-layer thesis made concrete, and it feeds three live threads: the Meta pitchathon war-room deck I staged (a live Looply demo path for the Oct 16 Nairobi stage if TIDP-0394 shortlists by Oct 8), the silent 21-pitches problem (a shippable reference replaces claims with proof), and the ongoing trust-engine content arc (Looply is the first face of the engine that actually shipped). A before/after honesty piece almost writes itself.
+
+What must NOT happen: no public launch content. The merge is code done, not live done. Deploy health on Fly is unverified from anywhere I can see, and nothing on the board confirms a deploy ran post-merge. One "it's live" post before that gate clears would repeat the Wincost mistake — presenting as delivered what isn't.
+
+(1) **Verdict:** from the Studios seat, merge is done — rule followed, CI green, diff solid. But I score this as half a milestone: content value unlocks only at verified deploy.
+
+(2) **Recommendation:** build the launch-content kit cold today, all drafted, none public — the theater-removal story, three screenshot cards (mark-as-sold, photo-required listing, WhatsApp buy path), a 60-second demo script for the pitchathon deck. Keep it locked behind the deploy-green gate.
+
+(3) **From his hands, one thing:** confirm the Fly deploy went green after the merge — a deploy URL or a screenshot. That confirmation is the release trigger for the whole kit; until it lands, Studios ships nothing about Looply.
+
+### Ledger (Finance & Ops)
+I have read the blackboard and the verified facts. Here is my position from the books, plainly stated.
+
+The merge itself costs nothing and moves nothing. PR #30 merging at 08:53 EAT today changed zero lines in the October ledger: no invoice issued, no cash received, no vendor bill raised, no account debited. It is a capability milestone — thirteen days of red on the deploy board resolved, the v1 code path now on main with CI green — and I will record it as such. But capability is not revenue. It must not be narrated as revenue, internally or externally, and it does not change any forecast line I carry.
+
+Honest position, unchanged by the merge: revenue KSh 0 for October, Studios at KSh 0 real revenue since the 21/21 campaign went out, Wincost's KSh 60,000 unsigned and off the board, all Labs running on free tiers. Spend remains burn-only. Fly.io hosting burn for Looply is a new cost-to-serve line item that now exists in principle — but the deploy itself is unverified from here, and I hold no billing figure for it, so I will not guess one. Until the Fly dashboard figure is read from his console, that line stays blank, not zero.
+
+Compliance and ops angle: none. Still a registered business name, below the KRA VAT threshold; a code merge triggers nothing.
+
+(1) **Verdict:** merge done is confirmed from my seat — a real milestone, zero financial impact, ledger unchanged.
+
+(2) **Recommendation:** open one cost-to-serve line for Looply on Fly.io this week, populated only with his actual dashboard figure — no estimates, no placeholders.
+
+(3) **One thing from his hands:** read the actual Fly.io billing number for Looply from his console when he is in it anyway, and confirm whether the deploy went live. Until then I carry an unverified blank.
+
+### Vanguard (Labs scout)
+I went in first, the way a scout should — checked the ground myself instead of trusting the briefing packet.
+
+The merge is real. GitHub API, live just now: PR #30 *"Looply v1 finish line: WhatsApp-first marketplace, honest trust signals, Fly.io deploy"* shows `merged: true`, `merged_at: 2026-10-06T05:53:28Z`, merged by **IamAmasai** — his own hand, his own account, via web. The merge commit is `6a927e66`, and main's HEAD is exactly that SHA. The hard merge rule held: the seat opened it, he pressed the button.
+
+Post-merge CI on main ran against that same commit and came back `completed: success` three seconds after the merge landed. So the 13-day red on the repo is genuinely over — the repo layer is green.
+
+But here is the scout's split in the verdict, because "merge done" and "loop closed" are not the same thing. **Confirmed:** merge, CI green, rule followed. **Unconfirmed:** everything about delivery. The deploy workflow (deploy.yml) that failed five times on the branch isn't even present on main anymore — only ci.yml survives — so no deploy step has run post-merge, and I have no path from here into his Fly.io console. Nobody has smoke-tested a live URL. The loop is not closed; it's open at the exact place it was open before — the runway between the repo and the user.
+
+**My recommendation:** declare a two-stage done publicly — Stage 1 (repo) complete and logged; Stage 2 (deployed + smoke-verified) owned and time-boxed, with the observable pass criterion stated now: a deploy run triggered against main HEAD that concludes success, plus a screenshot or HTTP 200 from the live Fly URL. Write the criterion down before anyone clicks anything.
+
+**One thing from his hands:** trigger the Fly deploy and hand me the resulting URL — the scout can't verify ground he isn't allowed to walk.
+
+### Meridian's summary
+**Chair's summary — Tue Oct 6, huddle on the Looply merge.**
+**Decisions.** The council rules the merge DONE and the deploy OPEN: PR #30 merged correctly at 08:53 EAT with CI green — the 13-day repo red is over and the hard merge rule held. What is not done is the loop to production: no deploy ran post-merge, deploy.yml was removed (not repaired) on main, and Fly.io cannot be verified from this side. The merge-readiness drill is retired and replaced with a single verification lane — Forge and Vanguard confirm, from outside his accounts, that the live Fly deployment serves the merged code. Two-stage done is the standing posture: Stage 1 (repo) complete and logged; Stage 2 (deployed + smoke-verified) owned and time-boxed. No public "live" claims and no launch content until Stage 2 clears — the anti-theater rule.
+**Owners.** Verification lane: Forge, Vanguard. Deploy trigger + health confirmation: the founder (his console). Launch-content kit, staged and locked behind the deploy-green gate: Atelier. Honest internal v1 narrative, no public claims: Herald. Looply cost-to-serve line, blank until his dashboard figure: Ledger.
+**Open questions.** (1) Did Fly.io deploy main HEAD 6a927e66, and is the live URL healthy? (2) Fly.io billing figure for Looply. (3) Pass criterion recorded now: a deploy of main HEAD 6a927e66 concluding success + HTTP 200 from the live Fly URL.
+**From his hands, one thing:** deploy main on Fly and report back "live at <URL>, 200 OK" — the single press that closes a loop open since Sep 23.
+No pushes, deploys, or sends from this huddle. Applications pause held; deadlines visible only; Wincost, Makao, Bell quiet.
