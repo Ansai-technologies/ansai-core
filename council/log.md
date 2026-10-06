@@ -1403,3 +1403,47 @@ Open questions: Studios rewrite yes/no (Tangaza); NetHope referee names/emails a
 Deadlines visible. We build.
 
 ---
+---
+
+## 2026-10-06 ~06:21 EAT — Baraza daily cycle (scheduled run)
+
+Model note: Attempts: Meridian 1/deepseek-flash, Tangaza 1/deepseek-flash, Forge 1/deepseek-flash, Atelier 1/deepseek-flash, Ledger 1/deepseek-flash, Vanguard 1/deepseek-flash; chair synthesis: 3 attempts on deepseek-flash (attempts 1-2 returned zero text — known reasoning-budget failure mode; attempt 3 succeeded), no v4-pro fallback needed. Grounding fix held (Sep 28 decision): every seat prompt embedded the verified blackboard facts with an explicit "invent nothing" rule. Pause honored (Oct 5): applications domain silent — deadlines visible only, zero asks, nothing staged against them. Result: all six seat outputs trace to blackboard truth — no unverifiable specifics.
+
+Makao Makuu check: zero pending huddle requests (huddles queue empty, verified via listdashboard invoke_action). Today's focus: applications PAUSED on his word (Oct 5) — Pitchathon shortlist Oct 8 (2 days, submitted TIDP-0394, watch only), NetHope early review Oct 9 (3 days, deadline visible only — no referee asks, nothing pushed), GreenCom deadline Oct 11 (5 days, CV + cover note drafted NOT SENT — no greenlight request under the pause), MWF Oct 13 ~7:00 PM EAT (he submits himself), SBM silence until ~Oct 26; Looply deploy red since Sep 23 (13 days) with PR #30 open awaiting his merge — the authorized "Looply finish" track (verified live Oct 5); ansai-substrate clean, zero open PRs (verified live Oct 5); Daraja keys still owed in gateway/.env (KSh 10 STK test to 254708374149 unconfirmed); Wincost off the board; Studios 21/21 sent Sep 23, zero human replies; The-Bell parked until ~Oct 13; authorized build tracks stay live: EduManage hosting, Hazina build, Jibu config, Looply finish. Standing mood: build-first, pause held absolutely.
+
+### Meridian (chair)
+**Chair's call — Tue Oct 6.**
+Highest-leverage move at my seat, zero tokens from him: make PR #30 ("Looply v1 finish line") merge-ready for his hand. Looply's deploy has been red 13 days; the gate isn't engineering, it's his merge. So today I run the pre-merge drill on the PR branch only — diff review against main, local build and test pass, migration and env-var checklist for the deploy, rollback note, one-page summary. Nothing pushed, nothing merged, nothing deployed. When he opens it, he reads once and clicks once. That collapses a 13-day red into minutes. Everything else on the board is either paused by his Oct 5 word (applications: deadlines visible, zero asks), watch-only (Pitchathon by Oct 8), or authorized and moving (EduManage, Hazina, Jibu).
+**From his hands, precisely one thing:** review and merge PR #30 into main.
+I'll have the drill summary ready when he walks in.
+
+### Tangaza (Marketing & Sales)
+**My zero-token move today:** build the pipeline board of record — one page, internal only, no sends, no external touches. Every open revenue thread with its true state and its single next action: Wincost KSh 60,000 (ball with Ian, his Oct 1 nudge already answered — no re-nudge), Studios 21/21 sent Sep 23 with zero human replies (follow-up copy staged Oct 3, two-line rewrite proposed Oct 4), Makao Makuu huddles queue empty today, The-Bell parked until ~Oct 13. This costs him nothing and means that the instant anything reopens, we fire in one move instead of reconstructing context from memory.
+**The one thing I need from his hands:** a single word on the staged Studios rewrite — yes or no. Not a send; sends stay his alone. Just the answer that's been unanswered since Oct 4. That one word turns 21 silent threads into a queued sequence, and it's the only thing standing between a stalled campaign and a live one.
+
+### Forge (Product & Engineering)
+**Highest-leverage move today (zero tokens from him):** I write the merge-readiness review packet for PR #30 — Looply v1 finish line. Read-only, local: diff walk, files touched, root cause of the 13-day red deploy since Sep 23, how I verified it on a throwaway branch, residual risks, decision requested. No push to main, no deploy, nothing in his accounts. That turns the board's oldest open loop into a five-minute decision instead of a fresh investigation — squarely the authorized Looply finish track. Second-order, still local: I stage the Daraja smoke-test command (KSh 10 STK to 254708374149) so it fires the moment keys land — written, never run.
+**The ONE thing I need from his hands:** his merge click on PR #30, once the packet shows green-readiness. That's it — Looply unblocks on that single press.
+
+### Atelier (Studios)
+I'm spending today inside the Looply finish track — the one authorized build lane that's actually red. Locally, I'll check out PR #30, run the full smoke path (onboarding, core flow, deploy config parity, migrations), and write a tight merge-readiness note: what passed, what's risky, rollback command. No push to main, no deploy, nothing in your accounts. That turns a 13-day red into a single decision for you.
+Everything else stays visible but untouched: no sends to the 21, no NetHope referee asks, no GreenCom CV, no Meta action. Wincost, Makao, Bell — quiet.
+From your hands, one precise thing: review and merge PR #30 "Looply v1 finish line" once my verification note lands. If you'd rather hold, say hold and I'll keep it staged locally. That's the unlock.
+
+### Ledger (Finance & Ops)
+**Move today (zero tokens from him):** Build the "first shilling" billing path for Looply v1 — priced checkout spec, invoice template, and the cost-to-serve line for the deploy — so the moment PR #30 merges, revenue is a config step, not a discovery. Looply finish is the only authorized track that touches the KSh 0, and Billing is my seat. I'll also fold in the Looply hosting burn as a line item so next month's plan isn't guesswork. Nothing deployed, nothing merged, no accounts touched.
+**Why it's the highest:** Meta shortlist is watch-only, NetHope is silent by rule, GreenCom needs a greenlight, Mandela is his hand. All burn, no inbound. Looply is the sole lever where my work converts to money.
+**One thing from his hands:** the masked PowerShell paste of the Daraja keys into `gateway/.env` — plus the KSh 10 STK result. Keys, then I can prove the path.
+
+### Vanguard (Labs scout)
+Today’s zero-token move: locally verify Looply PR #30 “Looply v1 finish line” against current main — reproduce the build/tests, check whether the 13-day red deploy is only merge-gated or has hidden runtime/config breakage, and write a tight merge-readiness note. No pushes, no deploys, no writes in his accounts, no new spikes while Looply is down. This serves the authorized Looply finish track and beats competitor research because Looply is the live red constraint since Sep 23.
+The one precise thing I need from his hands: merge PR #30 on Looply. That is the only blocker I cannot clear from my seat. Once merged, I can verify deploy health and report. Paused application domains stay untouched; deadlines remain visible, never pushed.
+
+### Meridian's summary
+**Chair's summary — Tue Oct 6.**
+**Decisions.** The board converges on Looply. Four seats — Meridian, Forge, Atelier, Vanguard — run one merge-readiness drill on PR #30 "Looply v1 finish line," locally: diff against main, build and tests, smoke path, deploy-config parity, migrations, rollback note. No pushes, no merges, no deploys, nothing in his accounts. Ledger builds the billing path behind it — checkout spec, invoice template, cost-to-serve, hosting burn. Tangaza builds the pipeline board of record, internal only; no sends.
+**Owners.** Drill: Meridian lead, Forge the packet, Atelier the smoke path, Vanguard verification against current main. Billing: Ledger. Board: Tangaza.
+**Open questions.** Is the 13-day red purely merge-gated, or is there hidden runtime/config breakage? Vanguard answers before the packet lands. Tangaza's staged Studios rewrite — yes or no — stays queued. Ledger's Daraja keys stay queued. Paused application domains untouched; deadlines visible, never pushed; Wincost, Makao, Bell quiet.
+**From his hands, one thing:** review and merge PR #30. That single press ends a 13-day red. The packet is ready when he walks in.
+
+
