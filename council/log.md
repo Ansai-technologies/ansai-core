@@ -1537,3 +1537,51 @@ But here is the scout's split in the verdict, because "merge done" and "loop clo
 **Open questions.** (1) Did Fly.io deploy main HEAD 6a927e66, and is the live URL healthy? (2) Fly.io billing figure for Looply. (3) Pass criterion recorded now: a deploy of main HEAD 6a927e66 concluding success + HTTP 200 from the live Fly URL.
 **From his hands, one thing:** deploy main on Fly and report back "live at <URL>, 200 OK" — the single press that closes a loop open since Sep 23.
 No pushes, deploys, or sends from this huddle. Applications pause held; deadlines visible only; Wincost, Makao, Bell quiet.
+
+# Baraza cycle — Wed 2026-10-07
+
+Makao Makuu huddle queue: empty (2026-10-06 Looply-merge huddle already posted to the board). Runs: all six seats deepseek-flash, first attempt except Meridian (attempt 2); synthesis deepseek-flash attempt 2.
+
+### Meridian (chair)
+**Seat Meridian — Wed Oct 7.** My leverage today isn't code, it's the record. Looply is Stage 1 done, Stage 2 frozen: deploy.yml was *deleted*, not repaired, so nothing on main can deploy by accident — and I intend to keep it that way. So I spend my seat on a read-only integrity pass: pin 6a927e66 as verified main HEAD, restate "no post-merge deploy, no live claim" into the blackboard, keep Atelier's kit locked behind the deploy-green gate, and pre-scope the outside check for Forge and Vanguard so verification starts seconds after he reopens — not improvised. I also put one ambiguity on his eye: does the Oct 5 pause cover engineering tracks, or applications only?
+**From his hands, one thing:** merge PR #4, the keygen fix. One keystroke collapses the signing chain from three sessions to one.
+
+### Herald (Marketing & Sales)
+**Herald — Oct 7**
+Highest leverage today: build the Looply deploy-green activation packet, zero tokens from you. Not the launch copy — Atelier's kit stays locked. Mine is the sales half: a named first-wave outreach list, ordered by warmth, each with a one-line opener tied to what Looply actually does, plus a qualify script and follow-up cadence. Staged as drafts, timestamped, sitting behind the deploy-green gate. The moment the verification lane reports 200 OK, first conversations start the same hour instead of the same week — that's the difference between a launch and a rumor. October revenue is KSh 0; this is the shortest path from "repo complete" to "pipeline started" without touching your paused application track.
+From your hands, one thing: trigger the deploy, then paste back "live at <URL>, 200 OK." That single line unlocks the packet.
+
+### Forge (Product & Engineering)
+**Highest-leverage move — mine, zero tokens from you:** close out the PR #7 diff review and pre-flight the signing unblock locally. I read #7 line-by-line against its two invariants: fail-closed allowlist (empty ⇒ 403; sandbox bypass only via MPESA_CALLBACK_ALLOWLIST_BYPASS=true + DARAJA_ENV=sandbox + non-production NODE_ENV) and append-only completions (new signed hash-chained child, resignAttestation gone). Then I reproduce the ED25519_PRIVATE_KEY_PEM parse failure on this machine so the fix path is proven before it touches your accounts. No main push, no deploy, no sends. Deliverable: review packet + paste-ready keygen runbook.
+**One thing from your hands:** merge PR #4 (ED25519 keygen fix). That single click. Then I regenerate keys, verify sign→verify locally, hand you one clean PEM block for Vercel (Production ticked) — redeploy and retest sequenced behind it. Signing is the gate; everything else waits.
+
+### Atelier (Studios)
+**Highest-leverage move, zero of his tokens:** build the deploy-green handoff pack — one page that freezes my Looply launch kit to final-minus-URL. Every caption, screenshot slot and announcement variant gets tagged with the exact artifact it needs, plus a Forge/Vanguard smoke-check list so the outside verification is a five-minute read, not a scramble. The same rail doubles as pitch-day content for Oct 16 Nairobi if TIDP-0394 shortlists — and it stays claim-safe because every asset is written against "merged, deploy pending," never "live." Cost: one afternoon of mine. Effect: when the gate flips, content ships in minutes, not days. Until then it sits staged cold, exactly as ordered.
+**From his hands, one precise thing:** the deploy run on main HEAD `6a927e66`, and the line *"live at <URL>, 200 OK"* back to me — or, if deploy.yml is genuinely gone rather than repaired, just that sentence. That single fact is the entire unlock. Nothing else moves until it lands.
+
+### Ledger (Finance & Ops)
+**Highest-leverage today, zero tokens from Mel:** build the deploy-day ledger *before* the deploy tap. The Fly.io cost-to-serve line is blank and the deploy is the one event that starts the meter — so I'm pre-modelling it now: machine size × region rate × expected load, the free-tier ceilings we're about to cross (Fly, Vercel, Supabase), and the KRA tripwire math. Looply's first real shilling is also the first shilling counted toward the VAT threshold, and I want the business-name-vs-Ltd call pre-computed, not discovered mid-invoice. I'm also pulling the unsigned KSh 60,000 Wincost line back onto the board so it stops hiding. All desk work, nothing touched in his accounts.
+**The one thing I need from his hands:** his Fly.io dashboard — the actual monthly run-rate for the Looply app, plus machine size and region. Paste that figure and the cost-to-serve line goes from blank to real.
+
+### Vanguard (Labs scout)
+**Highest-leverage move, zero tokens from him:** write the honest outside verification note my lane owes — and prep the smoke I can fire the instant it becomes possible. Looply is at 6a927e66, PR #30 hard-merged, CI green; but deploy.yml was *removed* on main, not repaired, and no deploy run exists post-merge — so Fly health is unverifiable from this side, full stop. I record exactly that as the negative finding, then attach the ready-to-run protocol: one 200-check on the Fly hostname, served build matched against 6a927e66, green note handed to Forge. Net effect: the deploy-green gate stays honestly shut, Atelier's kit stays locked, no "live" claim leaks — and the moment a deploy lands, confirmation is 60 seconds, not an afternoon. I cannot and will not manufacture green.
+**From his hands, one thing:** the Fly app hostname and a deploy trigger from his console — the URL is that keystroke's output, and it's the only unlock my side can't produce.
+
+### Meridian's summary
+**DECISIONS**
+- Main HEAD pinned at 6a927e66; no post-merge deploy, no live claim. Deploy-green gate stays shut; Atelier's kit stays locked.
+- Looply Stage 1 complete, Stage 2 frozen — deploy.yml deleted, not repaired.
+- Unsigned KSh 60,000 Wincost line back on the board.
+**OWNERS**
+- Meridian → read-only integrity pass; pre-scope the Forge/Vanguard outside check.
+- Herald → gated deploy-green activation packet (warm-ordered outreach, one-line openers, qualify script, cadence).
+- Forge → close PR #7 diff review; pre-flight the ED25519 signing unblock locally.
+- Atelier → deploy-green handoff pack, final-minus-URL; claim-safe against "merged, deploy pending."
+- Ledger → deploy-day cost ledger; Fly/Vercel/Supabase ceilings; KRA/VAT tripwire math.
+- Vanguard → honest negative verification note; 60-second smoke protocol staged.
+**OPEN QUESTIONS**
+- Does the Oct 5 pause cover engineering tracks, or applications only?
+- Fly.io monthly run-rate, machine size, region — cost-to-serve stays blank until pasted.
+**ONE THING FROM THE FOUNDER'S HANDS**
+Merge PR #4, the keygen fix. One keystroke collapses the signing chain from three sessions to one; everything else waits behind it.
+
