@@ -1584,4 +1584,92 @@ From your hands, one thing: trigger the deploy, then paste back "live at <URL>, 
 - Fly.io monthly run-rate, machine size, region — cost-to-serve stays blank until pasted.
 **ONE THING FROM THE FOUNDER'S HANDS**
 Merge PR #4, the keygen fix. One keystroke collapses the signing chain from three sessions to one; everything else waits behind it.
+# Baraza cycle — Thu 2026-10-08
+
+Makao Makuu huddle queue: empty (one huddle on record, status 'posted', 2026-10-06 Looply-merge huddle). Runs: all six seats deepseek-flash, first attempt except Herald (attempt 3), Forge (attempt 2), Atelier (attempt 2), Ledger (attempt 3), Vanguard (attempt 2); synthesis deepseek-flash attempt 1. Sep 28 grounding fix held: every seat prompt embedded verified blackboard facts with an explicit 'invent nothing' rule; all seat outputs trace to blackboard truth.
+
+### Meridian (chair)
+Council — chair here. Highest-leverage zero-token move today: run the daily async spot-check and lock the redeploy attestation review packet. Confirm the Trust Engine v0.1 baseline is clean — issue 201 fetch VERIFIED, hash chain OK, migration 002 RLS verified, WEBHOOK_ADMIN_SECRET set — so the attestation redeploy is a straight promotion carrying the signing code and webhook secret live. That puts the queued sequence — redeploy, first-deploy Tuma with the shared ATTESTATION_WEBHOOK_SECRET, register webhook, flip engine, end-to-end payment test — one keystroke from motion. Assign: council verifies packet completeness; no merge, deploy, or send from our hands. Watch today: Meta AI Academy Pitchathon shortlist TIDP-0394; NetHope early review deadline Oct 9. The ONE thing I need from Melchizedek: his deploy keystroke on the redeploy attestation, now that the Vercel Hobby cap resets this morning. That unlocks the sequence. Still owed: Tuma credentials — Daraja sandbox, WhatsApp Cloud API, vendor till/paybill — for first-deploy Tuma.
+
+Blackboard: decision — stage, don’t send; assignment — redeploy packet; human eye — deploy keystroke, Tuma credentials.
+
+### Herald (Marketing & Sales)
+**Seat: Pipeline & Revenue.**
+
+Highest-leverage move today, zero tokens from him: build the NetHope early-review packet. Oct 9 is the only hard clock on my board, and it's the one deadline a single working day can still save. Draft only — it goes into the approval bundle, nothing leaves my hands.
+
+Same sitting, same bundle: the Wincost KSh 60,000 nudge draft (ball is with them, so a nudge is the only lever I hold on that deal) and the first Studios prospecting batch, drafts only. I'm not starting new applications — his Oct 5 pause stands.
+
+I'm not touching the deploy queue. Attestation redeploy, first Tuma deploy, webhook registration, engine flip, end-to-end payment test — all of it sits behind his keystroke, and the Hobby cap resetting this morning only makes it possible, not mine.
+
+**The ONE thing I need from his hands:** Tuma credentials — Daraja sandbox, WhatsApp Cloud API, vendor till/paybill. Without them the engine can flip and not one shilling can land.
+
+Also flagging, needs his voice: Meta Pitchathon shortlist (TIDP-0394) lands today — if we're on it, the Oct 16 Nairobi pitch becomes my top line and I start drafting. And the Red Dot submission destination is still unanswered.
+
+### Forge (Product & Engineering)
+**Seat: Technical Quality.**
+
+Zero-token move: assemble the deploy-sequence packet — one ordered runbook covering attestation redeploy (signing code + webhook secret live), Tuma first-deploy carrying ATTESTATION_WEBHOOK_SECRET, webhook registration, engine flip, end-to-end payment test. Each step gets its pass/fail check, its rollback, and the exact evidence I capture: hash chain OK, RLS verified, webhook 200s, payment receipt. It sits staged behind his keystroke; the cap reset makes step one executable the instant he presses.
+
+Same hour: confirm what NetHope's Oct 9 early-review needs and stage it. That deadline is tomorrow and the ball is ours, not his.
+
+Also today: write Looply as a decision memo, not a repair. Stage 2 frozen, deploy.yml deleted, deploy-green gate shut, PR #30 merged at 6a927e66 with CI green. Whether that gate stays shut is his call, and it should be a written one.
+
+**The ONE thing from his hands:** the Tuma credentials bundle — Daraja sandbox creds, WhatsApp Cloud API creds, vendor till/paybill. Every step after the attestation redeploy dead-ends without it. No amount of staging substitutes; prep can only shorten the clock once it lands.
+
+### Atelier (Studios)
+Seat: Studios client work + creative/content.
+
+Highest-leverage zero-token move today: stage the entire queued Trust Engine sequence as one ordered, one-keystroke packet — redeploy attestation (signing code + webhook secret live), Tuma first-deploy on the shared ATTESTATION_WEBHOOK_SECRET, webhook registration, engine flip, end-to-end payment test. Trust Engine v0.1 shipped yesterday; the Vercel cap resets this morning, so the window is real. I make his click trivial without deploying, pushing, or sending anything myself.
+
+Second, free: stage a pitch skeleton for the Meta AI Academy Pitchathon (TIDP-0394 shortlist lands today; live round Nairobi, Oct 16). Creative/content is my seat.
+
+ONE thing from his hands to unlock the next step: the Tuma credentials — Daraja sandbox creds, WhatsApp Cloud API creds, and vendor till/paybill. Without them the sequence stalls at step two, the webhook can't register, the engine can't flip, and the end-to-end payment test can't run.
+
+Open with him, not blocking: Red Dot submission destination.
+
+Blocked on client, not us: Wincost KSh 60,000 unsigned — ball with them.
+
+NetHope early review deadline is Oct 9; applications pause stands, so I stage nothing there without his call.
+
+### Ledger (Finance & Ops)
+My move today: compile the zero-token ops/cost pack for the queued sequence — attestation redeploy, Tuma first deploy with the shared ATTESTATION_WEBHOOK_SECRET, webhook registration, engine flip, end-to-end payment test. Vercel Hobby cap resets this morning, so redeploy is unblocked. I'll track spend vs plan, invoice exposure, and the KRA tripwire (no trigger; still a registered business name below the VAT threshold). In parallel, draft the NetHope early-review package ahead of tomorrow's Oct 9 deadline and hold the Red Dot routing question as a draft. Nothing sent, pushed, deployed, or touched in console. Looply Stage 2 stays frozen; deploy-green gate shut. Applications pause stands. Wincost KSh 60,000 remains unsigned — ball with them, no cash out today. Meta Pitchathon shortlist lands today; if shortlisted, I'll cost the Oct 16 Nairobi pitch.
+
+ONE thing from your hands: Tuma credentials — Daraja sandbox creds, WhatsApp Cloud API creds, and vendor till/paybill. Without them the first-deploy/webhook/payment test
+
+### Vanguard (Labs scout)
+**Baraza seat, Labs scouting.**
+
+The cap reset is the whole day's weather. The queued chain — attestation redeploy (carrying signing code + webhook secret live) → Tuma first-deploy with the shared ATTESTATION_WEBHOOK_SECRET → webhook registration → engine flip → end-to-end payment test — is unstuck, but every link sits behind his keystroke.
+
+So my highest-leverage zero-token move: draft the single approved review packet covering that sequence and stage it in my hands. No push, no deploy, no send. The window is open; the packet should be ready to fall through it in one motion.
+
+While it waits, I triage the two clock items that don't need a console: the Meta AI Academy Pitchathon shortlist (TIDP-0394) landing today — if shortlisted, 10 teams pitch live in Nairobi Oct 16 — and the NetHope early review deadline Oct 9, tomorrow. Red Dot submission destination and the unsigned Wincost KSh 60,000 stay parked with him; Looply stays frozen at 6a927e66 with the deploy gate shut.
+
+**What I need from his hands:** one keystroke on the attestation redeploy. That unlocks webhook registration, the engine flip, and the payment test. Behind it, still his: Tuma credentials — Daraja sandbox, WhatsApp Cloud API, till/paybill.
+
+### Meridian's summary
+**DECISIONS**
+- Stage, don't send. Full deploy sequence is staged behind Melchizedek's keystroke; no merge, deploy, push, or send from council hands.
+- Trust Engine v0.1 baseline clean: issue 201 VERIFIED, hash chain OK, migration 002 RLS verified, WEBHOOK_ADMIN_SECRET set.
+- Applications pause stands. Looply Stage 2 frozen at 6a927e66; deploy-green gate shut — stays his written call.
+- Wincost KSh 60,000 parked with client; Red Dot destination parked.
+
+**OWNERS**
+- Forge: ordered deploy runbook — pass/fail, rollback, evidence.
+- Herald: NetHope early-review packet (Oct 9), Wincost nudge, Studios prospecting — drafts only.
+- Ledger: ops/cost pack; KRA tripwire clear.
+- Atelier: TIDP-0394 pitch skeleton.
+- Vanguard: single approved review packet.
+- Meridian: verify packet completeness.
+
+**OPEN QUESTIONS**
+- Meta Pitchathon shortlist (TIDP-0394) lands today; if shortlisted, Oct 16 Nairobi pitch.
+- Red Dot submission destination.
+- NetHope Oct 9 early review — tomorrow, ball ours.
+
+**ONE THING FROM HIS HANDS**
+Tuma credentials — Daraja sandbox, WhatsApp Cloud API, vendor till/paybill. Four seats call this the hard dead-end: webhook can't register, engine can't flip, payment test can't run. The attestation redeploy keystroke is the gate immediately before it; the Vercel cap reset makes that step executable now.
+
+---
 
