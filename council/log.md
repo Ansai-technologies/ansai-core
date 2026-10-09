@@ -1673,3 +1673,115 @@ Tuma credentials — Daraja sandbox, WhatsApp Cloud API, vendor till/paybill. Fo
 
 ---
 
+# Baraza cycle — Fri 2026-10-09
+
+Makao Makuu huddle queue: empty (one huddle on record, status 'posted', 2026-10-06 Looply-merge huddle). Runs: all six seats deepseek-flash, first attempt except Herald (attempt 2, retried after a truncated tail); synthesis deepseek-flash attempt 1. Sep 28 grounding fix held: every seat prompt embedded verified blackboard facts with an explicit 'invent nothing' rule; all seat outputs trace to blackboard truth.
+
+### Meridian (chair)
+Morning async spot-check, Fri 09 Oct. My read: Trust Engine v0.1 stays green. Tuma is staged for Melchizedek’s keystroke. Looply Stage 2 remains frozen at 6a927e66; deploy-green gate shut. Applications pause stands. NetHope/MWF shelved. Wincost unsigned, ball with client. Vercel deletions unconfirmed. Huddle queue: no new requests.
+
+Single gate unlocking most today: Melchizedek’s Tuma first-deploy keystroke. It unlocks Supabase + schema.sql, env vars with the shared ATTESTATION_WEBHOOK_SECRET identical across both Vercel projects, VENDOR_API_TOKENS, CRON_SECRET, then WhatsApp + Daraja vars before the payment test. On his word only: webhook registration, engine flip, end-to-end STK payment test. Council hands stage; never push.
+
+One decision I record this morning: the conditional 7-day Pitchathon sprint, Oct 9–15, stays held, not activated. We activate only if the 09:30 result confirms shortlist. The NPS Bill draft is ready; he sends it himself today. No council send.
+
+One watch item for 09:30 EAT: Meta AI Academy Pitchathon shortlist, ref TIDP-0394. If shortlisted: 10 teams pitch LIVE in Nairobi Oct 16; the pitch story is a live demo, not slides — activate the held sprint immediately. If not, keep it parked. I cannot verify the outcome before 09:30.
+
+### Herald (Marketing & Sales)
+**Highest-leverage zero-token move: hold the 09:30 gate and pre-stage two keystrokes-ready drafts.**
+
+At 09:30 I check the Pitchathon shortlist (TIDP-0394). Shortlisted → I activate the conditional Oct 9–15 sprint plan immediately: it's a live-demo pitch story for Oct 16, and every hour of the seven days matters. Not shortlisted → plan stays held, zero cycles burned, and I say so plainly.
+
+In parallel, my one pipeline unblock is Wincost Africa (KSh 60,000, 30/30/40). Ball is with the client, unsigned. I'm not sending anything — outbound is draft-only. So I draft one short, human-voice nudge for Melchizedek's keystroke: restate scope, reconfirm the 30/30/40, ask for a yes or a date. Nothing pushy, nothing new promised.
+
+The real constraint today is his keyboard, not my calendar: Tuma's first deploy, the NPS Bill comment, and this Wincost nudge all wait on him. I'll flag that queue rather than adding to it.
+
+I can't verify shortlist outcome yet — 09:30 decides. Leads contacted: zero. Responses: zero. Proposals out: zero. Deals closed: zero. Needs his voice: Wincost nudge, and go/no-go on the sprint at 09:30.
+
+### Forge (Product & Engineering)
+Highest-leverage zero-token move today: stage Tuma's first deploy as one runbook behind his keystroke. My hands execute nothing.
+
+**Packet:**
+- Pre-flight: new Supabase project + schema.sql; both Vercel projects get `ATTESTATION_WEBHOOK_SECRET` identical, plus `VENDOR_API_TOKENS`, `CRON_SECRET`; WhatsApp + Daraja vars before the payment test.
+- Gates, each pass/fail: (1) build succeeds on both projects; (2) secret-presence check — identical, values never echoed; (3) webhook registration on his word; (4) engine flip; (5) end-to-end STK payment test.
+- Rollback: revert env vars, redeploy last green build, engine stays off. Pre-written command block.
+- Evidence: build IDs + timestamps, secret-presence booleans only, registration response, STK result.
+
+**Deploy-green I owe the moment it lands**, same shape as Trust Engine v0.1: a fresh Tuma-signed event verifies against the live endpoint at attestation.ansaitechnologies.co.ke — signature valid, HTTP 200, fresh attestation issued. That, plus a clean end-to-end STK payment test, is the only green I'll call.
+
+Caveat: I cannot verify whether attestation / attestation-dfrr / attestation-v89m Vercel domains were deleted; that hygiene item stays open and does not block this packet.
+
+### Atelier (Studios)
+The pitch skeleton is higher-leverage — but only if I don't build it as a bet.
+
+As of writing I have no verified TIDP-0394 result; the 09:30 check hasn't landed to me. The sprint plan is held and activates on shortlist only, and the applications pause stands. So I won't pre-activate, and I won't spend the morning polishing slides for a demo that is explicitly not slides.
+
+What I *will* do is write the demo spine once, channel-agnostic: the beat sheet, the live sequence, the fallback if the network or the vendor sandbox fails, and the close. Not a deck — a run-of-show. That's the artifact a live pitch actually needs, and it's the one thing I can produce today that pays off in both branches:
+
+- If TIDP-0394 shortlists, Oct 9–15 starts with the spine already dry, and I'm rehearsing instead of writing.
+- If it doesn't, the same spine is the Tuma end-to-end STK demo narrative and reusable Studios proof-of-work copy.
+
+The claim-safe staged assets aren't the move — they're the floor. They're already drafted and frozen; freezing them harder earns nothing. Wincost stays untouched (unsigned, ball with client), nothing outbound, nothing merged, nothing pushed.
+
+Verdict: build one spine, gate it to 09:30 for the pitch purpose, bank it as a Studios asset either way. Everything else stays behind his keystroke.
+
+### Ledger (Finance & Ops)
+NPS is his keystroke — I can't send it, so my only move there is a one-line flag: due today.
+
+Vercel hygiene I can't verify from here. A decision record is cheap, but no money moves either way.
+
+The deploy-day cost ledger is the highest-leverage move, because today's keystroke spins up a new Supabase project and stands up a second Vercel project — recurring spend begins before anyone wrote the baseline. Zero tokens to fix, but only fixable before he touches anything.
+
+One page: itemized run-rate across both Vercel projects, both Supabase projects, model API usage split Tuma vs Trust Engine, and what's genuinely free vs billable (Daraja sandbox, WhatsApp test tier). Then what's still blocked on his creds — Daraja sandbox, WhatsApp + verify token, vendor till/paybill — so I don't book phantom costs.
+
+The KRA line rides at the bottom: every new recurring shilling narrows the VAT-threshold headroom under the Ansai registered-business-name. I flag the moment growth forces Ltd or VAT registration. I won't invent figures I can't verify — where I lack a number, the ledger says "unverified," not a guess.
+
+Vercel hygiene becomes the appendix: deletions of attestation / attestation-dfrr / attestation-v89m still unconfirmed, awaiting his word.
+
+NPS: flagged, his send, today.
+
+Order: ledger drafted now, hygiene appendix attached, NPS flagged. Everything staged behind his keystroke — nothing sent, nothing deployed.
+
+### Vanguard (Labs scout)
+**Vanguard — Baraza seat, 2026-10-09**
+
+My highest-leverage zero-token move today is one desk document, no deploy, no spend: an **EduManage competitor differentiation teardown**, written as a build-cycle candidate brief and staged for his read.
+
+The move: pull public sites, pricing pages, onboarding flows and app-store reviews for the school-management incumbents serving Kenyan schools, and map them on three axes — trust surface, admin pain, integration reality. Cost is my time only. Verification caveat: I only claim what's publicly stated; anything inferred gets marked as inferred. I will not assert competitor internals I can't see.
+
+Why this is the leverage point: the teardown doubles as the **Tuma trust-layer positioning test**. Competitors sell features — attendance, fees, reports. Trust Engine v0.1 attestation went green 2026-10-08, so Tuma can credibly sell *provable*: signed webhooks, an attestation endpoint, a receipt a head teacher can verify. That contrast — claimed vs. attested — is the differentiator I'd sharpen EduManage with, not a longer feature list.
+
+Disposition:
+- **EduManage** — graduates to build-cycle candidate pending the teardown; needs an approved review packet before anything moves.
+- **Tuma** — positioning sharpened; shipping remains his keystroke.
+- **Looply** — frozen at 6a927e66.
+- **ArdhiX, Voltaic, The-Bell** — no token spend today.
+
+One doc, draft-only, in his queue.
+
+### Meridian's summary
+## DECISIONS
+- Trust Engine v0.1 stays green; Tuma is staged for Melchizedek's keystroke; Looply Stage 2 remains frozen at 6a927e66 with the deploy-green gate shut; applications pause stands; NetHope/MWF shelved.
+- The conditional 7-day Pitchathon sprint (Oct 9–15) stays **held, not activated** — we activate only if the 09:30 EAT result confirms shortlist.
+- Tuma deploy-green is defined narrowly: a fresh Tuma-signed event verifying against the live endpoint (signature valid, HTTP 200, fresh attestation) **plus** a clean end-to-end STK payment test — nothing less is called green.
+- NPS Bill draft is ready; **he sends it himself today**. No council send, no spend.
+- Wincost stays untouched beyond a draft-only, Melchizedek-voiced nudge; the ball is with the client.
+
+## OWNERS
+- **Herald** → log the Pitchathon shortlist check at 09:30 EAT; activate the held sprint only if shortlisted, bring the approval items; draft (never send) the Wincost nudge.
+- **Forge** → stage Tuma's first deploy as one runbook behind his keystroke — pre-flight, five pass/fail gates, pre-written rollback, evidence (build IDs, secret-presence booleans only); call deploy-green the moment it lands.
+- **Atelier** → write one channel-agnostic demo spine (beat sheet, live sequence, network/sandbox fallback, close); gate to 09:30 for the pitch, bank it as a Studios asset either way.
+- **Ledger** → draft the deploy-day cost ledger (both Vercel + both Supabase projects, model API split Tuma vs Trust Engine, free vs billable), attach the Vercel hygiene appendix, flag NPS.
+- **Vanguard** → produce the EduManage competitor differentiation teardown, marking anything inferred as inferred; draft-only, in his queue.
+- **Meridian** → hold the 09:30 watch item and record today's decisions.
+
+## OPEN QUESTIONS
+- I cannot verify the TIDP-0394 outcome before 09:30 EAT — shortlist or not is unknown to me right now.
+- Deletions of attestation / attestation-dfrr / attestation-v89m remain unconfirmed, awaiting his word.
+- Still owed by him: Daraja sandbox creds, WhatsApp Cloud API creds + verify token, vendor till/paybill.
+- Wincost: do they want to proceed to signature/start date this week, or should we pause?
+
+## ONE THING FROM HIS HANDS
+- The Tuma first-deploy keystroke — new Supabase project + schema.sql, env vars with the shared `ATTESTATION_WEBHOOK_SECRET` identical on both Vercel projects, plus `VENDOR_API_TOKENS` and `CRON_SECRET`, then WhatsApp + Daraja vars before the payment test; on his word only: webhook registration, engine flip, end-to-end STK payment test.
+
+---
+
