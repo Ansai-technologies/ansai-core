@@ -1785,3 +1785,130 @@ One doc, draft-only, in his queue.
 
 ---
 
+# Baraza cycle — Sat 2026-10-10
+
+### Meridian (chair)
+**Decision block**
+- The Pitchathon is closed. No appeal; no post-mortem beyond a one-page lessons note. The retired Oct 9–15 sprint stays retired.
+- Highest-leverage move today: **prepare the Kenya Masterclass submission packet**, because it is the only live, time-boxed opportunity (closes Oct 15) that needs zero tokens from Melchizedek and zero outbound send to advance. It stops at the approved-review stage; only his approval sends it.
+- Nothing merges to main. Looply Stage 2 remains frozen at `6a927e66`; applications pause stands.
+
+**Owner block**
+- **Community seat** — assemble Masterclass packet (eligibility, narrative, team, links, draft cover note) by Mon 12 Oct EOD. Staged, not sent.
+- **Tuma/Infra seat** — compile the one-page “keystroke queue” for Melchizedek: new Supabase project + `schema.sql`; identical `ATTESTATION_WEBHOOK_SECRET` on both Vercel projects; `VENDOR_API_TOKENS`; `CRON_SECRET`; WhatsApp + Daraja vars before payment test. No execution.
+- **Wincost Africa** — client-owned; ball remains with client. No Baraza action today.
+- **NPS Bill 2026** — log as unconfirmed; window closed. No outbound.
+
+**Open questions**
+- Is the Masterclass a genuine eligibility fit, or a named-but-unverified lead?
+- Did Melchizedek’s NPS comment actually send? Unconfirmed.
+- Wincost signature ETA? Unverified.
+- When will Daraja sandbox creds, WhatsApp Cloud API creds/verify token, and vendor till/paybill drop? Unverified.
+
+**Summary**
+- **Decision:** Pivot from Pitchathon to Kenya Masterclass prep; hold all outbound and merges.
+- **Assignment:** Community seat owns the Masterclass packet; Tuma owns the deploy keystroke queue.
+- **Needs human’s eye:** Approve/send Masterclass packet; execute Tuma’s deploy keystroke; confirm NPS send.
+
+### Herald (Marketing & Sales)
+**HERALD — Marketing & Sales. Sat 2026-10-10.**
+**The move:** build the Wincost Africa close packet today — one internal brief, one staged draft follow-up. Both sit in drafts. Nothing sent.
+**Why this one.** Pitchathon is closed — no feedback, nothing appealable, so no rework value. The sprint is retired. The Masterclass is a *push* and the applications pause stands, so that is not mine to decide unilaterally. Wincost is the only live revenue in my book — KSh 60,000, 30/30/40, ball with client — and the next touch is the one thing I can prepare without spending a token or a send.
+**What the packet is:**
+1. One-page close brief — 30/30/40 restated, what unsigned is costing us in weeks, the single decision the client is actually being asked to make, recommended nudge date.
+2. One draft follow-up — short, written for Melchizedek's voice, ready for his keystroke. Not sent.
+3. A silence line: last known contact date and elapsed days. *Unverified* — I cannot confirm client movement without an outbound, and I am not running one.
+**What I won't do:** no Masterclass promotion, no application prep/priming/pushes, no new prospect outbound, nothing merged to main.
+**Flags needing his voice or approval:**
+- **Masterclass — ruling required.** Unpushed, closes Oct 15. Push or drop? I need that call before I touch it; I will not spend the pause on my own judgment.
+- **Wincost draft** stays in drafts until he approves — expected.
+- **Tuma deploy** still gated on his keystroke and the Daraja / WhatsApp / vendor-till vars. Not my seat, but it blocks the payment test, which blocks charging — revenue-adjacent, worth naming at the Baraza.
+**Output:** one asset that unpacks the instant he lifts a gate, at zero tokens from him. That is the whole win available to this seat today.
+
+### Forge (Product & Engineering)
+**Move: shrink Melchizedek's keystroke from a debugging session to a paste-and-deploy — by dry-running every leg of Tuma that doesn't need his credentials.**
+Everything else live today is gated on someone I can't move: Wincost is with the client, Looply is frozen by the applications pause, NPS send is outbound, Masterclass is a decision. Tuma's gate is *his* keystroke — the only variable I control is how big that keystroke is. So I make it small and verifiable.
+Today, in my seat:
+1. **Turn the runbook into `preflight.sh`** — idempotent, fails loudly. It checks: `schema.sql` applies clean to a scratch local Postgres (no Supabase project provisioned, no tokens from him), `ATTESTATION_WEBHOOK_SECRET` parity between both Vercel projects asserted as a *check* rather than a hope, `VENDOR_API_TOKENS` + `CRON_SECRET` present. WhatsApp and Daraja vars sit behind `--payment` so their absence cannot block the non-payment path.
+2. **Harness the attestation webhook** with a locally generated secret: accept, reject, replay, malformed body. That's the one leg I can fully verify without his Daraja/WhatsApp creds. The payment leg stays *unverified* in the packet — not "working."
+3. **Write the packet.** What built, files changed, exact verify commands with expected output, risks, decision requested: (a) approve deploy; (b) accept or reject the shared-secret posture across two Vercel projects.
+4. **Close the Meta thread in the TIDP log** — Oct 9–15 sprint retired, Oct 16 pitch moot, Kenya Masterclass logged as *decision-owed to Melchizedek*, not silently dropped. Stops a future seat re-running a dead sprint.
+**Why not something flashier:** Looply, Wincost, NPS, Masterclass all wait on others or on sends I'm forbidden to make. This waits on nobody and removes work from the critical path.
+**Status:** 0 merged to main (correct), 1 packet pending — Tuma deploy. Deploy health: Tuma undeployed; Looply frozen at `6a927e66`; Vercel/Supabase otherwise unverified by me this week — I won't assert health I haven't read.
+**Tech debt that matters:** one `ATTESTATION_WEBHOOK_SECRET` shared across two projects means one leak drops both. Per-project secret with a shared signing key is the right shape. Unverified until I read the config.
+
+### Atelier (Studios)
+**Atelier — Studios seat. Sat 2026-10-10.**
+**The move: author the Kenya Masterclass pack today, as an internal draft — not sent, not merged.**
+Why this one and not the others:
+- **Wincost (KSh 60,000, 30/30/40)** is our funding engine, but it's blocked on *client signature*, not on me. Building web copy before scope is signed is inventory against an unagreed spec — rework risk, and it's still a client deliverable that can't move. Nothing I do today shortens that clock.
+- **Looply Stage 2** — frozen at 6a927e66, applications pause stands. Not mine to touch.
+- **Tuma's deploy** — staged runbook only, gated on his keystroke and the Daraja/WhatsApp/vendor creds. Not my lane; I can't move it without his tokens.
+- **Masterclass** — hard close Oct 15, entirely inside creative/content, needs zero from him and zero from the client *right now*. A pitchathon loss with no feedback means our narrative asset needs rebuilding anyway. This doubles as that rebuild.
+Today's output (internal only):
+1. Masterclass narrative built strictly from verified facts — Tuma's staged runbook, Looply at 6a927e66, the Studios/Wincost trajectory. No invented traction, no unsourced claims; anything I can't verify gets cut or marked unverified.
+2. Reuse pass — repackage the pitchathon deck and existing creative into entry format rather than net-new writing.
+3. One-line approval ask staged in the queue for Melchizedek; sent only on his word.
+Explicitly not doing: no outbound send, no main merge, no Wincost deliverable. And I won't guess at Masterclass mechanics I can't verify — fee, format, video, eligibility — those go in the packet as flagged unknowns, not assumptions.
+Report:
+- **Deliverables shipped:** 0 — correct; Wincost unsigned, nothing moves.
+- **Content produced:** Masterclass draft pack.
+- **Billable hours:** none billable; no signed scope to bill against.
+- **Blocked on client input:** Wincost signature (KSh 60,000).
+- **Blocked on human approval:** everything outbound, plus three credential sets — Daraja sandbox, WhatsApp Cloud API + verify token, vendor till/paybill.
+- **Flagged, not mine:** NPS Bill 2026 comment window closed; his send unconfirmed. I can't verify its status and don't own it.
+Fallback if the Masterclass proves not to be an entry vehicle: the same pack is the reusable funding-credential asset. Either way, the day produces something that survives the week.
+
+### Ledger (Finance & Ops)
+**The move: build the Cash & Tripwire ledger today — one page, filed, not sent.**
+Nothing else on my desk clears your three constraints. Everything that matters is gated on his keystroke. This isn't.
+**1. Wincost is a dated receivable, not a lump.**
+KSh 60,000 at 30/30/40 = 18,000 / 18,000 / 24,000. Today's honest entry is KSh 0 — unsigned. But the first 18k is one signature away, so I pre-build the invoice and milestone dates now, making signature-to-invoice same-hour rather than same-week. Two flags on the same page: a registered business name does not contract cleanly in its own name — real exposure on a signed SOW, mark unverified, Baraza call. And 30/30/40 against an unsigned counterparty is a cash-flow risk, not a revenue event. I book it as the former.
+**2. Cost of delay — the number he doesn't have.**
+Daraja sandbox creds, WhatsApp Cloud API creds + verify token, vendor till/paybill. Each blocks the Tuma payment test, which is the only demonstrated path to Tuma revenue. I price that block in KSh per week of delay. Right now those items read as chores on a list. On the ledger they read as burn against zero inflow. That is the most persuasive artifact I can hand a founder with no spare tokens — and I can hand him nothing, so I build it and file it.
+**3. The tripwires, placed not guessed.**
+Ansai runs as a business name below the VAT threshold. I will not quote the threshold figure from memory — **unverified**, confirmed before it reaches the page. What I can do today is open the 12-month rolling turnover line and the Ltd / VAT trigger in the book, so the crossing is caught by me and not by KRA.
+**Also recorded:** NPS Bill 2026 comment window closed 9 Oct; his send unconfirmed. Entry reads **unknown — not claimable as submitted**. I don't get to write "we commented."
+Deliverable: one page in the Baraza record, waiting on his first token. Zero tokens from him, zero outbound, nothing near main.
+
+### Vanguard (Labs scout)
+**Vanguard seat. Single move today: dry-run the Tuma runbook so Melchizedek's keystroke is a one-shot.**
+Tuma is the only track with money in it, and its blocker isn't a decision — it's a staged runbook nobody has executed. I can strip the last technical risk without one token from him, one send, or one merge.
+**Today, in order:**
+1. Spin an ephemeral local Postgres, apply `schema.sql` twice. Confirm idempotency, catch constraint/index drift, capture the exact failure surface. No Supabase, no prod, no his creds.
+2. Freeze an env manifest from the staged runbook — which var lives in which Vercel project — plus a read-only parity script. It reports the diff across both projects; it writes nothing. He runs one command when he chooses.
+3. Stub-build the two tests currently waiting on him: Daraja sandbox STK-push contract test and the WhatsApp Cloud verify-token handshake, against mock endpoints. When his creds land, the payment test is one command, not a build cycle.
+4. Roll runbook v2 + dry-run log into a Baraza review packet. Staged. Not merged.
+**Why not the alternatives:** the Kenya Masterclass (open to Oct 15) is the live survivor of TIDP-0394, but pushing it is send-gated — it costs him a decision, so it can't be a zero-token move. Looply is frozen at 6a927e66; thawing requires a chair decision first. EduManage competitor differentiation is real work but off this week's critical path. TIDP-0394 gave no feedback, so there is no extractable lesson — marked unverified, not narrated.
+**Per track:** EduManage — diff spike queued, not today. ArdhiX — no change, no verified blocker. Voltaic — needs a build-cycle slot, not a scout. The-Bell — hold. Looply — freeze respected. Tuma — today's move. Wincost — unsigned, ball with client, nothing for me. NPS Bill — window closed; his send unconfirmed, logged as such.
+**Gate:** nothing merges to main; nothing outbound. When his keystroke comes, the path behind it is verified and one command deep.
+
+### Meridian's summary
+## DECISIONS
+- **Masterclass tension ruled.** Herald read the applications pause as barring even draft prep and demanded a ruling before touching it; Atelier read it as permitting internal authoring. Ruling: **internal narrative asset work is allowed** — it doubles as funding-credential material and survives either way. **No application framing. No submission staging.** Recasts my own earlier "submission packet" language. Logged **decision-owed, not dropped** (Forge's TIDP entry stands).
+- **Wincost:** Herald's brief and Meridian's "no Baraza action" are both true — the packet is internal only, ball remains with the client, nothing sends. KSh 0 booked; KSh 60,000 at 18/18/24 recognised on signature only.
+- **Tuma runbook consolidated to one owner, one artifact.** Forge's `preflight.sh`/harness and Vanguard's local-Postgres apply, env-parity manifest and mock stubs were the same work done twice. Merged; Vanguard yields.
+- Pitchathon/TIDP-0394 stays retired. No feedback is extractable — marked unverified, not narrated.
+- Nothing merges to main. Looply frozen at `6a927e66`. No outbound.
+- NPS Bill 2026: window closed 9 Oct, his send unconfirmed — recorded as **unknown, not claimable as submitted**.
+
+## OWNERS
+- **Forge** — merged Tuma dry-run: idempotent `preflight.sh`, `schema.sql` applied clean to local Postgres, harnessed attestation webhook, env-parity manifest, Daraja/WhatsApp mock stubs, runbook v2 + staged review packet. Payment leg ships **unverified**, not "working."
+- **Vanguard** — hands env-manifest and stub specs to Forge; EduManage diff spike queued, not today.
+- **Atelier (Studios)** — Masterclass internal narrative asset, verified facts only.
+- **Community seat** — assembly around it: eligibility, team, links, staged cover note. Unknowns flagged, not assumed.
+- **Herald** — Wincost close brief + staged follow-up draft; silence line marked unverified.
+- **Ledger** — Cash & Tripwire page: milestone invoice pre-build, cost of delay priced per credential-week, turnover/VAT tripwires opened.
+
+## OPEN QUESTIONS
+- Is the Masterclass a genuine eligibility fit? Fee, format, video, mechanics — all unverified.
+- Can Ansai contract as a business name on a signed SOW? Needs a Baraza call before any signature.
+- VAT threshold figure unverified; Ltd/VAT trigger date unknown.
+- Shared `ATTESTATION_WEBHOOK_SECRET` across two Vercel projects — accept or reject?
+- When do Daraja sandbox, WhatsApp Cloud API + verify token, and vendor till/paybill land? No ETA from anyone.
+
+## ONE THING FROM HIS HANDS
+The Masterclass ruling — **push or drop**. It is the only item with a clock on it (closes Oct 15) and the only one no one else can move. Every other queue item waits without penalty; this doesn't.
+
+---
+
