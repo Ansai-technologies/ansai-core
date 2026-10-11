@@ -1911,4 +1911,106 @@ Tuma is the only track with money in it, and its blocker isn't a decision — it
 The Masterclass ruling — **push or drop**. It is the only item with a clock on it (closes Oct 15) and the only one no one else can move. Every other queue item waits without penalty; this doesn't.
 
 ---
+# Baraza cycle — Sun 2026-10-11
+
+Makao Makuu huddle queue: empty (one huddle on record, status 'posted', 2026-10-06 Looply-merge huddle). Runs: all six seats deepseek-flash, all first attempt, no retries needed; synthesis deepseek-flash attempt 1. Grounding: every seat prompt embedded verified blackboard facts under an explicit 'invent nothing' rule; all seat outputs trace to blackboard truth; unverified claims marked as such.
+
+### Meridian (chair)
+**Chair's seat — Sunday 2026-10-11**
+
+One hard clock is live: Kenya Masterclass closes Thursday 15 October, and the push-or-drop ruling is the only decision on the board that gets more expensive by waiting. So my one move today is internal — I author the one-page ruling brief for Melchizedek. Binary framing, not a recommendation dressed up as a decision: **push** (what internal narrative assets exist, what completing them costs, honoring no application framing and no submission staging) versus **drop** (what we carry forward). Two options, a default, the Thursday cliff stamped at the top — so the ruling costs him a minute, not an hour. No framing work, no staging, no outbound anything. I write the brief, then log it to the blackboard.
+
+**What it changes:** an owed decision with a deadline becomes keystroke-sized, and the pause stays intact.
+
+**Parked by design:** Tuma — credential-gated, no ETA, review packet waits. Wincost — Ian's ball; brief and follow-up draft stay staged and unsent. Applications — absolute pause. The-Bell re-ask (~13 Oct) gets a draft tomorrow, not today.
+
+**Needs his voice or approval:** the push-or-drop ruling; confirmation whether the NPS Bill comment actually sent (recorded **unknown, unverified**); Wincost follow-up greenlight. No bypass declared.
+
+### Herald (Marketing & Sales)
+**My move today: write the Kenya Masterclass push-or-drop brief and put it at the top of Melchizedek's queue.**
+
+One page, three lines: what the four days to Thu 15 Oct would cost, what pipeline it plausibly moves (flagged as estimate, not data), and what dropping it costs us — which is only the optionality. A single boolean at the bottom he can rule on. Internal decision/narrative work, so it stays inside the allowed lane: no application framing, no submission staging, no priming.
+
+**What it changes:** a ruling owed since last week becomes a one-keystroke answer with a hard clock on it. Either way, Tuesday and Wednesday stop leaking into a decision nobody has made.
+
+**Parked:** Tuma's deploy (his credential keystroke, not my lane); Wincost (ball is Ian's — close brief and follow-up draft sit staged, unsent); NPS Bill send recorded unknown, so I'm treating it as a dead letter until he says otherwise; The-Bell re-ask draft due ~13 Oct, waiting on greenlight.
+
+**Report:** leads contacted 0 (nothing sends without him), responses none recorded, proposals out 1 — Wincost, KSh 60,000 (30/30/40), unsigned; deals closed 0. No lead-volume figure exists in the state I hold — unverified, not zero.
+
+**Needs his voice:** the Masterclass ruling, the Wincost follow-up greenlight, NPS send confirmation, and the The-Bell re-ask.
+
+### Forge (Product & Engineering)
+Today, one move: harden the Tuma review packet from "staged" into "approval-ready." No merge, no send, no keystroke from Melchizedek.
+
+Concretely, on the branch: (a) append a replayable verification runbook keyed to what already exists — preflight.sh, local Postgres, the attestation webhook harness, the Daraja/WhatsApp mock stubs — so every claim in the packet can be re-run by a second person, not just asserted; (b) add a cutover checklist naming the exact credential slots that unblock the live path: Daraja sandbox, WhatsApp Cloud API creds + verify token, vendor till/paybill; (c) write the rollback plan and re-diff the env-parity manifest against the dry-run baseline. Nothing touches main.
+
+What it changes: the packet stops being a status report and becomes a one-sitting approval. When his keystroke lands, cutover skips discovery. The remaining gate narrows to one thing — his credentials, ETA unknown.
+
+Parked: Wincost follow-up draft holds (ball with Ian, nothing sends); NPS Bill send stays recorded as unknown, and I have no way to verify it; The-Bell re-ask (due ~13 Oct) is outbound — not mine to send; applications pause stands absolutely, no prep.
+
+Needing his voice or approval: the Kenya Masterclass push-or-drop ruling he is owed; the three Tuma credential groups; Wincost greenlight. I'll ask in the packet that he confirm the NPS send status.
+
+### Atelier (Studios)
+**Studios seat — Sunday 11 Oct**
+
+**One move:** finish the Masterclass internal narrative asset to a final internal draft — story spine, teachable frame, proof points. It's the only live clock (closes Thu 15 Oct) and the only asset that pays in *both* branches: push, and it's the content; drop, and it feeds the Ubunifu/The-Bell narrative bank and the Wincost portfolio story. Zero keystrokes required from anyone. Strictly internal — no application framing, no submission staging.
+
+**What it changes:** it turns a stalled push-or-drop into a decision about *distribution*, not production. He can rule Thursday morning and nothing is lost.
+
+**Parked:** Tuma — the dry-run is complete; it waits only on Daraja sandbox creds, WhatsApp creds/verify token, and the till. No ETA, no workaround, and I won't fake one. Wincost's KSh 60,000 follow-up stays staged and unsent; the ball is Ian's. NPS send stays recorded as unknown. Applications pause untouched. The-Bell re-ask not yet due (~13 Oct). **Billable today: zero** — Wincost is unsigned, internal narrative is non-billable.
+
+**Needs his voice:** the push-or-drop ruling (ideally Tue 13 Oct), the Wincost greenlight, and Tuma's credentials.
+
+Nothing sends. Nothing merges. Blackboard updated.
+
+### Ledger (Finance & Ops)
+**Seat: Finance & Ops — Sun 11 Oct**
+
+Today's move: build the **Masterclass push-or-drop sheet** — one page, no send, no staging. Cost-to-complete from today to Thu 15 Oct on one side; VAT-threshold headroom on the other. Inputs I can't ground from the blackboard get marked unverified rather than estimated, so the sheet is a decision surface, not a story.
+
+What it changes: the 15 Oct ruling becomes one word instead of a study, and the KRA tripwire gets tested against it now rather than discovered in December. If Masterclass conversion would push Ansai near VAT registration or force Ltd, he should know that before he rules, not after.
+
+Parked, deliberately: Tuma stays dry-run-only — credential keystrokes are his (Daraja sandbox, WhatsApp Cloud + verify token, vendor till/paybill); no ETA, so I make no schedule claim. Wincost KSh 60,000 — ball with Ian, close brief and follow-up draft stay staged. The-Bell re-ask (~13 Oct) — draft only. NPS Bill: send status recorded **unknown**.
+
+Needs his voice: the push-or-drop word; NPS send confirmation; Wincost greenlight. I'll write the sheet reference to the blackboard when done.
+
+### Vanguard (Labs scout)
+My one move today: build the EduManage competitor-differentiation brief — the first deliverable this seat genuinely owns — and land it in `reviews/2026-10-11-labs.md` for the packet.
+
+Concretely: a differentiation matrix against the players in the Kenyan school-management space, sourced only to public, citable material. Anything I can't verify gets marked unverified, not smoothed over. No application framing, no submission staging — internal narrative asset work, which the pause permits.
+
+What it changes: the Kenya Masterclass push-or-drop ruling owed by Thursday 15 Oct currently sits as a stall. This brief hands Melchizedek the market read to rule on instead of requiring him to commission one first, and turns his ruling from a cliff into a single-pass decision. It also gives EduManage its first grounded differentiation asset that survives either outcome.
+
+Parked today: Tuma's deploy (Daraja/WhatsApp creds, vendor till — his keystroke, no ETA); Wincost KSh 60,000 (ball with Ian, draft staged); NPS Bill send (unconfirmed, recorded unknown); applications pause (absolute); ArdhiX, Voltaic, Looply (no cycle today); The-Bell re-ask (~13 Oct).
+
+Needs his voice: the push-or-drop ruling by 15 Oct, and The-Bell re-ask wording if it goes outbound — I draft, he sends. Nothing moves without packet approval.
+
+### Meridian's summary
+**Baraza chair summary — Sunday 11 October 2026**
+
+**DECISIONS**
+- **Chair:** author the one-page Masterclass push-or-drop ruling brief — binary, Thursday cliff stamped at the top, default included; log to blackboard.
+- **Herald:** write the same push-or-drop brief and queue it top for Melchizedek.
+- **Forge:** harden the Tuma packet from "staged" to "approval-ready" — replayable verification runbook, cutover credential checklist, rollback plan, env-parity re-diff. Nothing touches main.
+- **Atelier:** finish the Masterclass internal narrative asset to final internal draft — pays in both branches.
+- **Ledger:** build the Masterclass push-or-drop sheet — cost-to-complete vs VAT-threshold headroom.
+- **Vanguard:** build the EduManage competitor-differentiation brief into `reviews/2026-10-11-labs.md`.
+
+**OWNERS**
+Chair: ruling brief, blackboard log. Herald: brief, pipeline report. Forge: Tuma packet hardening. Atelier: narrative asset. Ledger: decision sheet. Vanguard: differentiation brief.
+
+**OPEN QUESTIONS**
+- NPS Bill: did the comment actually send? Recorded **unknown, unverified**.
+- Tuma credentials — Daraja sandbox, WhatsApp Cloud API creds + verify token, vendor till/paybill. No ETA; no workaround offered.
+- Wincost, KSh 60,000 (30/30/40, unsigned): follow-up greenlight? Ball with Ian; brief and draft staged, unsent.
+- The-Bell re-ask (~13 Oct): draft only, pending greenlight.
+- Would Masterclass conversion push Ansai near VAT registration or force Ltd? Inputs **unverified**.
+- No lead-volume figure exists in the state Herald holds — **unverified, not zero**.
+
+**ONE THING FROM MELCHIZEDEK'S HANDS**
+The **push-or-drop ruling on Kenya Masterclass, before Thursday 15 October** — the only decision on the board that gets more expensive by waiting. Everything else waits behind it.
+
+Parked by design: applications pause stands absolute; nothing merges without an approved review packet; nothing outbound sends. No bypass declared.
+
+---
 
