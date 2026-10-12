@@ -2014,3 +2014,70 @@ Parked by design: applications pause stands absolute; nothing merges without an 
 
 ---
 
+---
+
+## Baraza cycle — Monday 12 October 2026
+
+**Run note:** deepseek-flash was degraded this run (empty or truncated responses across seats). Per policy I fell back to deepseek-v4-pro, which recovered Meridian and Ledger. Herald, Forge, and Vanguard did not respond after repeated attempts on both models — recorded as **no response**; their words are not fabricated. The chair synthesis call failed on both models, so the summary below is composed from the three responding seats' outputs only.
+
+### Meridian (chair)
+From the chair: the highest-leverage zero-token move today is to run the daily async spot-check and close the **Kenya Masterclass push-or-drop recommendation**. I’ll circulate the four already-drafted blackboard items—ruling brief, internal narrative asset, cost-vs-VAT sheet, EduManage competitor brief—require consent/hold from each seat by end of cycle, and post the Baraza recommendation. This is internal, spends no token, makes no outbound send, and removes the delay cost before the Thu Oct 15 application close.
+
+Stays parked: **Dangote GDR [truncated — model cut the tail mid-sentence]
+
+### Herald (Marketing & Sales)
+**No response.** deepseek-flash returned empty three times; deepseek-v4-pro returned empty three times.
+
+### Forge (Product & Engineering)
+**No response.** deepseek-flash returned a truncated fragment only; deepseek-v4-pro returned empty three times.
+
+### Atelier (Studios)
+**My seat, two clocks, one move.**
+
+The single highest-leverage zero-token move today: collapse yesterday's four drafts — ruling brief, internal narrative asset, cost-vs-VAT sheet, EduManage competitor brief — into one **push-or-drop decision page**. One recommendation, the cost-vs-VAT delta as the deciding line, and the deadline math (close Thu Oct 15; every day the ruling slips, the spend decision gets more expensive). No outbound, no merge, no spend, no keystroke from Melchizedek — just the artifact that makes his one-word ruling cheap. That's the only thing I can do today that actually reduces the price of waiting on the one clock that is mine.
+
+Everything else on my side is downstream of that ruling.
+
+**Stays parked:**
+- Wincost follow-up draft — ball is with Ian, nothing sends, untouched.
+- Masterclass outward content/promotion — producing it before push/drop is spend against an unmade decision.
+- EduManage competitor brief — feeds the product track, not today's clock.
+
+**Needs his voice — today:**
+1. **Masterclass push-or-drop.** The one decision, and the only one getting more expensive by the hour. The packet makes it a yes/no.
+2. **Dangote GDR.** Tue Oct 13 close, today the practical last broker-action day. I'll say plainly: it is not my seat and it is outbound — it needs his explicit greenlight, and I flag it because I do not own that clock.
+
+### Ledger (Finance & Ops)
+From the money/operations seat:
+
+**Highest-leverage zero-token move today:** run a Dangote GDR broker pre-flight. Today is the practical last broker-action day, and the paste-ready broker message + *483250# route are already prepared. I can confirm broker acceptance before cutoff, verify settlement cash covers **KSh 107,000 before charges**, and stage the exact instruction so Melchizedek’s only remaining action is a yes/no. This requires no keystroke from him—just calls/checks and having the instruction ready.
+
+**Stays parked:** the Kenya Masterclass push-or-drop package—ruling brief, internal narrative asset, cost-vs-VAT sheet, EduManage competitor brief. Those artifacts are drafted and the deadline is **Thu Oct 15**, so they do not need action before the Dangote cutoff today. No KRA/VAT/Ltd trigger is stated in the blackboard facts, so I’m not escalating one.
+
+**Needs his voice:** the actual GDR order/payment instruction. Outbound sends and financial commitments need Melchizedek’s explicit greenlight, so I cannot transmit the broker message or commit KSh 107,000+ without his approval. If cash is short, he must choose the funding source—I won’t assume cash is available because the blackboard does not state current cash position.
+
+### Vanguard (Labs scout)
+**No response.** deepseek-flash returned empty three times; deepseek-v4-pro returned empty three times.
+
+### Meridian's summary
+**Baraza chair summary — Monday 12 October 2026** (composed from the three responding seats; no synthesis model call succeeded)
+
+**DECISIONS**
+- **Chair:** close the Kenya Masterclass push-or-drop recommendation today — circulate the four drafted blackboard items (ruling brief, internal narrative asset, cost-vs-VAT sheet, EduManage competitor brief), require consent/hold from each seat, and post the Baraza recommendation. Internal; no outbound, no spend. (Owner: Meridian)
+- **Atelier:** collapse the four drafts into one push-or-drop decision page — one recommendation, the cost-vs-VAT delta as the deciding line, the deadline math to the Thu Oct 15 close. Nothing outbound, merged, or spent until the ruling lands. (Owner: Atelier)
+- **Ledger:** run the Dangote GDR broker pre-flight today — confirm broker acceptance before the cutoff, verify settlement cash covers KSh 107,000 before charges, stage the exact instruction so his only remaining action is yes/no. Cannot transmit the broker message or commit funds without his explicit greenlight. (Owner: Ledger)
+
+**OPEN QUESTIONS**
+- Kenya Masterclass applications close **Thu Oct 15** — push-or-drop ruling still owed; this is the one decision getting more expensive by waiting.
+- Dangote GDR offer closes **Tue Oct 13** — today is the practical last broker-action day; the paste-ready broker message and the *483250# direct route are already with him.
+- NPS Bill: did the comment actually send? Recorded **unknown, unverified**.
+- Tuma first deploy still unverified (deferred from the Oct 9 slot); live legs gated on his credentials — Daraja sandbox, WhatsApp Cloud API creds + verify token, vendor till/paybill.
+- Wincost KSh 60,000 (30/30/40, unsigned): follow-up draft staged, ball with Ian — greenlight is his call.
+- The-Bell re-ask (~13 Oct): un-park or keep dropped is his answer to give.
+
+**ONE THING FROM MELCHIZEDEK'S HANDS**
+Two clocks, one voice: the Masterclass ruling (deadline Thu Oct 15) — and the Dangote GDR order (offer closes Tue Oct 13; today is the practical last day to act, KSh 107,000 before charges). His move on the GDR is send, tweak, or let the window pass.
+
+No bypass declared. Nothing outbound sends. Nothing merges without an approved review packet.
+
+---
