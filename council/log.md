@@ -2186,3 +2186,12 @@ Parked is not dead — it's queued behind today's two clocks.
 Confirm the Dangote GDR order actually went — before today's close. It is the only item whose value dies at midnight; the Masterclass ruling, The-Bell answer and Tuma's three sends all survive to tomorrow.
 
 ---
+
+## 2026-10-13 — SESSION ENTRY (Trust Engine / Tuma / Looply)
+
+- **First end-to-end MATCHED (Daraja sandbox).** Confirmation-ledger fix (attestation PR #24, migration 004) merged and rehearsed: simulated KSh 100 -> 600987, receipt filed by the C2B callback (TransID UJD030FD0Y), attestation att_d97e4f961485497295f38c1c verified / MATCHED, engine webhook flipped TUMA-FLOW-01 to verified automatically. Decisions recorded: Way 2 (Safaricom receipts) is the main verification road; the lookup path provably cannot issue MATCHED (code-read); vendor onboarding = self-serve form -> manual Daraja registration by Ansai -> proof test payment -> till active, vendor-facing promise "about an hour".
+- **WhatsApp silent replies: root cause found and fixed.** Two days of silence were not our code: the +1 737 number is Twilio's trial TRYOUT surface (webhook fires, responses never delivered) and the real sandbox had never been activated — its reply webhook still pointed at a Twilio demo function. Sandbox activated with founder approval (+1 415 523 8886, join "join had-excited", webhook -> Tuma). Round-trip verified 15:06: CONFIRM answered in chat, payment options routed, STK option fell back gracefully (Tuma's project has no DARAJA_* vars yet). TUMA-FLOW-02 mid-run at awaiting_payment — its first simulated receipt was lost to the shared-shortcode registration race; re-simulation owed. Cleanup PR #14 open (probe removal + comment corrections).
+- **Looply.** Database provisioned: second (company) Supabase account after the member-level 2-free-project cap bit (3 paused projects deleted on founder's word); project "Looply Muse", repo migration applied, tables verified. PR #31 merged: share deep-links land, honest hero copy (no false escrow claim), item-level shares. Hosting = Vercel. Next block: media-storage migration + Vercel wrapper. Five founder questions still open (escrow direction, video budget, identity verification, PUDO, seed sellers).
+- **Open after today:** finish FLOW-02 (re-simulate); DARAJA_* paste for Tuma STK; lookup-fallback verdict decision; Masterclass push-or-drop before Thu Oct 15 23:59 EAT; session closeout for Oct 12 also still owed on the careers surfaces.
+
+---
