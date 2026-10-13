@@ -2081,3 +2081,108 @@ Two clocks, one voice: the Masterclass ruling (deadline Thu Oct 15) — and the 
 No bypass declared. Nothing outbound sends. Nothing merges without an approved review packet.
 
 ---
+
+## Baraza cycle — Tuesday 13 October 2026
+
+**Run note:** deepseek-flash was intermittently degraded this run — Meridian returned empty on all 3 flash attempts and ran on the deepseek-v4-pro fallback per PRODUCTION.md; Vanguard answered on flash attempt 2. Herald, Forge, Atelier, Ledger answered on flash attempt 1. Chair synthesis ran on flash attempt 1 (a first synthesis call failed to embed the seat outputs and was re-run with them included). Makao Makuu dashboard checked: no pending huddle requests (last huddle posted 2026-10-06) — nothing folded into the focus question beyond the standing blackboard threads.
+
+### Meridian (chair)
+Council, the single highest-leverage zero-token move today is closing the Dangote GDR loop before market close: no new drafting, just verify the order actually went. Every fact is already staged with Melchizedek; if it did not go, the window passes today.
+
+Per seat:
+- **Chair (me):** hold async spot-check on Dangote close; no bypass declared; log the outcome.
+- **Finance/Ops:** re-confirm the staged broker message and *483250# route; minimum 2,000 GDRs at KSh 53.50 = KSh 107,000 before charges; prep post-close note.
+- **Infra:** no new deploys; keep the Tuma WhatsApp 3-step test queued for the next safe slot; PR #9 already merged/redeployed.
+- **Community:** no outbound; hold the Masterclass push-or-drop page for Melchizedek; applications close Thu Oct 15.
+- **Energy/Space:** no Makao Makuu huddle requests; monitor only.
+- **Legal/Comms:** hold NPS v2 unconfirmed; do not send.
+
+Needs Melchizedek’s hands today: confirm the Dangote order actually went. Also owed: Masterclass ruling, The-Bell re-ask, Daraja creds/vendor till.
+
+Stays parked: NPS v2, Wincast follow-up with Ian, Jim Leech/ISOC drafts, all outbound, applications pause.
+
+**Blackboard — Decision:** today’s move is Dangote GDR execution confirmation. **Assignments:** Finance/Ops verify route; Infra queue WhatsApp test; Community hold; Legal hold. **Human’s eye:** Melchizedek must confirm the order before close.
+
+### Herald (Marketing & Sales)
+**The one move:** put a single internal decision note in front of Melchizedek before close of play — two date-critical calls on one screen. Zero tokens, zero outbound.
+
+- **Dangote GDR closes today.** No broker-action days left; if the order hasn't gone, the window passes tonight. His paste-ready broker message and the *483250# route are already in his hands: min 2,000 GDRs × KSh 53.50 = KSh 107,000 before charges. Allotment Nov 11, NSE listing targeted Dec 8, conditional on Nigeria SEC.
+- **Kenya Masterclass push-or-drop.** Applications close Thu Oct 15. The decision page converged yesterday; only the ruling is missing.
+
+**Why it wins today.** The GDR is the only item on my board whose value dies at midnight — everything else degrades gracefully to tomorrow. Pairing it with the Masterclass ruling costs one screen and clears the week's two hardest deadlines in a single pass.
+
+**Needs his hands, not mine.** The GDR order (broker action) and the Masterclass ruling. The-Bell un-park-or-keep-dropped also comes due today — his answer. NPS Bill v2 stays UNCONFIRMED; the consultation window closed Oct 9, so no send.
+
+**Deliberately parked.** WhatsApp 3-step test (CONFIRM TUMA-DEMO-01 / 2 / UJ9149LBYN) — next on the fresh production deploy, but it needs his phone, plus Daraja sandbox creds and vendor till he still owes. Wincost KSh 60,000, 30/30/40: follow-up staged, ball with Ian —
+
+### Forge (Product & Engineering)
+**My one move: close the WhatsApp loop on Tuma's fresh production deploy.**
+
+PR #9 merged 18:06 EAT Oct 12 and redeployed, engine→Tuma webhook verified 13:22 EAT Oct 12, vendor dashboard live. That leaves exactly one gap: the 3-step test (CONFIRM TUMA-DEMO-01 / 2 / UJ9149LBYN). Free, no tokens, and it converts a chain of green lights into a verified product. So I check Vercel + Supabase deploy health, confirm TUMA-DEMO-01 is reset open with vendor+buyer bound to his number, and have the review packet drafted *before* the test runs — approval same-day, not same-week.
+
+**Needs his hands:** the three sends (TUMA-DEMO-01 routes to his number; DASHBOARD_TOKEN is his). And Dangote — the GDR window closes *today*, no broker-action days left; the paste-ready message and *483250# are already staged with him. That's the day's hard deadline, and only he can pull it.
+
+**Parked, deliberately:** NPS Bill v2 stays UNCONFIRMED — consultation closed 9 Oct, no send. Masterclass push-or-drop page waits on his ruling. Wincost sits with Ian. The-Bell stays dropped until he says otherwise. Applications pause is absolute; nothing merges without an approved packet; nothing outbound leaves.
+
+Tuma ships today or it doesn't. I'd rather it ships.
+
+### Atelier (Studios)
+My one move today: put the single Kenya Masterclass push-or-drop decision page in front of Melchizedek and get his ruling.
+
+Why it wins: applications close Thursday 15 Oct. Every day we wait burns push runway and forfeits the option entirely. Yesterday’s cycle already converged on one internal decision page, so this is zero-token, no outbound, no bypass — just closing the loop on a ruling already owed. It’s the only Studios move whose window shuts this week.
+
+What needs his hands:
+- The push-or-drop ruling itself.
+- Dangote GDR: offer closes today. No broker-action days left; if the order hasn’t gone, only he can send the paste-ready broker message or *483250# route.
+- NPS Bill v2: send UNCONFIRMED? Consultation closed 9 Oct; it waits on his approval.
+- Tuma WhatsApp 3-step test on the fresh production deploy: vendor and buyer are his number, so I can’t run it alone.
+- The-Bell re-ask, due ~today: un-park or keep dropped.
+
+What stays parked:
+- Wincost KSh 60,000 follow-up — ball is with Ian, not ours.
+- All outbound sends; applications pause stands absolute.
+- Jim Leech Fellowship (1 Dec) and ISOC pre-training (enroll by 22 Nov) — later deadlines, no action today.
+
+One ruling today keeps the Masterclass option alive. Everything else holds.
+
+### Ledger (Finance & Ops)
+**One move: put the Dangote GDR order in front of him with the number and the clock — nothing else today touches money this hard.**
+
+The offer closes today. Minimum 2,000 GDRs at KSh 53.50 = **KSh 107,000 before charges**. No broker-action days left; the paste-ready broker message and *483250# route are already with him. My zero-token work is done: I flag it as capital out of cash, not operating spend, and I hold until he says yes. Allotment Nov 11, NSE listing targeted Dec 8, conditional on Nigeria SEC — a parked position, not a return.
+
+**Needs his hands:** the send. His thumb on the message or the USSD string — money moves only on his explicit yes. If it doesn't go today, the window passes. Full stop.
+
+**Stays parked:** Wincost KSh 60,000 (follow-up draft staged, ball with Ian, unsigned — nudge waits); The-Bell re-ask (un-park or keep dropped is his answer, due today, not mine to force); NPS Bill v2 (outbound paused, applications pause stands absolute); Kenya Masterclass push-or-drop (his ruling; decision page already converged).
+
+Compliance: still a registered business name below the VAT threshold; this is personal capital, so no KRA tripwire — but a KSh 107,000 outflow deserves an eye on cash.
+
+### Vanguard (Labs scout)
+**The one move.** Finish the EduManage competitor-differentiation brief — desk research only, zero spend, no outbound, no merge — and slot it into the single push-or-drop decision page already converged on. Masterclass closes Thursday Oct 15; Melchizedek's ruling is only as good as the differentiation read inside it. That's the leverage: free work, done today, that turns a time-pressured call into an evidenced one. Nothing else in the Labs pipeline can move without a ruling or a build cycle — both of which cost tokens or hands I don't have.
+
+**His hands, today.** The push-or-drop ruling itself. Dangote GDR: the window shuts today — KSh 107,000 minimum before charges, broker message and *483250# already staged; if the order didn't go, it's gone. The-Bell re-ask falls due — un-park or keep dropped. Tuma's 3-step WhatsApp test on the fresh deploy, plus the still-owed Daraja sandbox creds and vendor till/paybill.
+
+**Parked, deliberately.** ArdhiX and Voltaic build cycles — no approved review packet, so no build. Looply. Wincost, ball with Ian. NPS v2 sends as UNCONFIRMED only. Applications pause stands absolute: nothing merges, nothing goes out, no bypass.
+
+Parked is not dead — it's queued behind today's two clocks.
+
+### Meridian's summary
+## DECISIONS
+- **Dangote GDR is today's hard deadline** — confirm the order actually went before close. Owner: Melchizedek (send); Finance/Ops (verify staged broker message + *483250#, prep post-close note).
+- **Pair Dangote and the Masterclass push-or-drop on one internal decision page** — Owner: Herald/Atelier; ruling by Melchizedek.
+- **Tuma WhatsApp 3-step test** (CONFIRM TUMA-DEMO-01 / 2 / UJ9149LBYN) queued for next safe slot; review packet drafted *before* it runs. Owner: Forge.
+- **No new deploys** — PR #9 stands as merged/redeployed 12 Oct. Owner: Infra.
+- **NPS Bill v2 holds UNCONFIRMED**, no send; all outbound drafted only. Owner: Legal/Comms.
+- **EduManage differentiation read folded into the Masterclass page.** Owner: Vanguard.
+- **Applications pause stands; no bypass declared; Wincost stays with Ian.** Owner: all seats.
+
+## OPEN QUESTIONS
+- If the GDR order didn't go today, is the window conceded?
+- Masterclass: push or drop?
+- The-Bell: un-park or keep dropped — due ~today.
+- NPS v2: approve send as UNCONFIRMED?
+- Still owed by him: Daraja sandbox creds, vendor till/paybill.
+
+## ONE THING FROM MELCHIZEDEK'S HANDS
+Confirm the Dangote GDR order actually went — before today's close. It is the only item whose value dies at midnight; the Masterclass ruling, The-Bell answer and Tuma's three sends all survive to tomorrow.
+
+---
