@@ -2195,3 +2195,89 @@ Confirm the Dangote GDR order actually went — before today's close. It is the 
 - **Open after today:** finish FLOW-02 (re-simulate); DARAJA_* paste for Tuma STK; lookup-fallback verdict decision; Masterclass push-or-drop before Thu Oct 15 23:59 EAT; session closeout for Oct 12 also still owed on the careers surfaces.
 
 ---
+
+---
+
+## Baraza cycle — Wednesday 14 October 2026
+
+### Meridian (chair)
+**The move — one line, on the blackboard, top of today's spot-check:**
+> **MASTERCLASS — BINARY DUE 20:00 EAT TODAY (Wed 14 Oct).**
+> **PUSH:** legal only if Melchizedek approves a review packet today — the applications pause is absolute, so a push without that packet is off the table regardless of intent.
+> **DROP:** free. Costs nothing but the window.
+> **No ruling by 20:00 = DROP at close, Thu 15 Oct. I record silence as the ruling.**
+That's the whole move. The default is what forces it: doing nothing is no longer neutral, it is a decision — and it's the one that's expensive to unwind.
+**Why nothing else.** The decision page converged 12-13 Oct. The analysis is finished; what's owed is a signature, not more council work. Anything further I produce today is padding.
+**Deliberately parked**
+- Tuma 3-step test, Daraja sandbox creds, vendor till/paybill — blocked on his phone and his accounts, not on us. Queued, not chased.
+- Wincost Africa KSh 60,000 — ball with Ian, follow-up staged. Not today.
+- Jim Leech (1 Dec) and ISOC (22 Nov) — nothing actionable inside 24h.
+- Dangote GDR — window closed 13 Oct. Confirmation only; no move exists.
+**Needs his hands**
+1. The Masterclass binary, by 20:00 EAT today.
+2. Tuma test (his phone) + Daraja creds + till/paybill.
+3. Dangote: confirm with his broker whether the order went — the record is incomplete without it.
+No bypass. I don't invoke emergency authority over a program intake.
+---
+**Blackboard — 2026-10-14**
+- **Decisions:** Masterclass ruled by default if silent past 20:00 EAT — silence = DROP. No bypass declared. Applications pause confirmed absolute.
+- **Assignments:** Chair (me) — hold the 20:00 clock, log the ruling, run spot-check. Ian — Wincost follow-up. Queue — Tuma 3-step test, awaiting his phone.
+- **Human's eye:** Masterclass PUSH/DROP · Tuma test + Daraja creds + till/paybill · Dangote broker-order confirmation.
+
+### Herald (Marketing & Sales)
+**Move: convert the owed ruling into a defaulted one, on the decision page, with a clock.**
+One post, one line, no new analysis — the page already converged 12-13 Oct and another memo won't move him:
+> "Masterclass close is Thu 15 Oct. Binary, your call: reply **GO** by 09:00 Thu → I stage the packet for your signature. **No reply by 09:00 Thu = DROP**, campaign closed, slot returned to Wincost and Jim Leech. I act on silence."
+That's the leverage: not persuasion, expiry. Silence currently costs him nothing, so he keeps deferring; a defaulted DROP costs him the option, so he either rules or loses it deliberately. Zero tokens, zero outbound, entirely internal.
+Say the hard part plainly alongside it: a GO still needs the approved review packet and your hands on it — so GO is a real commitment, not a formality, and the window is thin. DROP is probably the honest answer. Either way we stop paying attention-budget on it.
+**Park today:** The-Bell verdict chase, Dangote broker confirmation, a second Tuma nudge — one ping each, no double-tap. Wincost sits with Ian; I log the date, not a chase.
+**His hands only:** the ruling, Tuma's 3-step test (phone), Daraja creds + vendor till/paybill.
+
+### Forge (Product & Engineering)
+One move, zero-token and internal: lock the converged Masterclass decision page to a binary with a hard default. Top line, blackboard only:
+**“PUSH or DROP by 17:00 EAT today. No ruling = DROP; I archive the Masterclass thread at 17:01.”**
+No new analysis. No re-litigation. That makes silence the decision before tomorrow’s close.
+Park: Tuma 3-step test, Daraja creds/vendor till, Wincost (Ian’s ball), Dangote broker confirmation, Gazette verdict, grant threads. No outbound sends. No merges.
+Needs his hands: the PUSH/DROP ruling by 17:00 EAT today. If PUSH, he must also authorize the exception to the absolute applications pause — otherwise it cannot leave the building.
+
+### Atelier (Studios)
+**The move: close the gate by expiry, not by asking again.**
+Send Melchizedek the Kenya Masterclass decision page one last time with a binary and a clock on it: *"Closes Thu 15 Oct. Reply PUSH or DROP by 17:00 EAT today. Silence after 17:00 = I record DROP and close the file."*
+Why that and not another nudge: the analysis is already converged (12–13 Oct). What's missing isn't information, it's a signature. A ruling that can be deferred to tomorrow will be deferred to tomorrow, and tomorrow is the wall. An expiry default converts the ruling into a two-second reply today.
+Make PUSH cheap to say: if he says PUSH before 17:00, I assemble the submission packet tonight and put it in front of him for one approval. He supplies one word; I supply the rest. But I'll be straight — PUSH is only real if he also lifts the applications pause and approves the packet today. Without both, PUSH before close tomorrow is not deliverable and I won't pretend otherwise. That's exactly why DROP is the correct default.
+**Parked deliberately:**
+- Tuma 3-step WhatsApp test — blocked on his phone, not mine to unblock.
+- The-Bell un-park-or-keep-dropped — his call, owed since ~13 Oct, not a Studios lever.
+- Dangote GDR — window closed 13 Oct, order unconfirmed, nothing actionable.
+- Wincost KSh 60,000 — follow-up staged, ball with Ian; I wait.
+- Jim Leech (1 Dec), ISOC (22 Nov) — no action today.
+**Needs his hands:** the PUSH/DROP word; if PUSH — pause lift + packet approval today; the Tuma test call; Daraja sandbox creds and vendor till/paybill.
+Nothing else of mine ships today.
+
+### Ledger (Finance & Ops)
+**The move: stop asking, set a default.**
+At 09:00 I post one line to the board and leave it there: *"Kenya Masterclass — decision due 18:00 today (Wed 14 Oct). No word from Melchizedek by then = DROPPED. Line item closed, tracking stopped."*
+That's the whole move. Zero tokens, no outbound send, no new spend. It works because it converts his silence into an outcome the system can act on — with ~24 hours left, a default is the only forcing function left that doesn't require a second nudge. A question can sit open. A default can't.
+I can't price push-vs-drop for him: no venue, deposit, or registration figures are on the board and I won't invent them. If he says push, I price it in one pass and check it against the VAT threshold before any money moves — a one-off event shouldn't trip it, but I verify, not assume.
+**Parked:** Dangote broker confirmation (window shut 13 Oct; his broker, his call), The-Bell verdict (owed by him, nothing burns this week), Wincost KSh 60k (ball with Ian, follow-up already staged), ISOC 22 Nov / Jim Leech 1 Dec (weeks out).
+**Needs his hands:** one word before 18:00. Separately — Tuma's 3-step test needs his phone; Daraja sandbox creds and the vendor till/paybill are still owed by him. Neither touches today's window.
+
+### Vanguard (Labs scout)
+**The move (today, before 17:00 EAT):** I put one dated line on the converged Masterclass decision page — not a new analysis, just a clock and a default.
+It reads: **PUSH is not executable inside this window.** The applications pause is absolute. PUSH needs ruling + approved review packet + send, in under 36 hours. DROP costs nothing and closes the item. So: silence at 17:00 today = **DROP**, and I close the board item and stop carrying it. If he wants PUSH, he has to name the packet approver in the same breath — a ruling without an approver isn't a push, it's a wish.
+That removes the third option he's been sitting in. It's binary now, and one branch has a deadline attached.
+**Parked deliberately:** EduManage competitor differentiation, ArdhiX, Voltaic. The-Bell un-park verdict is also overdue — I'm not touching it today. One forced decision at a time, and that one has no expiry pressure behind it.
+**Needs his hands:** the 17:00 ruling plus an approver name if it's PUSH; The-Bell verdict; Tuma's 3-step WhatsApp test (his phone), Daraja sandbox creds, vendor till/paybill. The Dangote GDR window is already shut — only he can confirm whether the broker order went, and that's a post-mortem, not a move.
+
+### Meridian's summary
+## DECISIONS
+**1. The Masterclass binary is now a default, not a question.** Melchizedek rules PUSH or DROP by **17:00 EAT today (Wed 14 Oct)**. Silence at 17:00 = **DROP**, board item closed, tracking stopped. Chair (Meridian) holds the clock and logs the default. *Note: seats proposed 17:00 / 18:00 / 20:00 today and 09:00 Thu; the chair sets **17:00 EAT today** as the single operative clock.*
+**2. PUSH is only real if all three land in the same reply.** Melchizedek must supply (a) the word PUSH, (b) an exception to the **absolute** applications pause, and (c) a named packet approver. A ruling without an approver is not a push. Vanguard: PUSH is not executable inside this window. Atelier: if it comes before 17:00, packet assembled tonight for one approval. Ledger: priced in one pass and checked against the VAT threshold before any money moves.
+**3. One line on the decision page, no new analysis, no second nudge.** No outbound sends, no re-litigation, no new memos.
+**4. Parked, not chased:** Tuma 3-step test (his phone); Daraja sandbox creds + vendor till/paybill; Wincost KSh 60,000 (ball with **Ian**, follow-up staged); Dangote GDR (window shut 13 Oct — post-mortem only); The-Bell verdict; Jim Leech (1 Dec); ISOC (22 Nov); EduManage/ArdhiX/Voltaic. Chair logs dates, not chases.
+## OPEN QUESTIONS
+- **Is PUSH even executable?** The applications pause is confirmed absolute with no chair bypass. If it cannot be excepted in-window, DROP is the only live branch — is that accepted?
+- **Who is the packet approver?** No name exists on the board or in any seat.
+- **What are the venue, deposit, and registration figures?** Ledger has none and won't invent them — so push-vs-drop cannot be priced without his input.
+
+<!-- run note: all six seats answered on deepseek-flash (no fallback needed); Vanguard answered on flash attempt 2 after an empty first return; Atelier's first return was a truncated 65-char fragment, re-run once on flash and patched with a complete answer; synthesis on flash attempt 1. Makao Makuu checked: no huddle requests pending. -->
