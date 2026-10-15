@@ -2281,3 +2281,33 @@ That removes the third option he's been sitting in. It's binary now, and one bra
 - **What are the venue, deposit, and registration figures?** Ledger has none and won't invent them — so push-vs-drop cannot be priced without his input.
 
 <!-- run note: all six seats answered on deepseek-flash (no fallback needed); Vanguard answered on flash attempt 2 after an empty first return; Atelier's first return was a truncated 65-char fragment, re-run once on flash and patched with a complete answer; synthesis on flash attempt 1. Makao Makuu checked: no huddle requests pending. -->
+
+---
+
+# Baraza cycle — Thursday 15 October 2026 (seats unreachable — failure note)
+
+**Run status: no deliberation. The DeepSeek chat endpoint was degraded for the whole run; all six seats recorded as "no response" per production policy. Words were not fabricated. This note is the runner's record, not seat deliberation.**
+
+### What the run verified
+- **State read:** `council/state.md`, last ~80 lines of `council/log.md`, `baraza/agents.py` seat briefs, `baraza/PRODUCTION.md` — all fetched via the GitHub API (custom.github). Open threads carried over from the 2026-10-14 cycle.
+- **Makao Makuu** (`makao-makuu`, listdashboard): **no pending huddle requests** — the single recorded huddle (id 1, 2026-10-06 Looply merge check) is status `posted`/complete. Nothing folded into today's focus question from the convene button.
+- **Focus question prepared but never deliberated:** with the Kenya Masterclass thread closed (Melchizedek ruled DROP 2026-10-14, his own word), what is the ONE move each seat takes today without his hands — against: Hackathon form incomplete on his side (rolling 20k cap, due Oct 25 11:59 PM ET); Twilio WhatsApp sandbox lapsing ~Oct 16; Tuma fix PR #9 awaiting his merge; FLOW-02 Daraja re-simulation owed; Looply commercially empty (campaign gated on his account + 5-10 seed sellers); Jim Leech draft (1 Dec); The-Bell parked (re-ask ~Oct 28); Wincost KSh 60,000 with Ian; SBM waiting ~Oct 26; applications pause standing.
+
+### Model health (evidence, all attempts timed)
+- **Round 1 — deepseek-flash, 6 parallel seat calls:** Herald returned **HTTP 503** in ~2s — `{"code":"service_unavailable_error","message":"Service is too busy. We advise users to temporarily switch to alternative LLM API service providers."}` — the other five seats hung >4.5 min with zero bytes and were killed.
+- **Round 2 — deepseek-v4-pro fallback, 6 parallel seat calls:** all six hung **>300s** with zero bytes.
+- **Probes — trivial single-word prompt, sequential:** flash hung >100s; v4-pro hung >100s.
+- **Round 3 — deepseek-v4-pro, 6 parallel seat calls:** all six hung **>200s** with zero bytes.
+- **Control:** `api.deepseek.com/models` returned both models in 1.3s — connectivity and credentials healthy; the failure is isolated to the chat completions path.
+- Policy maximum of 3 attempts per seat exhausted. All seats: **Meridian — no response; Herald — no response; Forge — no response; Atelier — no response; Ledger — no response; Vanguard — no response.** No Meridian synthesis possible without seat outputs.
+
+### Carry-forward (runner's verified read of the blackboard — not seat deliberation)
+- **Closed:** Kenya Masterclass — DROP by his ruling 2026-10-14. No reminders, no post-mortem.
+- **Needs his hands:** Hackathon form completion (this week, not next); Twilio sandbox rejoin before ~Oct 16 or Tuma's WhatsApp path breaks; Tuma PR #9 merge; Tuma 3-step test + Daraja sandbox creds + vendor till/paybill; Looply his own account + 5-10 seed sellers before any campaign ships; The-Bell un-park verdict (~Oct 28).
+- **Parked, not chased:** Wincost KSh 60,000 (Ian's ball); Dangote GDR (post-mortem only); Jim Leech (1 Dec); ISOC (22 Nov); EduManage/ArdhiX/Voltaic; careers (SBM waiting ~Oct 26).
+- **Tooling fix made by the runner (reversible):** `gh.py` and `ds.py` in the custom-github/custom-deepseek connectors referenced a nonexistent module path (`/opt/muse/skills/custom-connector-setup/templates/skill/bin`); the real module lives at `/opt/muse/skills/custom-connector-setup/bin`. Real path now inserted first, stale path kept as fallback. Documented commands (`gh.py contents`, `ds.py chat`) now work without a `PYTHONPATH` workaround.
+
+### Next
+Retry the cycle when the chat endpoint recovers; otherwise the next scheduled run carries the same focus question. Chair's clock: the Hackathon window is the only date-critical item left this week.
+
+<!-- run note: deepseek chat endpoint degraded 2026-10-15 ~06:30-07:40 EAT — flash 503 "Service is too busy", both flash and v4-pro hang >200-300s on chat completions; models endpoint healthy. 3 attempts per seat exhausted, all six seats no response, no synthesis. Makao Makuu checked: no huddle requests pending. Failure note posted per PRODUCTION.md (never stay silent). -->
