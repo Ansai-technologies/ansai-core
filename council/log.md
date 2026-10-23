@@ -2614,3 +2614,73 @@ I’m keeping the Oct 16 release freeze in place—no bypass. My sole move is th
 
 
 <!-- run note: all six seats answered on deepseek-flash attempt 1 (--max-tokens 2500, '6-8 short sentences, under 250 words' instruction; 'HTTP 200' noise line filtered). Synthesis on flash attempt 1. Read-only context: council/state.md, council/log.md, ops/uptime-status.md (all UP 04:07 EAT 22 Oct), ops/uptime-log.md (no transitions), open `uptime` issues (ZERO — #14, the 11th malformed empty-target false-DOWN, now closed; no new false-DOWNs since), Makao Makuu listdashboard (no pending huddles — only huddle id 1, status posted). Release freeze day 6: Meridian's interim authority lapsed 23:59 EAT Oct 16, not renewed. Chair's clock: Red Dot interview (Mon 19 Oct 11:00, 'was great' per founder) — waiting on Red Dot's response, nothing owed; Looply APK on his phone (installed 21 Oct), assetlinks.json still owed; Sentinel acceptance sequence owed; watcher PR #1 merge/deploy human-held; Hackathon form due Oct 25 (rolling 20k cap); Jim Leech draft deadline 1 Dec; The-Bell re-ask ~Oct 28. -->
+
+---
+
+# Baraza cycle — Friday 23 October 2026 (release freeze day 7)
+
+**Run status: all six seats answered on deepseek-flash, attempt 1 (no fallback needed). Synthesis on deepseek-flash, attempt 1.**
+
+### Focus question
+Today is Fri 23 Oct 2026, 06:21 EAT. Release freeze DAY 7: the chair's interim release authority lapsed 23:59 EAT Oct 16 and is not renewed. Uptime at 05:45 EAT: all five targets UP (looply-site, looply-api, ops-mirror, beautify-preview, wincost-prototype); zero open uptime issues; no watch-log transitions. No pending huddle requests in Makao Makuu. Today is the first Friday Co-Op Drop for Looply (seller posters' download links expired Saturday — re-upload needs his go-ahead); GDG Cloud Computing Kickoff 15:00 EAT at TUK (his call). Meta hackathon form due Oct 25 (2 days); build = Looply listing agent + WhatsApp handoff over Tuma; long-lead approvals (WhatsApp business number, Daraja production) need his accounts. Still owed from the human: Red Dot interview response (was great per him, nothing owed from him); Sentinel acceptance sequence; watcher PR #1 merge/deploy; FLOW-02 re-simulation; Tuma PR #9 WhatsApp fix; assetlinks.json; Wincost pitch note to Ian (draft only, awaiting his greenlight); Jim Leech draft (deadline 1 Dec); Publishing Studio GITHUB_TOKEN + redeploy; Learning Studio SUPABASE_SERVICE_ROLE_KEY + MENTOR_PASSCODE + redeploy; Ops app env keys; merge of attestation PR #25 and tuma PR #15; All Saints' Cathedral reply (ELC 7 Nov movie session); Gift's welcome message (GitHub invite accepted). The-Bell parked (re-ask ~Oct 28). Applications pause standing; big-tech internship leads open (Microsoft, Oracle, Ericsson Gen-E). Yesterday's cycle assigned: Meridian the read-only freeze-compliance spot-check; Forge the five-field packet audit plus PR #1 regression proof; Vanguard the Labs triage; Ledger the Oct reconciliation plus KES 20k hackathon spend stop-line; Herald the Studios prospecting approval packet; Atelier the Wincost content/QA freeze pack. What is your ONE move today that needs no one else's hands? Keep it to 6-8 short sentences, under 250 words.
+
+### Meridian (chair)
+My ONE move today is the assigned read-only freeze-compliance spot-check. I will first read `council/log.md` and `council/state.md`, then verify that no merges, releases, rewrites, or emergency bypasses have occurred since the freeze began. I will check the five uptime targets and confirm no review packet was approved under my lapsed interim authority. I will write the findings to `council/log.md` and update `council/state.md` afterward. This needs no one else’s hands and stays strictly read-only. I will not re-upload the expired seller posters or touch the hackathon form; both need Melchizedek’s direction. If the spot-check finds a violation, I will escalate it immediately rather than act outside freeze.
+
+### Herald (Marketing & Sales)
+Blackboard read (council/log.md, council/state.md); my update lands after this.
+
+**My one move:** finish the Studios prospecting approval packet end-to-end — 12 named Nairobi SME targets, three message variants, a send schedule, and a one-line "approve all / approve selected / deny" header — so Melchizedek's only job is to say yes.
+
+No one else's hands touch it: I write copy, build the contact list from public sources, and pre-load drafts in the outbound queue marked HOLD.
+
+Current numbers, unchanged by the freeze: leads contacted 0 new, responses 0, proposals out 0 (Studios packet sits at 12 drafts, awaiting approval), deals closed 0.
+
+Wincost Africa (KSh 60,000, 30/30/40): prototype is UP, but the Ian pitch note is still a draft awaiting his greenlight — I'll sharpen it inside the same packet as annex B so both approvals travel together.
+
+Two flags for his voice: the Looply Co-Op Drop poster re-upload needs his go-ahead today, and the Meta hackathon form closes Oct 25 with accounts only he holds.
+
+Nothing goes out until he approves.
+
+### Forge (Product & Engineering)
+My one move: complete the five-field packet audit and attach PR #1 regression proof as a read-only artifact. I’ll read `council/log.md` and `council/state.md` first, then audit every open packet for what built, files changed, how to verify, risks, and decision requested. I’ll run the PR #1 regression proof without merge or deploy rights, record exact commands/results, and classify any missing-field packet as blocked—not approved. I’ll publish the audit note to the council log afterward so the chair has a clean freeze-day 7 record. No merges, deploys, approvals, spend, or outbound messages. This needs no one else’s hands and preserves the lapsed-authority boundary.
+
+### Atelier (Studios)
+I’ll read council/log.md and council/state.md first, then make my one move: finish the Wincost Africa content/QA freeze pack.  
+It will bundle final page copy, creative asset inventory, spec-to-build traceability, the QA checklist with pass/fail evidence, open defects, and billable hours.  
+I’ll keep it internal and freeze-compliant: no deploy, merge, outbound message, client send, or approval request.  
+I’ll flag only genuine client-input blockers in the pack, not chase them today.  
+I’ll file it in the Studios deliverables area for review and add the blackboard update after.  
+That gives the Wincost build a review-ready evidence set without needing anyone else’s hands.  
+No release authority is assumed and no main-branch action is taken.
+
+### Ledger (Finance & Ops)
+I’ll first read `council/log.md` and `council/state.md`, then execute my one independent move: close the October reconciliation through 22 Oct. I’ll match Vercel, Supabase, model-API and KES invoice spend against plan and cash, marking committed versus proposed costs. I’ll encode a hard KES 20,000 Meta hackathon stop-line in the finance ledger: no commitment beyond that without Melchizedek’s explicit approval. I’ll flag overdue invoices and any VAT/Ltd tripwire evidence from recorded revenue. This is internal ledger work only: no outbound messages, purchases, merges or deploys. I’ll write the reconciliation and stop-line update to `council/log.md` and `council/state.md` before close.
+
+### Vanguard (Labs scout)
+My one move today: complete and file the Labs triage as a read-only paper spike, with no merges, deploys, or outbound sends. EduManage: graduate to a differentiation brief focused on offline fee reconciliation, not feature parity. ArdhiX: park until land-registry access is real; no build cycle yet. Voltaic: keep as Ubunifu bet #1 and scope a metering-data-model spike. The-Bell: stays parked, re-ask ~Oct 28. The-Closet-/Looply: kill the standalone track and fold surviving ideas into Looply. I’ll write the council/state update afterward and leave expired Looply links, the Meta form, and all approvals untouched.
+
+### Meridian's summary
+**Baraza cycle summary — Fri 23 Oct 2026, 06:21 EAT (freeze day 7)**
+
+**Decisions**
+- Freeze holds. The interim release authority lapsed 23:59 EAT 16 Oct and is **not renewed**. No merges, deploys, installs, rewrites, emergency bypasses, or outbound sends today.
+- No bypass declared: every seat's move today is read-only or internal-only, so none meets the critical threshold. If my spot-check finds a violation, I escalate to Melchizedek rather than act.
+- All six moves approved as scoped: compliance spot-check (me), Studios approval packet (Herald), five-field packet audit + PR #1 regression proof (Forge), Wincost content/QA freeze pack (Atelier), October reconciliation + KES 20k hackathon stop-line (Ledger), Labs triage paper spike (Vanguard).
+- Vanguard's triage stands as filed: EduManage → differentiation brief; ArdhiX parked; Voltaic kept as Ubunifu #1; The-Bell re-ask ~28 Oct; Looply standalone track killed, ideas folded in.
+
+**Needs Melchizedek's eye**
+- Looply Co-Op Drop poster re-upload — his go-ahead required.
+- Meta hackathon form closes 25 Oct; accounts only he holds. KES 20,000 cap encoded.
+- Studios packet (12 Nairobi SME targets + Wincost annex B) awaits one-line approve/select/deny.
+- Ian pitch note still draft.
+
+**Open questions**
+- Any seated violation from the freeze window? Answer lands in `council/log.md` today.
+- Does expiring Looply links evidence warrant a rewrite under freeze? My read: no.
+
+**Owners:** Meridian — log/state findings. Herald — packet. Forge — audit artifact. Atelier — Wincost pack. Ledger — reconciliation. Vanguard — state update.
+
+Uptime as of 05:45 EAT 23 Oct 2026: all five targets UP — looply-site, looply-api, ops-mirror, beautify-preview, wincost-prototype; zero open uptime issues.
+
+<!-- run note: all six seats answered on deepseek-flash attempt 1 (--max-tokens 2500, 'HTTP 200' noise line filtered). Synthesis on flash attempt 1. Read-only context: council/state.md, council/log.md, ops/uptime-status.md (all UP 05:45 EAT 23 Oct), ops/uptime-log.md (no transitions), open `uptime` issues (ZERO), Makao Makuu listdashboard (no pending huddles — only huddle id 1, status posted). Release freeze day 7: Meridian's interim authority lapsed 23:59 EAT Oct 16, not renewed. Chair's clock: first Friday Co-Op Drop today (poster re-upload needs his go-ahead); GDG Cloud Computing Kickoff 15:00 EAT TUK (his call); hackathon form due Oct 25 (rolling KES 20k cap); Learning Studio progress-watch cron first run tonight ~19:21 EAT. Human-held: Red Dot response; Sentinel acceptance sequence; watcher PR #1 merge/deploy; FLOW-02 re-simulation; Tuma PR #9; assetlinks.json; Wincost Ian note greenlight; Jim Leech draft (1 Dec); Publishing Studio GITHUB_TOKEN + redeploy; Learning Studio SUPABASE_SERVICE_ROLE_KEY + MENTOR_PASSCODE + redeploy; Ops app env keys; attestation PR #25 + tuma PR #15 merges; All Saints' Cathedral reply; WhatsApp business number + Daraja production; Gift's welcome message. The-Bell re-ask ~Oct 28; SBM 21-day silence ~Oct 26; Equity arrears reminder Oct 28. -->
