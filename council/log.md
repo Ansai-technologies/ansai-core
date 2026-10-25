@@ -2684,3 +2684,116 @@ My one move today: complete and file the Labs triage as a read-only paper spike,
 Uptime as of 05:45 EAT 23 Oct 2026: all five targets UP — looply-site, looply-api, ops-mirror, beautify-preview, wincost-prototype; zero open uptime issues.
 
 <!-- run note: all six seats answered on deepseek-flash attempt 1 (--max-tokens 2500, 'HTTP 200' noise line filtered). Synthesis on flash attempt 1. Read-only context: council/state.md, council/log.md, ops/uptime-status.md (all UP 05:45 EAT 23 Oct), ops/uptime-log.md (no transitions), open `uptime` issues (ZERO), Makao Makuu listdashboard (no pending huddles — only huddle id 1, status posted). Release freeze day 7: Meridian's interim authority lapsed 23:59 EAT Oct 16, not renewed. Chair's clock: first Friday Co-Op Drop today (poster re-upload needs his go-ahead); GDG Cloud Computing Kickoff 15:00 EAT TUK (his call); hackathon form due Oct 25 (rolling KES 20k cap); Learning Studio progress-watch cron first run tonight ~19:21 EAT. Human-held: Red Dot response; Sentinel acceptance sequence; watcher PR #1 merge/deploy; FLOW-02 re-simulation; Tuma PR #9; assetlinks.json; Wincost Ian note greenlight; Jim Leech draft (1 Dec); Publishing Studio GITHUB_TOKEN + redeploy; Learning Studio SUPABASE_SERVICE_ROLE_KEY + MENTOR_PASSCODE + redeploy; Ops app env keys; attestation PR #25 + tuma PR #15 merges; All Saints' Cathedral reply; WhatsApp business number + Daraja production; Gift's welcome message. The-Bell re-ask ~Oct 28; SBM 21-day silence ~Oct 26; Equity arrears reminder Oct 28. -->
+
+# Baraza daily cycle — Saturday 24 Oct 2026 (06:21 EAT)
+
+> Run note: all six seats answered on deepseek-flash, attempt 1 (no fallback needed); synthesis on deepseek-flash, attempt 1. Seat texts are verbatim model outputs, unedited. Release freeze day 8: read-only posture, no merges/releases/rewrites/approvals/deploys/outbound sends. Founder directive of 2026-10-23 (after the 23 Oct cycle): LOOPLY ON HOLD — all Looply work paused, cards Stalled, silent watches only.
+>
+> Blackboard read/write FAILED this run: the `custom.github` vault credential was rejected by api.github.com (401 "Bad credentials"; credential entry exists and was attached as bearer header, so the stored PAT itself is dead — likely rotated/revoked after the 2026-09-30 rotation). council/state.md, council/log.md, ops/uptime-status.md, ops/uptime-log.md and the uptime-issue list could not be read; this entry could NOT be committed. Context was recovered from Makao Makuu's dashboard (last read-only sync 2026-10-23T04:22:20Z, which recorded the 23 Oct cycle and "five uptime targets UP at 05:45 EAT, zero open uptime issues"). No pending huddle requests in Makao Makuu (sole huddle, id 1, posted 2026-10-06).
+>
+> This entry is staged locally until the GitHub credential is re-issued; it must be appended to council/log.md verbatim at first opportunity — the inspect loop never stays silent.
+
+## Meridian (chair)
+
+**Highest-leverage read-only move:** run the chair's Looply-hold/freeze compliance sweep — read the board and lane standing items, identify any active Looply work or freeze exceptions, and publish a blackboard reconciliation. No card flips, no status changes, no sends.
+
+Why: the hold directive landed after yesterday's cycle, so drift risk is higher than chasing a stale uptime read. Uptime stays flagged stale: last verified all five UP at 05:45 EAT 23 Oct, zero open issues.
+
+**Needs Melchizedek's hand:**
+1. Meta hackathon registration — closes 25 Oct, founder-only accounts. Flag only; no action by any seat.
+2. Uptime watcher credential — restore blackboard read access or accept stale status.
+3. Any unfreeze, Looply restart, rewrite, or release needs his explicit green flag. Otherwise: no human action today.
+
+**Blackboard — 24 Oct 06:21 EAT**
+- **Decisions:** Release freeze day 8 continues. Looply on hold; all Looply work paused, cards Stalled, silent watches only. No outbound sends.
+- **Assignments:** Lane owners return read-only confirmation that Looply items are Stalled and no executions are queued. Meridian maintains the exception list. No pending huddle requests; no huddle called.
+- **Human eye:** Meta form deadline 25 Oct; uptime credential rejected/stale; explicit founder green flag required for any restart.
+
+## Herald (Marketing & Sales)
+
+**Herald / Tangaza — 24 Oct, read-only day 8**
+
+**Highest-leverage read-only move: build the Wincost Africa decision pack.**
+One page, internal only: proposal sent 16 Sep, now 38 days silent, 30/30/40 on KSh 60,000, "under internal consideration" per Ian since — status unverified since. I pull the CRM thread read-only, mark what's fact vs. stale, and stage a short follow-up note to Ian as a **draft** (no send). Wincost is the closest thing to cash in my lane and it's aging unattended; everything Looply-side is now frozen and Studios prospecting stays drafts-only.
+
+**Needs Melchizedek's hand:**
+1. **Meta hackathon registration — closes tomorrow, 25 Oct.** Only he holds the accounts. Flag only; I won't touch it.
+2. **Wincost follow-up** — approve the draft (or kill it) once he's seen the pack; and confirm whether the deal is still live or we reclassify it.
+3. **Uptime watcher** — credential rejected, last verified 05:45 23 Oct (stale); wincost-prototype is one of the five. Ops seat's fix, but I need it green before I trust any prototype demo claim.
+
+Looply cards: Stalled. Silent watches only. No sends made.
+
+## Forge (Product & Engineering)
+
+**Highest-leverage read-only move:** run a **freeze + Looply-hold compliance sweep of my lane** — read-only inspection of open branches/PRs, deploy queue, rewrite requests, Looply board cards, and silent-watch configs. Output: an exceptions-only review packet confirming zero Looply work is outside **Stalled/silent watch** and zero merge/release/deploy actions are queued. No card edits, no merges, no deploys, no sends.
+
+**Melchizedek's hand:**
+- **Meta hackathon registration** closes **25 Oct**; founder-only accounts. Flagged, not acted on.
+- **Uptime watcher credential rejected** — last state is stale (all five UP at 05:45 EAT 23 Oct). If re-auth needs a founder-held credential, that's his call after freeze; until then I treat uptime as unverified.
+- Any Looply exception found waits for freeze lift and his explicit green flag.
+
+## Atelier (Studios)
+
+**Seat: Atelier (Msanii) — Studios**
+
+**Highest-leverage read-only move today:** build the **Wincost Africa spec-compliance review packet** — a read-only audit of the wincost-prototype against the agreed build spec: what's delivered, what's missing, what's drifted, a prioritized fix list, and the billable-hours ledger attached. No merges, no deploys, no rewrite — just the packet that makes the next approval step a five-minute decision instead of a re-discovery. Wincost is the funding engine; freeze days are cheapest spent turning the build into something Melchizedek can green-light the moment authority returns.
+
+**Discipline in my lane:** all Looply-referencing Studios items (content, creative, any client-adjacent work) parked as Stalled per the 23 Oct directive — I'm not editing board state under freeze, just reflecting the pause in my reporting. Silent watches untouched.
+
+**Needs Melchizedek's hand:**
+1. **The freeze.** The Wincost packet will be approval-ready and go nowhere without a merge/deploy window or renewed release authority. That's his call alone.
+2. **Meta hackathon registration** — form closes **25 Oct**, accounts are his. Flag only; I won't touch it. One day of runway.
+3. **Uptime watcher credential** — rejected this run, so wincost-prototype's status is **stale** (last verified UP 05:45 EAT 23 Oct). Someone with credential authority must re-issue; I can't verify my own deliverable's host until then.
+
+No client-facing send goes out from me until he approves it.
+
+## Ledger (Finance & Ops)
+
+Ledger here. Highest-leverage read-only move today: a **Looply-hold-adjusted cost/cash reconciliation** — review the spend ledger (Vercel, Supabase, model APIs, invoices), tag every line **Looply vs Ansai sales/marketing**, flag idle-but-billable Looply recurring costs, and note proximity to the VAT/Ltd tripwires. No changes, no notices, no approvals — just a clean cash-at-risk/runway read for the founder's new focus.
+
+Uptime stays **stale**: last verified all five UP at 05:45 EAT 23 Oct; I won't infer current status from the rejected blackboard credential.
+
+Needs Melchizedek's hand:
+- **Meta hackathon registration closes 25 Oct** — only he holds the accounts; flag only, no seat action.
+- Any **Looply spend pause/downgrade/vendor notice** needs his explicit approval; I can only prepare the list.
+- If the uptime watcher stays unreadable, credential rotation/reissue needs his/account-owner authorization.
+
+## Vanguard (Labs scout)
+
+**Vanguard (Mpelelezi) — read-only call:**
+
+Highest-leverage move today: **run a lane re-baseline audit** — confirm every Looply board item is Stalled / silent-watch-only, strip any standing item that implies action, and re-point my scout queue to **EduManage differentiation first**, then **Voltaic** spike. ArdhiX stays queued; The-Bell stays parked until ~28 Oct.
+
+**Needs Melchizedek's hand:**
+1. **Meta hackathon registration closes 25 Oct** — founder-only accounts; flag only, no action from me.
+2. **Uptime watcher credential** — blackboard read rejected this run; last verified all five UP at 05:45 EAT 23 Oct is stale. Either restore read access or accept stale watch.
+3. **Explicit green flag** only if he wants any rewrite/outbound — none from this seat under freeze.
+
+No merges, releases, deploys, approvals, or sends.
+
+## Chair's synthesis — Baraza, 24 Oct 2026 (freeze day 8, Looply on hold)
+
+No watched target is confirmed down. Uptime is unverified, not green — see the closing line.
+
+### 1. Decisions
+- **Hold and freeze hold as stated.** Looply work paused; Lane items Stalled, silent watches only; no merges, releases, deploys, approvals, rewrites or outbound sends. Unanimous across all six seats. No huddle called.
+- **The day's work is read-only audit and prep, not execution.** Compliance/re-baseline sweeps: Meridian (board reconciliation + exception list), Forge (lane exceptions packet), Vanguard (re-baseline; scout queue re-pointed to EduManage, then Voltaic; ArdhiX queued, The-Bell parked to ~28 Oct).
+- **Under the new directive, the read-only packets go to revenue-facing lanes:** Herald's Wincost Africa decision pack (follow-up note stays a draft), Atelier's Wincost spec-compliance packet, Ledger's Looply-vs-sales cost reconciliation (idle billable Looply spend, VAT/Ltd tripwires).
+- **Uptime is treated as stale, not up.** No seat infers current status from the rejected credential.
+
+### 2. Open questions — owner
+- **Wincost: live or reclassify?** Herald brings the yes/no with evidence; the call is Melchizedek's.
+- **Can the Wincost packet reach approval-ready with no merge/deploy window?** Atelier — reports back what's blocking.
+- **Which Looply recurring costs are idle-but-billable, and what's the pause/downgrade list?** Ledger — list only; no notices sent.
+- **Who re-issues the blackboard/watcher credential, and under what authority?** Forge to identify the owner; execution needs Melchizedek's authorisation.
+- **Any active Looply item or freeze exception still standing on the board?** Meridian and Forge sweeps; exceptions land on Meridian's list.
+- **EduManage before Voltaic — confirmed ordering?** Vanguard proposing; no objection raised.
+
+### 3. Needs Melchizedek's hand
+1. **Meta hackathon registration — closes 25 Oct (tomorrow).** Founder-only accounts. Flagged by five seats; no seat will touch it.
+2. **Watcher credential** — restore blackboard read access or explicitly accept stale uptime.
+3. **Any unfreeze, Looply restart, rewrite, release, deploy or outbound send** — explicit green flag only. Interim release authority lapsed 23:59 EAT 16 Oct and is not renewed.
+4. **Wincost** — approve or kill Herald's follow-up draft, and confirm live vs reclassified.
+5. **Looply spend** — approve or decline any pause/downgrade/vendor notice from Ledger's list.
+
+Uptime: no watched target is confirmed down — but not all five are verified, so no all-five-UP claim is made. Verified UP by agent-side spot check (~06:2x EAT 24 Oct, not watcher data): looply-site, ops-mirror. Stale: all five last watcher-verified UP at 05:45 EAT 23 Oct, zero open uptime issues; today's watcher run FAILED (blackboard credential rejected, 401). Unchecked this run: looply-api, beautify-preview, wincost-prototype.
