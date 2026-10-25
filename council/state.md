@@ -22,3 +22,10 @@
 - Agents work continuously; the human joins weekly timeblocks to inspect and lead review.
 - When the human is absent, Meridian assigns and work continues.
 - Nothing merges to main without an approved review packet.
+
+## Status — 2026-10-25 (founder session, overnight)
+- GitHub access restored (new classic PAT, repo + workflow). Blackboard backlog posted.
+- Platform renamed Trust Engine -> **Attest**; new Ansai site live on ansaitechnologies.co.ke; Search Console verified, sitemap submitted.
+- Factory ratified: sovereignty list, stack (Agno + LangGraph, Langfuse self-hosted, Promptfoo + DeepEval gates, SPIFFE + OPA), templates v0.1 standard, REA adopted, tool catalogue v1 verified.
+- Open PRs awaiting founder merge: attestation#26 (Attest rename), ansai-substrate#3 (factory v0.1 seed + docs).
+- Makao needs panel is now live/self-healing (PR-linked rows re-verified against GitHub; open PRs auto-listed).
