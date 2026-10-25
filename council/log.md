@@ -2797,3 +2797,143 @@ No watched target is confirmed down. Uptime is unverified, not green — see the
 5. **Looply spend** — approve or decline any pause/downgrade/vendor notice from Ledger's list.
 
 Uptime: no watched target is confirmed down — but not all five are verified, so no all-five-UP claim is made. Verified UP by agent-side spot check (~06:2x EAT 24 Oct, not watcher data): looply-site, ops-mirror. Stale: all five last watcher-verified UP at 05:45 EAT 23 Oct, zero open uptime issues; today's watcher run FAILED (blackboard credential rejected, 401). Unchecked this run: looply-api, beautify-preview, wincost-prototype.
+
+## 2026-10-25 — Baraza daily cycle (freeze day 9, Looply on hold)
+
+Cycle inputs: council/state.md + last cycle read; ops/uptime-status.md (watcher live, last check 05:32 EAT today); open uptime issues: one — issue 29, blank DOWN alert (see below); Makao Makuu huddle requests: none pending (sole recorded huddle, 2026-10-06 looply merge done check, status posted). GitHub blackboard read restored after the 2026-10-25 token rotation — yesterday's credential rejection is resolved. All six seats answered on deepseek-flash, attempt 1; synthesis on deepseek-flash, attempt 1.
+
+### Uptime anomaly (flagged, not buried)
+The independent watcher recorded all five targets UP at 05:32 EAT today (looply-site, looply-api, ops-mirror, beautify-preview, wincost-prototype, all HTTP 200) yet at the same minute opened a blank DOWN alert — issue 29, empty target/HTTP/first-seen fields, zero comments, no transition logged in ops/uptime-log.md. No target is confirmed DOWN. Council treats issue 29 as an alerting/instrumentation anomaly under read-only triage, not an outage.
+
+## Meridian (chair)
+
+**Highest-leverage read-only move today:** Triage issue 29 — correlate the 05:32 EAT five-target UP snapshot with watcher logs/config and issue fields to confirm the blank DOWN alert is a false positive with no real transition. Read-only only; no issue edits, watcher changes, or bypass.
+
+**Yesterday’s packets need next:** A read-only completeness check — owner, scope/diff, test/rollback evidence, freeze impact — then park as “awaiting Melchizedek green flag.” No approvals, merges, or releases.
+
+**Needs Melchizedek’s hand exactly:**
+1. Explicit green flag to unfreeze Looply / approve any packet.
+2. Approval to send any outbound site/“Attest” announcement — drafts only until then.
+3. Decision on issue-29 remediation/closure after my read-only triage.
+4. Monday hackathon kickoff/rules acceptance.
+
+**Blackboard summary**
+- **Decisions:** Freeze holds; no emergency bypass; Looply Stalled cards and watches stay silent; no merges/releases/deploys/approvals/rewrites/outbound sends.
+- **Assignments:** Chair — issue-29 read-only triage; packet owners — completeness audit and hold; comms — draft-only, no send.
+- **Human’s eye:** Looply unfreeze green flag; outbound approval; issue-29 disposition; Monday hackathon rules acceptance. No huddle pending.
+
+## Herald (Marketing & Sales)
+
+**Highest-leverage read-only move today:** audit the queued Studios and Wincost drafts against the live site + rename **Trust Engine → Attest** — produce a stale-reference/approval-status list only. No edits, no sends.
+
+**Yesterday’s packets next:**
+- **Studios:** QA/rename to Attest, dedupe, assign approval IDs; then await Melchizedek.
+- **Wincost Africa:** verify KSh 60,000 at 30/30/40 = **18k / 18k / 24k**, confirm invoice/stage status, prep follow-up/proposal for approval.
+- **Issue 29:** ops triage only — blank DOWN alert, no transition; not a pipeline action.
+- **Hackathon:** no scramble; Monday rules acceptance only.
+
+**Needs Melchizedek’s hand:**
+1. Explicit green flag to send any Studios outreach.
+2. Approval of Wincost proposal/follow-up and any payment-schedule message.
+3. Monday Meta hackathon rules acceptance.
+4. Any external/status-page action or closure related to issue 29 under freeze.
+
+**Today’s report:** leads contacted **0**, responses **0**, proposals out **0**, deals closed **0** — freeze-compliant. Wincost remains **open**, no close. No huddle requests pending.
+
+## Forge (Product & Engineering)
+
+**Highest-leverage read-only move:** Triage watcher **issue 29** — pull the 05:32 EAT check logs, issue payload, and transition history; confirm all five targets were genuinely UP and classify the blank DOWN as a false-positive alerting bug. Internal note only; no issue comment, config change, or send.
+
+**Yesterday’s packets:** All remain blocked under freeze. Next step is packet hygiene only: attach post-live smoke evidence for `ansaitechnologies.co.ke`, confirm the **Trust Engine → Attest** rename in the shipped UI/copy, and append the issue-29 false-alert note. Then queue for approval — no merge/deploy.
+
+**Needs Melchizedek’s hand:**
+1. Explicit green flag to approve/merge any packet.
+2. Explicit green flag for any watcher fix or outbound issue-29 update.
+3. Monday Meta hackathon kickoff/rules acceptance — his action, not mine.
+
+**Status:** 0 builds shipped today. Ansai site live; five targets UP at 05:32 EAT; issue 29 is the only deploy-health anomaly. Tech debt that matters: watcher alert integrity/false-positive handling. No huddle requests pending.
+
+## Atelier (Studios)
+
+**Read-only move today:** Run an **Attest rename QA sweep** on live `ansaitechnologies.co.ke` — pages, metadata, nav/CTAs, sitemap — and log every residual “Trust Engine” string or broken link with evidence. No edits. Also log **issue 29** as a blank watcher false alert; route to watcher owner, don’t close/change.
+
+**Yesterday’s packets next:**
+- Launch/rename packet → attach QA evidence + correction list, unapplied.
+- Content packet → tag any snippets/assets needing Attest alignment; hold.
+- Hackathon packet → file Cerebral Valley approval evidence; set Monday rules-acceptance reminder.
+- Client/outbound note → draft only, queue for approval.
+
+**Needs Melchizedek’s hand:**
+1. Ratify/confirm the overnight Ansai go-live and Trust Engine→Attest rename under freeze.
+2. Green-flag any live-site copy/metadata corrections and the client note send.
+3. Decide issue 29 disposition if watcher owner proposes close/annotation.
+4. Monday Meta rules acceptance is his — not today.
+
+## Ledger (Finance & Ops)
+
+**Today’s single read-only move**
+Reconcile watcher **issue 29** against the raw 05:32 EAT payload and the five UP checks — classify it as a blank-alert/instrumentation defect, not an outage. No close, no notice, no send.
+
+**Yesterday’s packets — next**
+- **Site/Attest go-live:** map `ansaitechnologies.co.ke` + “Attest” rename to current Vercel/Supabase/model-API cost lines and public compliance wording. Read-only.
+- **Hackathon:** no registration action today; hold for Monday kickoff/rules acceptance.
+- **Uptime packet:** issue 29 needs the reconciliation above; silent watch only.
+- **Huddles:** none pending — no action.
+
+**Needs Melchizedek’s hand**
+- Explicit green flag for any **issue 29 closure/silencing or outbound notice**.
+- Any **spend, invoice payment, or approval**.
+- Any **Ltd/VAT registration step** if the ledger check shows the threshold is being crossed.
+- **Hackathon rules acceptance Monday** — binding, must be his.
+- Any outbound communication about the site/Attest/outage.
+
+No new invoices due surfaced in today’s context; cash/spend-vs-plan needs the read-only ledger refresh. KRA tripwire remains armed — no confirmed VAT/Ltd trigger yet.
+
+## Vanguard (Labs scout)
+
+**Highest-leverage read-only move today:** triage **issue 29** — pull watcher logs/config and 05:32 EAT target timestamps, confirm whether the blank DOWN is a parser/state bug vs a real transition. No edits, closure, comment, or outbound. This determines whether the “all five UP” evidence is trustworthy.
+
+**Track read (short):**
+- **EduManage:** no graduate; differentiation-first packet needs competitor-matrix refresh against the new `ansaitechnologies.co.ke` + **Attest** naming.
+- **ArdhiX:** hold; no fresh spike evidence.
+- **Voltaic:** keep as Ubunifu bet 1; next step is feasibility spike packet, not build.
+- **The-Bell / Gazette Watch:** hold; needs source/legal/ops review packet.
+- **Looply:** paused; silent watches only.
+
+**Graduate:** none today.  
+**Kill:** none on current evidence; don’t kill tracks off issue-29 noise.  
+**Build cycle next:** Voltaic feasibility spike; issue-29 watcher hardening only if triage confirms a real bug.
+
+**Yesterday’s packets need next:** attach issue-29 evidence to the uptime packet; update draft naming/metadata to **Attest**; route to review-packet queue — no merge. Looply cards stay stalled.
+
+**Melchizedek’s hand:** explicit green flag for any rewrite; approval of each review packet before merge; any deploy/release/outbound; issue-29 disposition if confirmed; unpause Looply; graduate/kill decisions; Monday Meta rules acceptance. No huddle request needed.
+
+## Chair's synthesis — Baraza, 25 Oct 2026 (freeze day 9, Looply on hold)
+
+**UPTIME ANOMALY — TOP FLAG:** Watcher recorded all five targets **UP at 05:32 EAT today** but simultaneously opened a **blank DOWN alert** — ansai-core **issue 29**: empty target/HTTP fields, no transition logged. **No target is confirmed DOWN.** Treat as an alerting/instrumentation anomaly, not an outage claim. Read-only triage is today’s highest-leverage move.
+
+**Decisions**
+- Freeze holds: no emergency bypass, merges, releases, deploys, approvals, rewrites, or outbound sends.
+- Looply remains stalled; watches stay silent.
+- Issue 29: read-only triage only — logs/config, 05:32 payload, transition history. No edits, closure, silencing, comment, or notice.
+- Packets: completeness audit only — owner, scope/diff, test/rollback evidence, freeze impact — then park as “awaiting Melchizedek green flag.”
+- Comms/Studios/Wincost/site-Attest drafts remain draft-only.
+
+**Open questions — owners**
+- Issue 29: false-positive parser/state bug vs. real transition? **Chair with Forge/Ledger/Vanguard**, read-only; disposition needs Melchizedek.
+- Packet completeness/approval IDs: **packet owners** — status only, no merge.
+- Attest rename residuals/broken links on live site: **Atelier** QA sweep.
+- Watcher alert integrity/false-positive handling: **Forge/Vanguard** after triage.
+- Ledger refresh/spend-vs-plan and KRA tripwire: **Ledger**.
+- Monday hackathon rules acceptance: **Melchizedek**.
+
+**Needs Melchizedek’s hand**
+1. Explicit green flag to unfreeze Looply / approve any packet.
+2. Approval to send any outbound — Studios, Wincost, site/Attest, status, or issue-29 notice.
+3. Issue-29 disposition after read-only triage.
+4. Monday hackathon kickoff/rules acceptance.
+5. Any spend/invoice payment or VAT/Ltd step if ledger check triggers.
+
+No huddle pending.
+
+**Uptime: all five targets UP at 05:32 EAT; no confirmed DOWN. Issue 29 remains a blank DOWN alert anomaly under read-only triage.**
