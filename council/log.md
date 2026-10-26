@@ -2937,3 +2937,108 @@ No new invoices due surfaced in today’s context; cash/spend-vs-plan needs the 
 No huddle pending.
 
 **Uptime: all five targets UP at 05:32 EAT; no confirmed DOWN. Issue 29 remains a blank DOWN alert anomaly under read-only triage.**
+
+## 2026-10-26 — Baraza daily cycle (hackathon kickoff day, Looply on hold)
+
+**Run note:** all six seats answered on deepseek-flash, attempt 1 (no fallback); chair synthesis on deepseek-flash, attempt 1. Uptime input from the independent GitHub Actions watcher (ops/uptime-status.md, checked 05:58 EAT today): all five targets UP. No huddle requests pending in Makao Makuu (only posted huddle on record is 6 Oct, looply merge done check). Cycle text styles the M&S seat as 'Herald'; council/state.md roster lists that seat as 'Tangaza'.
+
+### Uptime input (Forge's seat, watcher evidence)
+All five targets UP at 05:58 EAT — looply-site, looply-api, ops-mirror, beautify-preview, wincost-prototype, all HTTP 200. No uptime issues open. Blank DOWN alerts (issues 29–32, empty target/HTTP fields) all auto-closed; the latest opened 02:56 EAT today and closed 05:58 EAT. No target is DOWN.
+
+## Meridian (chair)
+**My read-only move today:** build one consolidated pre-merge docket for the two parked PRs — attestation#26 and ansai-substrate#3 — auditing each diff against the ratified factory spec and the Trust Engine → Attest rename. Checking: rename completeness across code, docs, and domain references; the v0.1 seed matching exactly what we ratified (Agno + LangGraph, self-hosted Langfuse, Promptfoo + DeepEval gates, SPIFFE + OPA, templates v0.1, REA); no scope creep, no secrets, no outbound surfaces. Read-only, no writes, no merges. Purpose is narrow: when Melchizedek returns, his green flag is a single decision, not an investigation. That's the highest leverage because everything else in the council is gated shut until he acts.
+
+**What needs his hand, explicitly:**
+1. **Hackathon rules acceptance — today, his alone.** The council does not touch it.
+2. **Green flag on attestation#26 and ansai-substrate#3**, plus the packets parked yesterday.
+3. **Any outbound send** — drafts only until he approves.
+4. **Any rewrite green flag**, if the docket surfaces one.
+
+Looply stays on hold. Emergency bypass not invoked — nothing today meets the critical bar.
+
+---
+
+**Blackboard — cycle close**
+- **Decisions:** No merges, releases, rewrites, or sends. Bypass withheld. Hackathon rules are outside council authority.
+- **Assignments:** Meridian — consolidated audit docket on the two PRs. No other assignments; gates are closed.
+- **Needs the human's eye:** Hackathon rules acceptance (today); the two merge green flags; outbound drafts awaiting approval.
+
+## Herald (Marketing & Sales)
+**Herald — read-only move for today**
+
+Pull the full pipeline truth-read: reconcile the Studios prospect list against what's actually been contacted, sweep the inbox for idle replies, and confirm exactly where Wincost Africa sits against the 30/30/40 schedule — deposit invoiced, deposit received, or neither. That costs nothing, sends nothing, and tells me whether the campaign's silent or decaying. Reply latency kills more deals than bad copy; if there are responses sitting unread since last week, that's my headline number today, not lead volume.
+
+**What needs your hand, not mine**
+
+1. **Hackathon rules acceptance** — yours alone. Nothing from my seat touches it.
+2. **Attestation#26 (Attest rename) and ansai-substrate#3** — every prospect-facing artifact carries the platform name. I will not re-cut the Studios drafts or any Wincost collateral against a name that isn't merged. Your merge unblocks my copy.
+3. **Green flag on outbound** — the queued Studios drafts and any Wincost deposit chase are drafted and parked. Nothing leaves without your explicit go.
+4. **Wincost 30% deposit** — if it hasn't landed, that's a call in your voice, not an email in mine.
+
+I'll report: contacted, responded, proposals out, closed — with Wincost flagged separately.
+
+## Forge (Product & Engineering)
+**My one read-only move today:** assemble a single go/no-go merge packet for `attestation#26` and `ansai-substrate#3` — re-read the diffs, confirm CI, check the Attest rename blast radius, migration/rollback notes, and attach the 05:58 watcher evidence. That reduces Melchizedek’s decision to one green flag instead of two separate reviews. I will not merge.
+
+**What needs his hand:**
+1. Acceptance of the Meta Global AI Developer Hackathon rules — his alone, not the council’s.
+2. One explicit green flag covering the two PR merges — or reject/defer.
+3. Nothing else from me today: no huddle pending, no open uptime issue, no release/outbound/rewrite request.
+
+**Watcher judgment:** target-state checks are trustworthy — all five UP at 05:58 EAT. Alerting is **not yet trustworthy**: the blank DOWN issues 29–32 (empty target/HTTP) are malformed noise, and auto-closing in ~3 hours masks the payload bug. Hardening note required before anyone treats DOWN alerts as actionable. Medium tech debt, not an outage.
+
+## Atelier (Studios)
+**My read-only move today:** run a single Attest-rename QA sweep across the live `ansaitechnologies.co.ke` site and the Wincost Africa build — copy, assets, nav, metadata, client-facing docs — and produce one discrepancy/fix packet. No edits, no merges, no sends.
+
+**What needs Melchizedek’s hand:**
+1. Personal acceptance of the Meta Global AI Developer Hackathon rules — council can’t do it.
+2. Explicit green flag on `attestation#26` (Attest rename) and `ansai-substrate#3` (factory v0.1 seed).
+3. Green flag on yesterday’s parked packets and any outbound/client-facing drafts, including whatever the QA sweep turns up.
+
+Until then I stay read-only: no merge, release, rewrite, or outbound send.
+
+## Ledger (Finance & Ops)
+My highest-leverage read-only move today: compile a **green-flag ledger** for Melchizedek — every pending item in one place: the two PRs, parked packets, any hackathon-related cost exposure, invoices due, and the KRA VAT/Ltd tripwire. No spend, no invoice action, no merges, no outbound sends. Just a decision-ready snapshot so he can clear blockers in one pass.
+
+What needs his hand exactly:
+1. **Accept the Meta hackathon rules personally** — not the council’s call.
+2. **Merge or decline** `attestation#26` (Attest rename) and `ansai-substrate#3` (factory v0.1 seed).
+3. **Authorize any spend, invoice payment, or financial commitment** — including hackathon-related costs.
+4. **Green-flag any parked packet, release, rewrite, or outbound send.**
+
+Until those flags land, I hold the ledger closed.
+
+## Vanguard (Labs scout)
+Vanguard here. Today’s single highest-leverage read-only move: draft a **Meta Global AI Developer Hackathon “rules-to-risk” brief** for Melchizedek — eligibility, IP/license, data handling, public-repo/demo exposure, deadlines, and which track can enter without breaking the hold. I’d map it against the live Attest rename vs. still-unmerged `attestation#26`, the factory seed `ansai-substrate#3`, and the parked packets. No acceptance, no merge, no send, no Looply.
+
+What needs Melchizedek’s hand exactly:
+1. **Accept or decline the hackathon rules** — only his signature.
+2. **Explicit green flag on `attestation#26` and `ansai-substrate#3`** if we want Attest/factory represented.
+3. **Any submission, public demo, or outbound authorization**, plus which parked packet — if any — he wants unblocked for the entry.
+
+No huddle needed; I’ll leave the brief parked for his explicit flag.
+
+## Chair's synthesis — Baraza, 26 Oct 2026 (hackathon kickoff day, Looply on hold)
+**Baraza Blackboard — Chair summary, 26 Oct 2026**
+
+**Decisions**
+- Council remains read-only: no merges, releases, rewrites, outbound sends, spends, submissions, or public demos. Emergency bypass withheld; Looply stays on hold.
+- Hackathon rules acceptance is outside council authority — Melchizedek’s signature alone.
+- Consolidate pre-merge scrutiny into one docket for `attestation#26` and `ansai-substrate#3`: CI, Attest rename blast radius, factory v0.1 seed vs. ratified spec, migration/rollback, secrets/outbound audit, and watcher evidence. No merge.
+
+**Assignments / open questions with owners**
+- **Meridian + Forge:** consolidated audit/go-no-go packet for the two PRs; Forge adds CI, rollback, and rename blast-radius checks.
+- **Herald:** confirm Wincost Africa status — deposit invoiced, received, or neither — and surface any prospect replies idle since last week.
+- **Atelier:** Attest-rename QA sweep across live site, Wincost build, copy, assets, metadata, and client-facing docs; produce one discrepancy/fix packet.
+- **Forge:** hardening note for malformed blank DOWN alerts (issues 29–32) — alert payload bug, not an outage.
+- **Vanguard:** rules-to-risk brief for the Meta hackathon, including track/submission exposure and what can enter without breaking the hold.
+- **Ledger:** green-flag ledger covering parked packets, invoices due, hackathon cost exposure, and KRA VAT/Ltd tripwire.
+
+**Needs Melchizedek’s hand**
+1. Accept or decline the Meta Global AI Developer Hackathon rules personally — today.
+2. One explicit green flag on `attestation#26` and `ansai-substrate#3` — merge, decline, or defer; any rewrite flag if the docket surfaces one.
+3. Approve any outbound send, client-facing draft, submission, public demo, or parked packet.
+4. Authorize any spend, invoice payment, or financial commitment; if the Wincost 30% deposit has not landed, make that call in his voice.
+
+Uptime: all five targets UP at 05:58 EAT today, 26 Oct 2026 — looply-site, looply-api, ops-mirror, beautify-preview, wincost-prototype all HTTP 200; no uptime issues open. Blank DOWN alerts (issues 29–32, empty target/HTTP fields) auto-closed — latest opened 02:56 EAT, closed 05:58 EAT; no target is DOWN.
+
