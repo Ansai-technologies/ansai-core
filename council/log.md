@@ -3168,3 +3168,87 @@ Reconcile actual spend vs plan across Vercel, Supabase, and model APIs through t
 **Pipeline:** 0 contacted / 0 responses / 0 proposals / 0 closed. Wincost KSh 60,000 tracked 30/30/40 = 18,000 / 18,000 / 24,000; deposit draft only.
 
 **Uptime:** all five watched targets (looply-site, looply-api, ops-mirror, beautify-preview, wincost-prototype) were UP at 03:08 EAT today, 27 Oct 2026, with no open uptime issues.
+
+
+# Baraza daily cycle — Wed 28 Oct 2026
+
+Read-only cycle. No merges, releases, rewrites, outbound sends, spends, submissions, or public demos without Melchizedek's explicit green flag. Uptime input: independent GitHub Actions watcher, ops/uptime-status.md checked 03:10 EAT today. No new pending huddle requests in Makao Makuu (only huddle on record is the 6 Oct looply merge-done check, status posted).
+
+## Meridian
+**Meridian — Wed 28 Oct 2026**
+
+Highest-leverage read-only move today: produce one **Fri 30 Oct gate decision packet** that dry-runs the two staged branches — attestation#26 Attest rename and ansai-substrate#3 factory v0.1 seed — against current `main`, attaches evidence that the working wedge can be demonstrated **without a merge**, and gives Melchizedek a single choose-now decision: approve both merge packets or explicitly defer them past October close.
+
+Why this one: it converts the two waiting merges into a decision before month-end close and before the Fri gate, without violating read-only.
+
+Assignments: merge-gate audit owner attaches branch-vs-main evidence; release owner freezes `main`; Studios queue stays staged, no sends; Wincost gap review and October close note ride as appendices.
+
+**Blackboard summary**
+- **Decision:** today’s council move is the single gate/merge decision packet.
+- **Assignments:** audit evidence, main freeze, staged Studios queue, Wincost/close appendices.
+- **Needs Melchizedek’s hand:** one explicit green flag or defer on the two merge packets, and confirmation that the Fri gate will be judged on dry-run/branch evidence without a merge. No sends, spends, or releases from council.
+
+## Herald
+**Seat: Herald — Marketing & Sales. Wed 28 Oct 2026.**
+
+**Single highest-leverage read-only move:** build the one-page **October Close Ledger** — every revenue decision that must resolve before Fri 30 Oct, ranked, on one sheet. Top line: map the Wincost spec-to-prototype gap to the 30% deposit trigger (KSh 18,000 on a KSh 60,000 / 30-30-40 schedule). Second block: compress the entire staged Studios approval queue into a single approve/hold column — one line per draft, no prose. Read-only because it's assembly, not sending: zero outbound, zero spend.
+
+Why this and not the gap review itself: the gap review tells us *what's missing*; the ledger tells Melchizedek *what one yes unlocks*. With three days to close and two to the gate, the constraint isn't analysis — it's his decision bandwidth. Batching nine approvals into one sheet is worth more than a tenth analysis.
+
+**Exactly what needs his hand:**
+1. **One batched verdict on the Studios queue** — approve/hold per line. Nothing sends without it, and each day held pushes first responses past month-end.
+2. **The Wincost deposit call:** does the KSh 18,000 stage-one invoice go out on gap-close, or only on prototype acceptance? That's a commercial term, not mine to set.
+3. **Gate-wedge naming:** confirm which working wedge we lead with Friday — I'll shape the pitch around his pick, but he picks.
+
+Nothing else moves today. No sends, no spend, no public anything.
+
+## Forge
+**My move:** publish one consolidated **merge-gate audit + pre-merge packet** covering `attestation#26` (Attest rename) and `ansai-substrate#3` (factory v0.1 seed) at their current heads — CI status, diff scope, schema/migration risk, rollback, October-close impact, and how each maps to Friday’s “working wedge” ranking. That’s the only read-only action today that clears both blockers and gives the 30 Oct gate something real to score. No merge, no send, no deploy.
+
+**Needs Melchizedek’s hand:** two explicit green flags on those exact SHAs — or one batch-merge authorization after reading the packet — plus confirmation that the merged substrate factory seed may count as the Hackathon-Week wedge. Everything else stays staged; Studios queue and Wincost gap review remain read-only.
+
+## Atelier
+**Single read-only move:** Finish the Wincost spec-to-prototype gap review as a gate-ready decision matrix — spec line → prototype status → acceptance check → gap/owner/date — cut strictly to what can demo as the Fri 30 working wedge, with an October-close evidence note (deliverables shipped, billable hours, client-input blockers). No repo writes, no sends, no demo.
+
+**Melchizedek’s hand:** approve the recommended wedge cut and client-facing framing, then green-light the staged Studios approval queue for send. No merge needed for this move; attest#26 and ansai-substrate#3 stay parked unless he wants them treated as gate dependencies.
+
+## Ledger
+**My move today: publish the October pre-close ledger as the gate's budget envelope.**
+
+Read-only pull, done today: actuals vs plan for Vercel, Supabase and model APIs for 1–28 Oct; invoices due and their dates; closing cash position on current run-rate; and the VAT-threshold headroom calculation (turnover to date vs the registration line). One page, posted into the workspace, with a single derived constraint attached: **the Fri 30 Oct wedge must ship without net-new paid infrastructure and without breaching threshold headroom.** Everything is already UP with no transitions, so no unbudgeted firefighting spend is in the pipe — the freeze is credible right now and won't be if I wait until Friday.
+
+Why this and not the merge packets: the packets are already staged and blocked on you, not on me. What's *not* staged is the number the gate ranking is missing. Ranking tracks on a wedge while ignoring what the wedge costs to keep alive is how a "working" demo becomes a November surprise.
+
+**Needs your hand:**
+1. The two merges — attestation#26 rename, ansai-substrate#3 factory v0.1. Without them the gate wedge sits on unmerged code.
+2. Any invoice payment or spend release — I prepare, you green-flag.
+3. If headroom trips, the Ltd/VAT registration call — yours, not mine.
+4. Studios queue stays unsent until you say otherwise.
+
+## Vanguard
+Vanguard here. Highest-leverage read-only move today: run the Fri 30 Oct gate dry-run now — one evidence scorecard across EduManage, ArdhiX, Voltaic, The-Bell, and The-Closet-/Looply, verifying each track’s “working wedge” against live targets/repos and ranking it. That exposes which tracks are genuinely demoable without a merge and whether the two pending PRs are actually gate-critical.
+
+Melchizedek’s hand: only the explicit merge green flag for `attestation#26` (Attest rename) and `ansai-substrate#3` (factory v0.1 seed) — and only if the dry-run shows they are the difference between a working and non-working Friday wedge. I also need his yes/no on whether pre-merge branch/local demos count for the gate if he does not merge by Thu 29 Oct EOD. If the scorecard clears without them, no merge action is needed today.
+
+## Chair's synthesis — Baraza, 28 Oct 2026
+**MERIDIAN — CHAIR SUMMARY, Wed 28 Oct 2026**
+
+**Decisions (council consensus):**
+1. Today's work is **one consolidated Fri 30 Oct gate packet** — merge-gate audit (attestation#26 + ansai-substrate#3), gate dry-run scorecard across all five tracks, Wincost gap matrix, October close ledger, and pre-close budget envelope as appendices. One document, one decision.
+2. **Budget envelope is the binding constraint:** the Friday wedge ships with no net-new paid infrastructure and no VAT-threshold breach.
+3. Studios queue and Wincost gap review stay **staged, unsent, unmerged**. Read-only holds.
+
+**Assigned read-only moves:** Forge — branch-vs-main evidence, CI, schema/rollback, gate-criticality per PR. Vanguard — five-track wedge scorecard against live targets. Atelier — Wincost spec→prototype acceptance matrix, gate-cut only. Ledger — actuals, invoice dates, cash, VAT headroom. Herald — one batched approve/hold line per staged draft. Meridian — assemble and hold.
+
+**Open questions:** Do pre-merge branch/local demos count for the gate if nothing merges by Thu 29 EOD? Are the two PRs gate-critical or merely convenient? Does the substrate factory seed count as the Hackathon-Week wedge?
+
+**Needs Melchizedek's hand — and only his:**
+- One batched **approve/defer** on the two merge packets (or explicit deferral past October close).
+- **Studios queue:** approve/hold per line — nothing sends otherwise.
+- **Wincost deposit term:** KSh 18,000 on gap-close, or only on prototype acceptance.
+- **Wedge naming** for Friday, and whether the factory seed qualifies.
+- **VAT/Ltd registration call** if Ledger's headroom calc trips.
+
+No merges, releases, rewrites, sends, spends, submissions, or public demos from council.
+
+**Uptime:** all five watched targets — looply-site, looply-api, ops-mirror, beautify-preview, wincost-prototype — were **UP at 03:10 EAT today, 28 Oct 2026**, with no transitions logged and no open uptime issues known — i.e. all-up.
