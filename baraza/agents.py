@@ -7,6 +7,12 @@ Model policy (from env, no keys required to import this module):
   GEMINI_MODEL      Gemini model id (default: gemini-2.5-flash)
   CHAIR_MODEL       Meridian's stronger model (default: deepseek-reasoner);
                     prefix "gemini" selects the Gemini provider, else DeepSeek.
+
+Production-cycle routing (set 2026-10-29, founder-approved) lives in
+SEAT_ROUTING below: the chair and the department lead seats deliberate on
+Muse Wonder via the Meta Model API (meta.py); worker seats stay on
+DeepSeek flash via ds.py. The env-based Agno models above remain the
+in-process path; the daily cycle follows SEAT_ROUTING.
 """
 import os
 
@@ -26,6 +32,37 @@ def chair_model():
     if model_id.lower().startswith("gemini"):
         return Gemini(id=model_id)
     return DeepSeek(id=model_id)
+
+
+# --- Production-cycle seat routing (2026-10-29) ----------------------------
+# The daily cycle invokes seats through CLIs, not in-process Agno models.
+# Chair + department leads deliberate on Muse Wonder (Meta's strongest
+# model: judgement concentrates in those seats); every other (worker) seat
+# stays on the cheap DeepSeek flash workhorse. Fallback, per PRODUCTION.md:
+# if the Meta API is unreachable, a Wonder seat falls back to
+# deepseek-v4-pro via ds.py for that cycle and the fallback is noted in
+# the cycle's blackboard entry.
+META_CLI = "~/workspace/custom-connectors/custom.meta-model-api/bin/meta.py"
+DEEPSEEK_CLI = "~/workspace/skills/deepseek/bin/ds.py"
+
+SEAT_ROUTING = {
+    "Meridian": {"provider": "meta", "model": "muse-wonder-1.0", "cli": META_CLI},
+    "Tangaza": {"provider": "meta", "model": "muse-wonder-1.0", "cli": META_CLI},
+    # "Herald" is the daily cycle's display name for the Tangaza seat.
+    "Herald": {"provider": "meta", "model": "muse-wonder-1.0", "cli": META_CLI},
+    "Forge": {"provider": "meta", "model": "muse-wonder-1.0", "cli": META_CLI},
+    "Atelier": {"provider": "meta", "model": "muse-wonder-1.0", "cli": META_CLI},
+    "Ledger": {"provider": "meta", "model": "muse-wonder-1.0", "cli": META_CLI},
+    "Vanguard": {"provider": "meta", "model": "muse-wonder-1.0", "cli": META_CLI},
+}
+
+# Any seat not named above is a worker seat: cheap workhorse, unchanged.
+WORKER_ROUTING = {"provider": "deepseek", "model": "deepseek-flash", "cli": DEEPSEEK_CLI}
+
+
+def seat_routing(seat_name):
+    """Return the production-cycle model routing for a seat."""
+    return SEAT_ROUTING.get(seat_name, WORKER_ROUTING)
 
 
 CONSTITUTION = """\
