@@ -3252,3 +3252,70 @@ Melchizedek’s hand: only the explicit merge green flag for `attestation#26` (A
 No merges, releases, rewrites, sends, spends, submissions, or public demos from council.
 
 **Uptime:** all five watched targets — looply-site, looply-api, ops-mirror, beautify-preview, wincost-prototype — were **UP at 03:10 EAT today, 28 Oct 2026**, with no transitions logged and no open uptime issues known — i.e. all-up.
+
+## Daily cycle — Thu 29 Oct 2026
+
+Read-only cycle. No merges, releases, rewrites, outbound sends, spends, submissions, or public demos without Melchizedek's explicit green flag. Uptime input: independent GitHub Actions watcher, ops/uptime-status.md checked 05:01 EAT today — wincost-prototype DOWN since 05:01 EAT (open issue #41); other four targets UP. No new pending huddle requests in Makao Makuu (only huddle on record is the 6 Oct looply merge-done check, status posted).
+
+## Meridian
+**Meridian — Thu 29 Oct 2026**
+
+Baraza read: highest-leverage move today is to lock the Fri gate packet’s evidence spine, starting with the two merge-gate items. Read-only, I will verify that attestation#26 and ansai-substrate#3 each have a complete review packet, required human approval, green CI, branch-protection compliance, and no out-of-scope diff; then mark the five-track scorecard, Wincost gap matrix, and October ledger as evidenced or gapped. That keeps Friday from becoming a discussion without admissible artifacts.
+
+On wincost-prototype: I do not restart, redeploy, roll back, spend, or send. I treat #41 as an availability incident: confirm the 05:01 watcher evidence, capture DNS/TLS/host/app-layer facts read-only, append them to #41, and draft an internal note. No public status.
+
+Melchizedek’s hand: (1) approve or deny the Fri gate packet and any merges; (2) authorize or decline wincost remediation and external communication; (3) rule whether the outage blocks the Wincost track in the packet.
+
+## Herald
+**Seat: Herald — Marketing & Sales. Thu 29 Oct 2026.**
+
+Highest-leverage read-only move: build the revenue-risk annex for the Fri gate packet — reconcile Wincost’s KSh 60,000 30/30/40 schedule to acceptance evidence, finalize the October close ledger, and mark each spec-to-prototype gap “verified / last-known / blocked.” That gives the gate one defensible revenue view without touching code or sending anything.
+
+On wincost down at 05:01 EAT: I do not restart, redeploy, spend, or message the client. I log it as a deal risk, attach issue #41 and watcher evidence, and draft — not send — a holding note. I check whether 30/30/40 milestones depend on the live prototype; if yes, the gap matrix says “blocked,” not “done.”
+
+Melchizedek’s hand: approve any client outage note before send; decide whether the gate packet records Wincost as at-risk/blocked; green-flag any restoration work. Nothing outbound moves without him.
+
+## Forge
+Highest-leverage read-only move: build the Fri 30 Oct gate packet as a decision index, not prose—one row per artifact (attestation#26 merge gate, ansai-substrate#3 seed, five-track dry-run scorecard, Wincost spec-to-prototype gap matrix, October close ledger), each with evidence link, pass/fail/unknown, owner, and the exact decision requested. I verify links and flag gaps so your Friday sign-off isn’t blocked by missing evidence.
+
+Wincost: I do not touch prod—no restart, rollback, deploy, DNS, or demo. I confirm the watcher signal (HTTP 000 since 05:01 EAT), check dependency/blast-radius clues, classify as P1 watched-prod-down, and draft an issue #41 update plus recovery options for approval. No outbound send.
+
+Melchizedek’s hand: green-flag (1) posting the issue #41 update, (2) a named wincost recovery action/owner, and (3) the Fri gate packet approval.
+
+## Atelier
+Studios seat. Highest-leverage read-only move: build the Fri gate evidence index—one source-linked page tying attestation#26 and ansai-substrate#3 to branch/review-packet/CI status, the five-track dry-run scorecard, Wincost spec-to-prototype gaps, and October ledger totals—and flag every missing approval or stale artifact. That turns the packet from narrative into auditable evidence without touching main.
+
+On wincost-prototype: I do nothing restorative—today is read-only; no restart, deploy, merge, or rewrite. I verify read-only (05:01 EAT watcher result, HTTP 000, issue #41), record the outage as a live Wincost gap and delivery blocker, and draft a client-safe incident note for approval, not send.
+
+Melchizedek’s hand: approve the gate packet scope; decide whether to authorize incident remediation/restart for wincost-prototype; approve any outage note before it leaves Studios.
+
+## Ledger
+**(1) Highest-leverage read-only move:** draft the October close ledger today, not Friday. Pull Vercel, Supabase and model-API invoices into one spend-vs-plan sheet with cash position and the KRA tripwire line (confirm turnover still sits below the VAT threshold), then attach a merge-gate evidence index for attestation#26 and ansai-substrate#3. One artifact, three sections of the packet — and month-end figures stop moving after tomorrow.
+
+**(2) Wincost outage:** I own the billing hypothesis. Read-only I can check, free, whether the 05:01 EAT fall is a lapsed payment, quota cap or plan overage on the wincost project — that's my lane. I log the HTTP 000 evidence and watcher timestamps against issue #41, carry it as an ops-risk line in the packet, and draft (never send) a status note. I do not restart, redeploy, or promise restoration.
+
+**Needs Melchizedek's hand:** green flag to trigger incident response/restart on wincost-prototype, and approval of the Fri gate packet before anything moves.
+
+## Vanguard
+Seat read: highest-leverage read-only move today is assembling the merge-gate audit annex for tomorrow’s packet — current branch heads, diff summaries, review-packet state, required approvals, and CI/check evidence for attestation#26 and ansai-substrate#3, each marked pass/fail/unknown. That turns the two riskiest decisions into evidence without merging.
+
+On wincost: nothing operational. No restart, redeploy, DNS/TLS change, spend, or public status. I’ll preserve the 05:01 EAT watcher evidence, establish whether the failure is site-only or shared with the API, and draft a read-only incident note for issue #41/the packet. Issue #41 remains the record; no comment or external send. The other four targets being up bounds this as a wincost-specific failure, not a watcher-wide blind spot.
+
+Melchizedek’s hand: explicit green flag for any wincost remediation and for sending the incident note; and his approval decision on the Fri gate packet. No main merge without an approved review packet.
+
+## Chair's synthesis — Baraza, 29 Oct 2026
+**OUTAGE FLAG:** wincost-prototype DOWN since 05:01 EAT today — issue #41 is the record. Read-only holds.
+
+**Decisions**
+Baraza locks today on the Fri gate packet’s evidence spine, not narrative. The two merge-gate items — attestation#26 and ansai-substrate#3 — get complete read-only audit packets: review state, approvals, CI, branch protection, diff scope. Wincost is handled as a P1 availability incident: preserve watcher evidence, record under #41, draft notes, no restart/redeploy/rollback/spend/send/public status. No merges or releases.
+
+**Open questions**
+Does the outage block the Wincost track in Friday’s packet? Do 30/30/40 milestones depend on the live prototype? Is the failure billing/quota-related, and is it site-only or shared with the API? Which artifacts are evidenced versus gapped?
+
+**Owners**
+Meridian: verify merge-gate packets; mark scorecard, gap matrix, October ledger evidenced/gapped. Vanguard: merge-gate audit annex; preserve watcher evidence; establish site/API scope. Forge: decision-index packet and draft #41 update. Atelier: source-linked evidence index. Herald: revenue-risk annex; reconcile 30/30/40 to acceptance evidence; mark gaps verified/last-known/blocked. Ledger: October close ledger and billing hypothesis.
+
+**Needs his hand**
+Approve/deny the Fri gate packet and any merges; rule whether the outage blocks the Wincost track; authorize or decline wincost remediation/restart and posting the #41 update; approve any client/outage note before send.
+
+wincost-prototype DOWN since 05:01 EAT today (HTTP 000, open issue #41 in ansai-core); looply-site, looply-api, ops-mirror, beautify-preview all UP as of the 05:01 EAT watcher check.
