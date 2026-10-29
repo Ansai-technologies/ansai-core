@@ -24,3 +24,22 @@ How the daily deliberation cycle runs in production. Set 2026-09-23 after the li
 - Convene-button huddle requests from Makao Makuu are folded into the day's focus question.
 - If the whole run fails, post a brief failure note to the log — never stay silent.
 - No chat report; the blackboard entry is the record.
+
+## Model routing (2026-10-29, founder-approved)
+- Chair (Meridian, incl. the synthesis call) and the department lead seats
+  (Tangaza/Herald, Forge, Atelier, Ledger, Vanguard) run on **Muse Wonder**
+  (`muse-wonder-1.0`) via the Meta Model API CLI
+  (`~/workspace/custom-connectors/custom.meta-model-api/bin/meta.py chat --model muse-wonder-1.0`).
+  Routing table: `SEAT_ROUTING` in `baraza/agents.py`.
+- Worker seats (any seat not listed as a lead) stay on `deepseek-flash`
+  via `ds.py`, unchanged.
+- Why: judgement concentrates in the chair and the leads, so they get the
+  strongest model; volume work stays on the cheap workhorse. Wonder calls
+  bill against the founder's Meta API credits, so Wonder is bounded to the
+  deliberation calls (six seats + synthesis per cycle).
+- Fallback: if the Meta API is unreachable for a seat, that seat falls back
+  to `deepseek-v4-pro` via `ds.py` for that cycle, and the fallback is
+  noted in the cycle's blackboard entry.
+- `meta.py` prints the full JSON response on stdout (no stderr usage line);
+  parse `body.choices[0].message.content`. Reasoning tokens count against
+  the budget, so the `--max-tokens 2500` floor applies to Wonder calls too.
