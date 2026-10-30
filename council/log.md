@@ -3319,3 +3319,100 @@ Meridian: verify merge-gate packets; mark scorecard, gap matrix, October ledger 
 Approve/deny the Fri gate packet and any merges; rule whether the outage blocks the Wincost track; authorize or decline wincost remediation/restart and posting the #41 update; approve any client/outage note before send.
 
 wincost-prototype DOWN since 05:01 EAT today (HTTP 000, open issue #41 in ansai-core); looply-site, looply-api, ops-mirror, beautify-preview all UP as of the 05:01 EAT watcher check.
+
+## Baraza daily cycle — Friday 30 Oct 2026 (06:21 EAT)
+
+Read-only cycle. No merges, releases, rewrites, outbound sends, spends, submissions, or public demos without Melchizedek's explicit green flag. Uptime input: independent GitHub Actions watcher, ops/uptime-status.md checked 03:31 EAT today — wincost-prototype DOWN since 29 Oct 05:01 EAT (open uptime issue #44, opened 03:31 EAT today with blank target fields; prior issue #41 closed 29 Oct 11:43 EAT with no recovery logged); other four targets UP. No new pending huddle requests in Makao Makuu (only huddle on record is the 6 Oct looply merge-done check, status posted). Today is the gate day yesterday's cycle prepared for: the founder's verdict on attestation#26, ansai-substrate#3, and the October close ledger is the decision this cycle serves.
+
+## Meridian
+Meridian seat — Friday 30 Oct gate, read-only only.
+
+Highest-leverage move: table one consolidated, decision-ready gate packet; take no execution action.
+
+1) Founder gate decision: approve / reject / defer merge packets attestation#26 and ansai-substrate#3, plus sign October close ledger. Under hard rules, nothing reaches main without that approved packet.
+
+2) My lane impact: wincost-prototype has been DOWN since 29 Oct 05:01 EAT (HTTP 000, ~25h). Issue #41 closed 29 Oct 11:43 with no recovery logged, and blank-field #44 opened today 03:31 — so I cannot attest continuity or gate-readiness for that target. looply-site, looply-api, ops-mirror, beautify-preview were UP at 03:31, indicating isolation, not ecosystem failure across Space, Community, Energy→Infra.
+
+3) Melchizedek-only: packet/ledger approval, outbound send, rewrite green flag, emergency-bypass call.
+
+Need from you: today's approve/reject/defer on both packets and the ledger.
+
+## Herald
+Herald — highest-leverage read-only move today: build the gate-day pipeline hold-list, tagging every Studios draft and Wincost follow-up as ‘demo-safe’ or ‘demo-blocked,’ with no sends.
+
+1) Gate decision: approve/reject merge packets attestation#26 and ansai-substrate#3, and sign the October close ledger — revenue claims stay draft until you do.
+2) Lane impact: wincost-prototype has been DOWN since 29 Oct 05:01 EAT (HTTP 000, ~25 hours). Issue #41 closed 29 Oct 11:43 EAT with no recovery logged; blank-field #44 opened today 03:31 EAT. That blocks any live demo supporting the Wincost Africa KSh 60,000 (30/30/40) deal. Looply-site, looply-api, ops-mirror, and beautify-preview are UP, so drafts will cite Studios capability only, not Wincost access.
+3) Melchizedek’s hand only: merge/ledger approvals, any outage explanation or demo commitment to Wincost, and release of every prospect draft.
+
+I need from you: gate verdicts, plus clearance to resume Wincost-linked outreach only after verified recovery.
+
+## Forge
+**Forge — Gate Day Read-Only Move**
+
+My move: a read-only gate audit of packets attestation#26 and ansai-substrate#3 against the October close ledger — files changed, verification steps, risks, and rewrite green-flag compliance, with merge/hold recommendation per packet. No merge today by me.
+
+Gate decision for you: approve, hold, or split-merge both packets and sign the October close as-is; unapproved packets block close accounting, not just code.
+
+Deploy health: wincost-prototype DOWN since 29 Oct 05:01 EAT, HTTP 000 (~25h). Issue #41 closed 29 Oct 11:43 with no recovery logged; #44 opened today 03:31 with blank fields. That breaks attestation of its deploy and any demo/verification in my lane. The other four — looply-site, looply-api, ops-mirror, beautify-preview — UP at 03:31, so core gate proceeds.
+
+Only your hand: merge authorization, ledger sign-off, and direction on wincost — investigate/restart owner or formally accept outage.
+
+I need from you: approve/hold on #26 and #3, ledger sign-off, and a wincost owner.
+
+## Atelier
+**Highest-leverage read-only move:** Compile Studios’ gate-day Wincost evidence packet — deliverables shipped, content produced, October billable hours, and items blocked on client input — verified against source files, no demo, send, or deploy.
+
+**Gate decisions:** You must approve or reject merge packets attestation#26 and ansai-substrate#3, and sign off the October close ledger.
+
+**Outage impact on my lane:** wincost-prototype is DOWN since 29 Oct 05:01 EAT (~25h, HTTP 000); issue #41 closed 29 Oct 11:43 EAT with no recovery logged, and blank-field issue #44 opened 30 Oct 03:31 EAT. I cannot validate or demo Wincost flows, so client proof is paused; content drafting continues offline. The other four targets — looply-site, looply-api, ops-mirror, beautify-preview — are UP.
+
+**Only Melchizedek’s hand:** gate merges, ledger sign-off, and authorising restart or client communication.
+
+I need your gate decisions and ledger sign-off today.
+
+## Ledger
+**Ledger — Finance & Ops**
+
+Highest-leverage read-only move today: freeze a one-page October close snapshot before the gate, reconciling Vercel, Supabase and model-API spend vs plan, cash position, invoices due, and distance to the VAT/Ltd tripwire — no payments, filings or changes.
+
+**(1) Gate decision:** Approve or hold merges attestation#26 and ansai-substrate#3, and accept or amend that October close snapshot. Merging before close risks burying cost/compliance flags; decision today, execution only after your sign-off.
+
+**(2) wincost-prototype:** DOWN ~25h (HTTP 000 since 29 Oct 05:01 EAT); #41 closed 11:43 with no recovery, #44 blank-field opened 03:31 today. Other four targets UP, so isolated, not a platform billing failure. My lane: treat it as unavailable for any paid demo/invoice claim, accrue no recovery spend, flag October uptime as unreliable.
+
+**(3) Your hand only:** Gate sign-off, any bank/KRA action, and authorising spend if recovery is later approved.
+
+I need from you: approve/hold on both merges and the October close snapshot.
+
+## Vanguard
+Vanguard (Labs scout) — Gate Day, Fri 30 Oct 2026
+
+Highest-leverage read-only move: deliver a one-page graduate/kill/next-build matrix for EduManage (differentiation first), ArdhiX, Voltaic, The-Bell (Gazette Watch), and Looply/The-Closet-, tying every competitor/spike claim to attestation#26, ansai-substrate#3, and the October close ledger — no merges, deploys, or demos.
+
+1) Gate decision — yours only: approve/reject merging both packets and sign the October close ledger; without that, no track graduates.
+2) wincost-prototype: DOWN since 29 Oct 05:01 EAT (~25h, HTTP 000); #41 closed 29 Oct 11:43 with no recovery logged, blank-field #44 opened today 03:31. It doesn't block Labs scouting, but cannot be cited as working evidence. Looply stays assessable: looply-site, looply-api, ops-mirror, beautify-preview all UP at 03:31.
+3) Your hand only: merge/ledger sign-off and any authorisation to investigate/restart wincost.
+
+Need from you: decision on attestation#26, ansai-substrate#3, and October close ledger today.
+
+## Chair's synthesis — Baraza, 30 Oct 2026
+⚠️ OUTAGE FLAG: wincost-prototype is DOWN since 29 Oct 05:01 EAT (HTTP 000, ~25h); #41 closed 11:43 with no recovery logged, blank-field #44 opened today 03:31.
+
+Chair Summary — Fri 30 Oct 2026, Read-Only Cycle
+
+Decisions: No execution today. All six seats concur: gate packets attestation#26 and ansai-substrate#3 and the October close ledger await verdict; no merges, deploys, restarts, sends, spends, or demos.
+
+Owners — read-only deliverables:
+• Meridian: consolidated decision-ready gate packet.
+• Herald: pipeline hold-list tagging drafts/Wincost follow-up demo-safe or demo-blocked; Wincost Africa KSh 60,000 (30/30/40) demo blocked.
+• Forge: gate audit of #26/#3 vs ledger, risks and green-flag compliance, with merge/hold recommendation.
+• Atelier: Studios Wincost evidence packet (deliverables, hours, client-blocked items) offline.
+• Ledger: frozen October close snapshot (Vercel/Supabase/API spend, cash, invoices, VAT/Ltd tripwire); no invoice claim on wincost.
+• Vanguard: graduate/kill/next-build matrix — EduManage, ArdhiX, Voltaic, The-Bell, Looply/The-Closet.
+
+Open questions: Approve/reject/defer or split #26 and #3? Sign/amend ledger? Name wincost investigate/restart owner or formally accept outage?
+
+Melchizedek's hand only: packet/ledger approval, restart/investigation and recovery spend, outbound sends/draft releases, Wincost outage explanation or demo commitment, rewrite green flag, emergency bypass, bank/KRA action.
+
+Uptime: wincost-prototype DOWN; looply-site UP; looply-api UP; ops-mirror UP; beautify-preview UP.
+
+Run note: all six seats plus chair synthesis ran on muse-wonder-1.0 via the Meta Model API (per baraza/agents.py SEAT_ROUTING, founder-approved 2026-10-29); Meridian's seat call needed one retry (attempt 1 returned empty); no deepseek fallback was used. Uptime input from the independent GitHub Actions watcher (ops/uptime-status.md, checked 03:31 EAT today). No new Makao Makuu huddle requests.
