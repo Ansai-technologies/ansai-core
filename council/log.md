@@ -3764,3 +3764,102 @@ Scout read in it: Graduate candidate — The-Closet-/Looply, the only track with
 Uptime line (04:56 EAT, GitHub Actions watcher): looply-site UP, looply-api UP, ops-mirror UP, beautify-preview UP, wincost-prototype DOWN.
 
 Run note: all six seats plus chair synthesis ran on muse-wonder-1.0 via the Meta Model API (per baraza/agents.py SEAT_ROUTING, founder-approved 2026-10-29); seat outcomes: Meridian: attempt 1; Herald: attempt 1; Forge: attempt 1; Atelier: attempt 1; Ledger: attempt 1; Vanguard: attempt 1; synthesis: muse-wonder-1.0 via the Meta Model API; no DeepSeek fallback was used unless noted above. Uptime input from the independent GitHub Actions watcher (ops/uptime-status.md, checked 04:56 EAT today; ops/uptime-log.md last transition 29 Oct 05:01 EAT, wincost-prototype DOWN). Open uptime issues in ansai-core at cycle time: #53 (opened 04:56 EAT today, fields blank). No new Makao Makuu huddle requests (listdashboard: only huddle id 1, 6 Oct, status posted).
+
+## Baraza daily cycle — Wednesday 4 Nov 2026 (06:21 EAT)
+
+Read-only cycle. No merges, releases, rewrites, outbound sends, spends, submissions, or public demos without Melchizedek's explicit green flag. Uptime input: independent GitHub Actions watcher, ops/uptime-status.md checked 05:30 EAT today — wincost-prototype DOWN since 29 Oct 05:01 EAT (HTTP 000, ~6 days); looply-site, looply-api, ops-mirror, beautify-preview all UP. Open uptime issues in ansai-core at cycle time: #55 (opened by the watcher 05:30 EAT today, fields blank — target, HTTP and first-seen all empty, the same template bug as #53/#49 — so the still-DOWN wincost target is tracked again, but only thinly). No new pending huddle requests in Makao Makuu (only huddle on record is the 6 Oct looply merge-done check, status posted). The Fri 30 Oct gate verdict on attestation#26, ansai-substrate#3 and the October close ledger is still unrecorded. Today is Hazina deadline day: the Meta hackathon submission is due this evening EAT (platform closes 05:00 EAT 5 Nov); writeup v3 is approved as the submission text and the demo-script fixes are approved — what remains is the demo shoot and the submission itself.
+
+## Meridian
+Meridian — Chair, daily spot-check.
+
+(1) After reading council/log.md and council/state.md first, my single move is a read-only Hazina readiness check: confirm named owners/timing for the demo shoot and submission, verify the artifacts are exactly the approved Writeup v3 and approved demo-script fixes, and surface any blocker. I close with a blackboard summary naming decisions, draft assignments, and items needing human review. No merge, send, spend, deploy, or submission by me.
+
+(2) Gate served: today's Hazina go/no-go for this evening's deadline (platform closes 05:00 EAT 5 Nov). This does not record the still-unrecorded Fri 30 Oct verdict.
+
+(3) Wincost: no direct effect on my lane or, on the facts given, Hazina. The ~6-day prototype outage and blank issue #55 (same watcher-template bug as #49/#53) go in the summary for separate triage — not a deadline diversion, and I declare no emergency bypass.
+
+(4) Melchizedek's hand only: final Hazina go/no-go and submitting, recording the 30 Oct verdict (attestation#26, ansai-substrate#3, October close ledger), and approving any merge, deploy, or outbound send.
+
+## Herald
+Tangaza, Herald —
+
+Reading council/log.md and state.md first, read-only.
+
+**(1) Highest-leverage move:** Build a pre-shoot Hazina packet — cross-check approved writeup v3 against approved demo-script fixes, list exactly what the demo shoot still needs and time left to the 05:00 EAT 5 Nov close. One page for a fast decision, then log it on the blackboard. No submission, send, merge, or deploy from me.
+
+**(2) Gate served:** Today's Hazina go/no-go. The Fri 30 Oct verdict (attestation#26, ansai-substrate#3, October close ledger) remains unrecorded — I won't treat it as passed.
+
+**(3) Wincost effect:** Prototype DOWN since 29 Oct 05:01 EAT, ~6 days (issue #55, blank fields). That leaves my Wincost Africa lane (KSh 60,000, 30/30/40) without live prototype proof; demo-dependent outreach stays draft-only.
+
+**(4) Melchizedek's hand only:** Performing/recording the demo, final go, submitting Hazina, recording the 30 Oct verdict, approving external Wincost contact, and approving any fix/merge/deploy.
+
+## Forge
+Forge report, 06:21 EAT.
+
+Highest-leverage move (read-only): after reading council/log.md and council/state.md, assemble the Hazina pre-submission review packet — verify the approved Writeup v3 is the exact submission text, the approved demo-script fixes are reflected in the shoot script, and list what-built / files referenced / how-to-verify / risks, with a readiness checklist for tonight's deadline (platform closes 05:00 EAT 5 Nov). No build, merge, deploy, or submission from me. Then log the outcome on the blackboard.
+
+Gate served: today's Hazina go/no-go, not the still-unrecorded Fri 30 Oct verdict.
+
+Wincost effect: none evidenced on this lane. looply-site, looply-api, ops-mirror, beautify-preview are UP; wincost-prototype has been DOWN since 29 Oct 05:01 EAT (HTTP 000), and issue #55's blank fields repeat the #49/#53 watcher-template bug — real diagnostic tech debt, but not a reason to divert from Hazina unless you link them.
+
+Melchizedek's hand only: Hazina go/no-go and pressing submit, recording the 30 Oct verdict, approving any packet/merge/deploy/send, and any rewrite green flag.
+
+## Atelier
+Atelier — Studios seat.
+
+**(1) Highest-leverage move (read-only):** after reading council/log.md and council/state.md, assemble the Hazina shoot-and-submit review packet — a line-by-line check of the approved demo-script fixes against approved Writeup v3, and an inventory of every asset, link, and take the shoot needs, flagging gaps. No submission, merge, send, or deploy from me.
+
+**(2) Gate served:** today's Hazina go/no-go, ahead of this evening's deadline and the 05:00 EAT 5 Nov platform close. It makes the shoot immediately executable and any missing piece visible while time remains.
+
+**(3) Wincost effect:** wincost-prototype has been DOWN since 29 Oct 05:01 EAT (HTTP 000, ~6 days), so I cannot verify or show that client build. Issue #55, opened 05:30 EAT today, has blank fields — same watcher-template bug as #49/#53 — so no diagnosis there. It does not block Hazina.
+
+**(4) Melchizedek's hand only:** the Hazina go/no-go and actual submission, approval of the final demo, recording the unrecorded Fri 30 Oct verdict (attestation#26, ansai-substrate#3, October close ledger), and any fix/deploy or client contact on Wincost.
+
+## Ledger
+Ledger speaking.
+
+1. First I read council/log.md and council/state.md. My one move today is a read-only Ledger clearance note for the Hazina decision: spend/invoices/KRA-threshold items relevant to the submission, traced to source or marked “not in records” — no new figures, no spend, submission, merge or deploy. I then write the outcome back to the blackboard.
+
+2. It serves today’s Hazina go/no-go, not the Fri 30 Oct recording. Hazina closes 05:00 EAT tomorrow; writeup v3 and the demo-script fixes are already approved, so my job is to surface any money/compliance uncertainty before the shoot/submission, and keep the older gate from competing for attention unless Melchizedek calls it.
+
+3. Wincost: on the facts given, no direct effect on my lane — no invoice, revenue or compliance impact is stated for a prototype down ~6 days. Blank #55 does make watcher detail unreliable, already seen in #49/#53; I will flag that as an ops-reporting gap, not treat it as a finance blocker.
+
+4. Melchizedek only: final Hazina go and authorising the actual Meta submission, recording the Fri 30 Oct verdict, approving any review packet/merge, spend, rewrite or bypass.
+
+## Vanguard
+**Vanguard — highest-leverage move:** After reading `council/log.md` and `council/state.md`, I’ll do a read-only scout check of the approved demo script against approved Writeup v3 before the shoot — flagging any differentiation or capability claim in the script the writeup doesn’t support, and returning a short go/no-go checklist, then log the update. No edits, merges, deploys, sends, or submission from me.
+
+**Gate served:** Today’s Hazina go/no-go. It protects the shoot from a last-minute claim mismatch while only the demo shoot and submission remain.
+
+**Wincost effect on my lane:** None direct. Wincost-prototype is not one of my listed Labs tracks, and Looply (looply-site/api) is UP, so The-Closet- scouting isn’t blocked. I’ll note issue #55’s blank fields as a repeat watcher-template fault, not chase a fix today.
+
+**Melchizedek’s hand only:** The Hazina go/no-go and submission itself; recording the still-unrecorded Fri 30 Oct verdict; any merge/deploy/send approval, rewrite green flag, or emergency-bypass call on Wincost.
+
+## Chair's synthesis — Baraza, 4 Nov 2026
+
+⚠ DOWN — wincost-prototype is DOWN since 29 Oct 05:01 EAT (HTTP 000, ~6 days); open uptime issue #55 (05:30 EAT today) has blank fields, same watcher-template bug as #49/#53. The council never buries an outage.
+
+**Decisions (locked)**
+Today is read-only: no merges, sends, spends, deploys, submissions, or emergency bypass from the council. All Hazina work is draft/diagnosis only, serving today's go/no-go against the approved Writeup v3 and approved demo-script fixes. The Fri 30 Oct verdict is not treated as passed. Wincost is flagged for separate triage and does not divert Hazina.
+
+**Open questions**
+- Today's Hazina go/no-go ahead of this evening's deadline and the 05:00 EAT 5 Nov platform close — named owners/timing for the demo shoot and submission, and any blockers, still to confirm.
+- Still-unrecorded Fri 30 Oct verdict: attestation#26, ansai-substrate#3, October close ledger.
+- Who fixes the watcher template behind #55/#49/#53, and when?
+- Wincost impact: Herald has no live prototype proof, so demo-dependent outreach stays draft-only; Atelier cannot verify or show that build. No direct effect on other lanes was evidenced.
+
+**Owners — one draft/diagnosis-only assignment per seat today**
+- **Meridian:** Read-only Hazina readiness check — owners/timing, exact approved artifacts, blockers; this blackboard summary.
+- **Herald (Tangaza):** One-page pre-shoot packet cross-checking Writeup v3 against demo-script fixes; what the shoot still needs and time left.
+- **Forge:** Pre-submission review packet — exact submission text, script fixes reflected, what-built/files/how-to-verify/risks, readiness checklist.
+- **Atelier:** Shoot-and-submit packet — line-by-line script check against Writeup v3; inventory of assets, links and takes, flagging gaps.
+- **Ledger:** Clearance note on spend/invoices/KRA-threshold items relevant to Hazina, traced to source or marked “not in records”; no new figures.
+- **Vanguard:** Scout check of demo script against Writeup v3, flagging unsupported differentiation or capability claims; short go/no-go checklist.
+
+**Melchizedek's hand only**
+1. Final Hazina go/no-go and pressing submit.
+2. Recording the Fri 30 Oct verdict (attestation#26, ansai-substrate#3, October close ledger).
+3. Approving the final demo, any packet, merge, deploy, fix, spend, outbound send, or external Wincost contact.
+4. Any rewrite green flag or emergency-bypass call on Wincost.
+
+Uptime (05:30 EAT watcher check): looply-site UP, looply-api UP, ops-mirror UP, beautify-preview UP, wincost-prototype DOWN.
