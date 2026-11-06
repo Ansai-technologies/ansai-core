@@ -11,7 +11,9 @@
 
 ## Abstract
 
-Ansai Technologies is a Nairobi technology and engineering company building a self-sustaining community ecosystem on three pillars — SPACE (land, water, air), COMMUNITY (economics, education, governance, wellbeing) and ENERGY → INFRA — held together by one unifying technology thesis: **attestation infrastructure**. The economy is becoming agent-native: software agents will hold money, sign things, speak for companies and act inside institutions. That world cannot run on assertion. It needs verified identity for people and agents, limits on what an agent may do, payment rails it can use under rules, and proof of everything it did. Ansai builds that infrastructure, builds products that are faces of it, builds agent-native companies on top of it, and restructures existing companies into agent-native form.
+Ansai Technologies is a Nairobi technology and engineering company building **resilient digital, intelligent and agentic infrastructure**, held together by one unifying technology thesis: **attestation infrastructure**. The economy is becoming agent-native: software agents will hold money, sign things, speak for companies and act inside institutions. That world cannot run on assertion. It needs verified identity for people and agents, limits on what an agent may do, payment rails it can use under rules, and proof of everything it did. Ansai builds that infrastructure, builds products that are faces of it, builds agent-native companies on top of it, and restructures existing companies into agent-native form.
+
+One distinction this document keeps straight: the **self-sustaining community ecosystem** — three pillars: SPACE (land, water, air), COMMUNITY (economics, education, governance, wellbeing) and ENERGY → INFRA — is the founder's *personal* goal, the long-horizon work of his life; it is not Ansai's corporate goal. Ansai's goal is the infrastructure above. Ventures across his wider portfolio serve the ecosystem's pillars; the company builds the rails. Section 4 states the two goals separately.
 
 This document is the full map, written to be read cold: who the company is, what it believes, the thesis and the theories underneath it, then every product, system, venture and technology in the portfolio — what each one is, why it was built, what it is for, where it honestly stands today, what it could become, and how it could make money.
 
@@ -76,9 +78,9 @@ These are stated as rules because they decide real cases:
 
 ## 4. The thesis
 
-### 4.1 The three pillars
+### 4.1 The founder's personal goal: the ecosystem (three pillars)
 
-The founding thesis is not a product, a sector or a market. It is a **self-sustaining community ecosystem**:
+Separate from the company stands the founder's personal goal — not a product, a sector or a market. It is a **self-sustaining community ecosystem**:
 
 - **SPACE** — land, water and air: territory, land use, registries, agriculture, settlement and climate as they land on the ground. (Satellites and sensors are instruments pointed at land, never the point themselves.)
 - **COMMUNITY** — economics, education, governance and wellbeing: how the community trades, learns, decides and stays healthy.
@@ -88,7 +90,7 @@ There is no fixed sector sequence. A sector is a pillar-building move; money and
 
 ### 4.2 The unifying thesis: attestation infrastructure
 
-Across the pillars, one technology thesis unifies everything: **attestation infrastructure as a service**. The product is named **Attest**; "trust" is only descriptor language ("the trust layer"), never the product name. The infrastructure rests on four primitives:
+Across the company's work, one technology thesis unifies everything: **attestation infrastructure as a service**. The product is named **Attest**; "trust" is only descriptor language ("the trust layer"), never the product name. The infrastructure rests on four primitives:
 
 1. **Verified identity** — who acted.
 2. **Tamper-evident records** — what happened, sealed so it cannot be quietly rewritten.
