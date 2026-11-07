@@ -4015,3 +4015,75 @@ Uptime (GitHub Actions watcher, 04:00 EAT): looply-site UP, looply-api UP, ops-m
 - **Marketing:** ecosystem hero poster v2 + animated version produced (brand/marketing-2026-11-06/); Pomelli campaign generation in flight; Canva browser attempt failed (connector not linked; connect link with the founder).
 - **GitHub Copilot Business:** founder ruled — no subscription exists, requests left ungranted. Closed.
 - **Meta Model API:** verified live (HTTP 200, muse-spark-1.3) 2026-11-06.
+
+## Baraza daily cycle — Saturday 7 Nov 2026 (06:21 EAT)
+
+Read-only cycle. No merges, releases, rewrites, outbound sends, spends, submissions, or public demos without Melchizedek's explicit green flag. Post-deadline posture: the Meta hackathon submission (Hazina) was filed on 4 Nov, the platform closed 05:00 EAT on 5 Nov, judging runs later this week with finals on 9 Nov, and nothing is owed unless the platform writes back. The Fri 30 Oct gate verdict on attestation#26, ansai-substrate#3 and the October close ledger is still unrecorded — now 8 days overdue. Founder session 6 Nov: Ansai, In Full published (papers + passcode-gated reader at infull.ansaitechnologies.co.ke); Agent Store two-layer binding briefed to Jules (session running, PR to verify before he merges); Mozilla Fellowship 2027-2028 LOI package drafted (deadline 17 Dec 2026 11:59 PM PT); LinkedIn Post 005 drafts awaiting his review; marketing hero poster v2 + animated version produced; GitHub Copilot Business ruled out (no subscription). Today (Sat 7 Nov) 4-8pm: Ethical Leadership Centre movie session on Financial Stewardship, venue found. Uptime input: independent GitHub Actions watcher, ops/uptime-status.md checked 04:28 EAT today — wincost-prototype DOWN since 29 Oct 05:01 EAT (HTTP 000, ~9 days), DNS-level NXDOMAIN per Sentinel's 5 Nov check-in, so the subdomain record itself is gone; looply-site, looply-api, ops-mirror, beautify-preview all UP. No open uptime issues in ansai-core at cycle time — the outage is currently untracked. No new pending huddle requests in Makao Makuu (only huddle on record is the 6 Oct looply merge-done check, status posted). Run note: all six seats plus the chair synthesis ran on muse-wonder-1.0 via the Meta Model API (per baraza/agents.py SEAT_ROUTING, founder-approved 2026-10-29); every call succeeded on its first attempt; no DeepSeek fallback was used.
+
+## Meridian
+1. My highest-leverage move: run today’s weekly full review read-only and bind one verified decision packet — the 8-day-overdue 30 Oct verdict (attestation#26, ansai-substrate#3, October close), Jules’s Agent Store PR check, and a draft wincost tracking note. No merges, sends, or deploys.
+2. It serves the review-packet gate: nothing reaches main, and no rewrite proceeds, without Melchizedek’s approved packet and green flag.
+3. Wincost does not block my governance lane or the live looply services, and a prototype DNS outage is not an emergency bypass. My exposure is visibility: ~9 days down, NXDOMAIN, and untracked — I surface and draft it; I do not re-provision it.
+4. Blackboard — Melchizedek’s hand only: record the 30 Oct verdict, approve/merge Jules’s PR, green-flag wincost DNS restoration, and approve LinkedIn Post 005/Mozilla LOI. Decisions today: none. Assignment: I hold the packet ready.
+
+## Herald
+1. Read-only move today: build one approval-ready Studios prospecting pack leaning on *Ansai, In Full*, with the dead Wincost link pulled from all drafts. Pipeline today: 0 contacted, 0 sent, 0 proposals out, 0 closed.
+2. It serves your outbound-approval gate, and the Wincost 30/30/40 milestone decision — no demo promise until the prototype is provably live again.
+3. The ~9-day DNS-level (NXDOMAIN) outage, currently untracked, kills my proof asset for the KSh 60,000 deal: a prospect or client click reads as vanished, not temporarily down.
+4. Yours only: approve/edit the drafts including LinkedIn Post 005, green-flag re-provisioning the subdomain, and lend your voice to the Wincost holder note — I send nothing until then.
+
+## Forge
+1. Read-only verify Jules' Agent Store two-layer binding PR and ship the review packet — files changed, how to verify both layers, risks, decision requested. No merge.
+2. Serves the rewrite green-flag / merge gate: Melchizedek approves or requests changes before that PR lands.
+3. wincost-prototype: contained but corrosive. Other four services UP; this is DOWN ~9 days at DNS (NXDOMAIN), with 0 open uptime issues tracking it — so the prototype is undemoable, a redeploy alone won't fix it, and the watcher-to-backlog link is broken. That's the tech debt that matters.
+4. Melchizedek only: green-flag on the Jules merge, and a restore-or-retire call on re-provisioning the wincost subdomain.
+
+## Atelier
+1. Read-only Wincost spec-vs-build audit today — package shipped deliverables, content, billable hours, and blockers, plus a ready-to-file DNS-restore issue.
+2. Serves your green-flag gate on re-provisioning/redeploy, and the downstream client review-and-sign-off gate.
+3. The ~9-day NXDOMAIN outage, currently untracked, freezes client prototype review and feedback; build/content can proceed offline, but schedule and credibility risk grow daily.
+4. Yours only: DNS/host access and explicit approval to re-provision, redeploy, and send any client-facing update.
+
+## Ledger
+1. Assemble — not file — the October close pack: Vercel/Supabase/model API spend vs plan, cash position, invoices due, and distance to the VAT/Ltd tripwires.
+2. Serves the still-open 30 Oct verdict (attestation#26, ansai-substrate#3) — now 8 days unrecorded; once signed, the close is instant.
+3. Wincost-prototype: no direct finance hit — no live revenue or invoice attached. But 9 days down, DNS record gone (NXDOMAIN), and 0 open issues tracking it is an ops-register gap; restore means re-provisioning, not a cheap redeploy.
+4. Melchizedek only: record that verdict, choose restore-vs-retire for wincost, and green-flag any DNS work or spend.
+
+## Vanguard
+1. **Highest-leverage move:** Produce a one-page, read-only triage of all five tracks — led by an EduManage competitor-differentiation matrix — ranking each: graduate, kill, or needs a build cycle next. No builds, no deploys.
+2. **Gate it serves:** The Labs graduation gate — whether EduManage earns the next build cycle, Voltaic holds as Ubunifu bet #1, and ArdhiX / The-Bell / Looply advance or get cut before spend.
+3. **Wincost effect:** No direct block — looply-site and looply-api are UP, so my live track is verifiable. But a ~9-day DNS-level NXDOMAIN with zero tracking issues proves a prototype can vanish silently; I won't cite Wincost as a working demo pattern until it's restored.
+4. **Melchizedek only:** Green-flag the DNS re-provisioning and a tracking issue for Wincost, make the final graduate/kill calls, and authorise any build, merge, or deploy that follows.
+
+## Chair's synthesis — Baraza, 7 Nov 2026
+
+⚠️ OUTAGE FLAG: wincost-prototype DOWN since 29 Oct 05:01 EAT (~9 days, HTTP 000) — DNS-level NXDOMAIN, subdomain record gone — untracked (0 open uptime issues in ansai-core).
+
+# Baraza Chair Summary — Sat 7 Nov 2026, 06:21 EAT
+Read-only cycle. No merges, sends, spends, deploys, submissions, or emergency bypass without Melchizedek's explicit green flag.
+
+## Decisions (locked)
+- None new today.
+- Hazina: filed 4 Nov; platform closed 5 Nov 05:00 EAT; nothing owed unless the platform writes back. Judging later this week, finals 9 Nov.
+- No new Makao Makuu huddle requests.
+
+## Open questions
+- Fri 30 Oct verdict (attestation#26, ansai-substrate#3, October close) — still unrecorded, 8 days overdue.
+- Jules's Agent Store two-layer binding PR: approve/merge or request changes?
+- Wincost: restore vs retire? Re-provisioning DNS is required — a redeploy alone will not fix NXDOMAIN.
+- LinkedIn Post 005, Mozilla LOI, Studios prospecting drafts, and Wincost holder note / 30-30-40 milestone for the KSh 60,000 deal: approve or edit?
+- Labs: EduManage, Voltaic, ArdhiX, The-Bell, Looply — graduate, kill, or next build cycle?
+
+## Owners — one read-only assignment per seat
+- **Meridian:** Run weekly full review; bind one verified decision packet (30 Oct verdict, Jules PR check, draft wincost tracking note) and hold it ready.
+- **Herald:** Build one approval-ready Studios prospecting pack from *Ansai, In Full*, with the dead Wincost link pulled from all drafts; send nothing.
+- **Forge:** Verify Jules's PR read-only and ship the review packet — files changed, how to verify both layers, risks, decision requested; no merge.
+- **Atelier:** Wincost spec-vs-build audit — deliverables, content, billable hours, blockers — plus a ready-to-file DNS-restore issue.
+- **Ledger:** Assemble, do not file, the October close pack: Vercel/Supabase/model API spend vs plan, cash, invoices due, distance to VAT/Ltd tripwires.
+- **Vanguard:** One-page read-only triage of all five Labs tracks, led by an EduManage competitor-differentiation matrix, ranked graduate / kill / needs build cycle; no builds.
+
+## Melchizedek's hand only
+Record the 30 Oct verdict; approve/merge Jules's PR; decide wincost restore-vs-retire and green-flag DNS re-provisioning; approve LinkedIn Post 005 / Mozilla LOI / prospecting drafts and lend voice to the holder note; make final Labs graduate/kill calls and authorise any build, merge, deploy, or spend.
+
+Uptime (independent GitHub Actions watcher, 04:28 EAT): looply-site UP · looply-api UP · ops-mirror UP · beautify-preview UP · wincost-prototype DOWN
